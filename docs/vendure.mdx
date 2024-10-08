@@ -1,0 +1,139 @@
+import React from 'react';
+
+# Vendure
+
+## Evaluation
+
+<div style={{ display: 'flex', justifyContent: 'space-around' }}>
+    <div style={{ width: '50%' }}>
+        <h3>⭐ Highlights</h3>
+        <ul>
+            <li>Clean, modular codebase built on popular frameworks</li>
+            <li>Lightweight framework for rapid development</li>
+        </ul>
+    </div>
+    <div style={{ width: '50%' }}>
+        <h3>👍 When to use</h3>
+        <ul>
+            <li>Startups outgrowing Shopify, needing code-level adjustments</li>
+            <li>Developer-driven teams</li>
+        </ul>
+    </div>
+    <div style={{ width: '50%' }}>
+        <h3>👎 When to avoid</h3>
+        <ul>
+            <li>Projects with extensive requirements and marketplaces</li>
+            <li>Companies needing contractual agreements, compliance, or high-level support</li>
+            <li>Projects requiring vendor-managed hosting</li>
+        </ul>
+    </div>
+</div>
+
+---
+
+## Functionality
+
+### Feature overview
+
+Vendure is well-suited for B2C use cases and offers flexibility for basic Marketplace scenarios due to its “multi-everything” approach. However, it lacks an integrated CMS, so developers must integrate a custom solution.
+
+Vendure offers unique enterprise features, including SSO integration with providers like Okta.
+
+It does not come with a built-in search engine (e.g., Elasticsearch or Solr); instead, the Search & Filter functionality relies on the underlying relational database.
+
+Although Vendure is open-source, certain official features require separate purchases. For instance, the “wish list” feature costs €480 per year. 🌐
+
+### Schema explained
+
+The best way to understand a shop system is by analyzing its database schema. Explore a zoomable schema with descriptions here:
+
+<iframe
+    src="https://link.excalidraw.com/readonly/9Xa1kkh8Ht36W3rhP4y9"
+    width="100%"
+    height="600"
+    style={{ border: '1px solid #ccc', marginTop: '20px' }}
+    title="Vendure Schema"
+/>
+
+[Fullscreen](https://link.excalidraw.com/readonly/9Xa1kkh8Ht36W3rhP4y9)
+
+---
+
+## Development approach
+
+### Technology Stack
+
+Vendure is fully built with TypeScript and utilizes the following technologies:
+
+<div style={{ display: 'flex', justifyContent: 'space-around' }}>
+    <div style={{ width: '50%' }}>
+        - [**NestJS**](https://nestjs.com/) as the underlying Node.js framework
+        - **TypeORM** for interacting with any database
+        - **Angular** for rendering the Admin UI
+        - **GraphQL** for API communication
+    </div>
+    <div style={{ width: '50%' }}>
+        <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', marginTop: '20px' }}>
+            <a href="/img/vendure-logos.png" target="_blank"><img src="/img/vendure-logos.png" alt="Technology Stack" style={{ width: '70%', maxWidth: '800px' }} /></a>
+        </div>
+    </div>
+</div>
+
+---
+
+### Starter kits (demo shops)
+
+<div style={{ display: 'flex', justifyContent: 'space-around' }}>
+    <div style={{ width: '50%' }}>
+        <p>Projects can choose to build their storefront on any technology or use one of the existing templates (starters) using different frameworks.</p>
+        <ul>
+            <li>Based on Remix ([demo](https://remix-storefront.vendure.io/) | [code](https://github.com/vendure-ecommerce/storefront-remix-starter))</li>
+            <li>Based on Qwik ([demo](https://qwik-storefront.vendure.io/) | [code](https://github.com/vendure-ecommerce/storefront-qwik-starter))</li>
+            <li>Based on Angular ([demo](https://angular-storefront.vendure.io/) | [code](https://github.com/vendure-ecommerce/storefront-angular-starter))</li>
+        </ul>
+    </div>
+    <div style={{ width: '50%' }}>
+        <a href="/img/vendure-template.png" target="_blank"><img src="/img/vendure-template.png" alt="Vendure Starter Kits" style={{ width: '100%', marginTop: '20px' }} /></a>
+    </div>
+</div>
+
+---
+
+### Architecture
+
+<div style={{ display: 'flex', justifyContent: 'space-around' }}>
+    <div style={{ width: '50%' }}>
+        <p>Vendure is a server-side application ("server") that provides two API endpoints: one for the storefront and one for the Admin UI.</p>
+        <p>As a headless platform, Vendure leaves storefront development to the developers, who can either build it from scratch or use one of the available templates (see demo shops above).</p>
+        <p>💡 The GraphQL API has a public playground: [https://readonlydemo.vendure.io/shop-api](https://readonlydemo.vendure.io/shop-api)</p>
+    </div>
+    <div style={{ width: '50%' }}>
+        <a href="/img/vendure-architecture.png" target="_blank"><img src="/img/vendure-architecture.png" alt="Vendure Architecture" style={{ width: '100%', marginTop: '20px' }} /></a>
+    </div>
+</div>
+
+---
+
+### Admin UI
+
+<div style={{ display: 'flex', justifyContent: 'space-around' }}>
+    <div style={{ width: '50%' }}>
+        <p>Vendure comes with an Admin UI built on Angular, which can be customized at the code level.</p>
+        <p>You can try it out without local installation here: [https://demo.vendure.io/](https://demo.vendure.io/)</p>
+    </div>
+    <div style={{ width: '50%' }}>
+        <a href="/img/vendure-admin.png" target="_blank"><img src="/img/vendure-admin.png" alt="Vendure Admin UI" style={{ width: '100%', marginTop: '20px' }} /></a>
+    </div>
+</div>
+
+---
+
+### Hosting options
+
+Vendure does not currently offer managed hosting, but provides deployment instructions for platforms like Render, Google Cloud Run, and others. [🌐](https://docs.vendure.io/guides/deployment/deploy-to-digital-ocean-app-platform/)
+
+                                                                                                                                                    ---
+
+### Case Studies
+
+All information is based on public sources and manually curated. Projects that are completely hidden from the public are excluded. Contact us to contribute [contact@roq.tech](mailto:contact@roq.tech)
