@@ -1,0 +1,136 @@
+Name,Open Source,URL,Former name,OS license,Architecture,Recommended for,Typical scenarios,Impact on customer's IT,Development approach,Storefront approach,Project Hosting,Hosting description,Code-access,Extendibility concept,Security certificates,Privacy center,Dev docs,Gartner Magic Q 23,Success Stories,More information,Repository,Stars,Repository Created,Summary of License,Code,Ready,Mobile App approach,Basic B2C Features,Search & Filtering,Gift Cards,CMS,OMS,PIM,Call Center,Multi-Warehouse,Location-Based Inventory,Multi-Store,Multi-Locale,Multi-Currency,Volume Prices,Configurable Products,Quotation & Offer Management,Packaging Units,Measurement Units,Approval Workflows,Shopping Lists,Business Units & Organizations,Roles & Permissions,Products-per-Customer,Price-per-Customer,Merchant Portal,Multi-Merchant,B2C Features,B2B Features,Marketplace Features
+Adobe Commerce,Commercial,https://business.adobe.com/products/magento/magento-commerce.html,Magento,,"Hybrid platform, combining an open-code system with micro-SaaS solutions.",Shops running on an older version of Magento 2 needing an upgrade or those heavily utilizing Adobe's Experience Cloud Solutions.,"B2B,B2C,Marketplace","Depending on the selected setup, developers may not be required.","The shop is primarily built by configuring various Adobe products, including App Builder, domain services (e.g., search and payment), Adobe Experience Manager, and Experience Platform. ","New projects can start with a boilerplate template (demo, code) that  that utilizes the system’s GraphQL API.",Managed Hosting,"Shops are individually hosted on Adobe Commerce Cloud, which runs on AWS or Azure.",Partial Access,"Developers can extend the PHP code of the underlying Magento 2 instance, but not the embedded SaaS solutions, although this is often unnecessary.","GDPR,HIPAA,ISO 27001,SOC-2,SOC-3",https://www.adobe.com/trust/compliance/compliance-list.html,https://experienceleague.adobe.com/en/docs/commerce,Leader,Medi,,,,,,,true,,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,false,false,13,10,0
+Commercetools,Commercial,https://commercetools.com/,,,Headless SaaS platform,Enterprise shops with advanced but standard e-commerce needs. Commercetools is also especially suited for healthcare projects because of their HIPAA compliance.,"B2B,B2C","You'll need engineers to maintain your storefront and integration services. If using their templates, ensure your team has JavaScript  experience (Next.js and Node).",You'll need to implement both your storefront and integration services using either your preferred technologies or the provided templates.,"Projects may start building from scratch or use their commercetools Frontend solution, which is an entire suite of tools, that consists of 
+
+* a Next.js based storefront, including a set of React components, pre-integrated with Commercetools. There are templates for B2C and B2B scenarios.
+* a hosting environment that is based on a Node.js environment (Extension runner) and a frontend delivery system (Frontend delivery) based on Netlify and GCP
+* a visual site builder for non-technical users called Studio:
+
+https://docs.commercetools.com/frontend-studio/static/7d011c7bfc67b7ec4dd6c012e19488a5/a4f81/site-builder-area.png",SaaS,Commercetools is a multi-tenant SaaS fully managed by the vendor. Custom storefronts and integration services can be deployed via their Connect offering or any other hosting provider.,No Access,Closed-source SaaS-solution,"GDPR,HIPAA,ISO 27001,SOC-2",https://commercetools.com/technology/trust-center,https://docs.commercetools.com/,Leader,"APG & Co,Audi,Bang & Olufsen,Bikes.de,BMW,Cargo Crew,Danone,Express,Just Eat Takeaway,Loomstate,Nieuwkoop Europe,Normet,Treedom,Vision Healthcare",,,,,,,true,,true,true,false,false,true,true,true,true,true,true,true,true,true,false,true,false,false,true,true,true,true,false,false,false,false,10,6,0
+Crystallize,Commercial,https://crystallize.com/,,,,,,,,,,,,,,,,,,,,,,,,false,,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,0,0,0
+Elasticpath,Commercial,https://www.elasticpath.com/,,,,,,,,,,,,,,,,Visionary,,,,,,,,false,,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,,0,0,false
+Emporix,Commercial,https://www.emporix.com/,,,,,,,,,,,,,,,,,,,,,,,,false,,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,,0,0,false
+HCL Commerce,Commercial,https://www.hcl-software.com/commerce,IBM WebSphere Commerce,,Monolithic Java-based application,"Large enterprises seeking a mature, Java-based system with full code access.","B2C,B2B,Marketplace",You’ll need a team of senior-level Java engineers to manage the HCL Commerce backend and frontend engineers to develop the storefront.,"Projects typically start with either the B2C or B2B template, then extend the source code as needed.","You can choose from several approaches to build your storefront:
+
+1. The traditional MVC approach using JSPs, Struts, and Spring MVC, with a starter store called Aurora based on jQuery.
+
+2. A modern approach using Next.js (Ruby).
+
+3. A React-based approach with Emerald for B2C and Sapphire for B2B.
+
+Alternatively, you can also build your custom storefront using the system’s GraphQL API.","Managed Hosting,On-Premise","Customers can operate their shop on-premise using provided Docker and Kubernetes artifacts or opt for the managed hosting service, HCL Now, which supports any cloud provider (e.g., AWS, GCP, or Azure). You can read more about HCL Now in their blog post.",Full Access,"Custom logic is developed directly in the system's source code. HCL Commerce provides a complete development suite based on J2EE, Spring, ElasticSearch (or Solr), and IBM DB2 (or Oracle DB).","ISO 27001,HIPAA,GDPR,SOC-2",https://www.hcl-software.com/legal/compliance/,https://help.hcl-software.com/commerce/index.html,Challenger,"Iperceramica,Costco,Augusta Sportswear,Dportenis,C&A,Elektronabava,Idroexpert,Zara","History
+
+HCL Commerce, formerly known as IBM WebSphere Commerce, is an e-commerce platform that was originally developed by IBM in the 1990s. In 2019, HCL Technologies acquired the platform from IBM as part of a broader software acquisition. 
+
+The initial version, called NetCommerce, was developed to sell event tickets and merchandise for the 1996 Olympic Games (source).
+
+Videos
+
+These two videos by Francis Booth are a good starting point to learn about HCL Commerce:
+
+https://www.youtube.com/watch?v=fihlfrQgXbA
+
+https://www.youtube.com/watch?v=zX7l2sdVO8E",,,,,,true,,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,0,0,0
+Kibo Commerce,Commercial,https://kibocommerce.com/,,,,,,,,,,,,,,,,Challenger,,,,,,,,false,,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,0,0,0
+Lunar,Open Source,https://lunarphp.io/,,MIT,Headless Backend,Startups or small retailers seeking a basic solution based on Laravel.,B2C,You’ll need a team of engineers that a familiar with Laravel and PHP.,"Lunar is installed as a Composer package within any Laravel application. Starting with the Starter Kit, the code is then extended as needed.",New projects can be launched with their Livewire Starter Kit. Livewire enables developers to implement interactive user interfaces using only PHP.,On-Premise,"Shops based on Lunar can be self-hosted; typically using one of the official Laravel offerings, like Laravel Cloud, Vapor or Forge.",Full Access,"Lunar provides internal extension points that allow the injection of custom classes. For example, there is a configurable array of classes (“pipeline”) for cart calculation. Additionally, all models (Eloquent ORM) can be replaced.",,,https://docs.lunarphp.io,,"Seaworx Fishing,CardPro,Orbital Fasteners","Discord Community
+
+Lunar has an active community on Discord here:
+
+ https://discord.gg/v6qVWaf",lunarphp/lunar,"2,618",12/21/2021 5:14:38 PM,It seems like your request is incomplete. Could you please provide the content you would like me to summarize?,PHP,true,"Since there is no mobile-specific template, you'll need to create one yourself.",false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,0,0,0
+Magento 2,Open Source,https://business.adobe.com/products/magento/magento-commerce.html,,OSL-3.0,All-inclusive System,,,,,,,,,,,,,,,,magento/magento2,"11,498",11/30/2011 4:30:13 PM,,PHP,true,,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,0,0,0
+MedusaJS,Open Source,https://medusajs.com/,,MIT,Headless Backend,"Startups seeking a powerful, modern solution that can be self-hosted and don't require the support of an established vendor or additional security certifications.","B2C,B2B,Marketplace",You'll need an in-house IT team to manage and maintain your entire webshop.,"Since Medusa is open-source, you can clone the starter template and begin development with your team. Premium support is also available if needed.","Medusa is a headless system, meaning you'll need to build your own storefront. However, it includes an optional template built with Next.js to help you get started. (demo).",On-Premise,"You can deploy Medusa to any provider, with deployment recipes available for platforms like Heroku and DigitalOcean. The Medusa team is also working on ""Medusa Cloud,"" a hosting solution currently in beta.",Full Access,Developers have complete access to the entire Medusa codebase.,,,https://docs.medusajs.com/,,"Viessmann Climate Solutions,EKI,Mitsubishi,Patyna,Matt Sleeps,Foraged,Good Chef","Versions
+
+Currently, Medusa is available in version 1, with version 2 actively being developed.
+
+→ https://medusajs.com/blog/toward-medusa-2/
+
+Technologies & Architecture
+
+Medusa 2.0 is a Node.js-based headless commerce platform with a modular architecture. It uses technologies like TypeORM, PostgreSQL, and follows concepts such as REST and event-driven architecture.
+
+→ https://docs.medusajs.com/development/fundamentals/architecture-overview
+
+Recipes
+
+Medusa can be applied to various use cases, such as B2C, marketplaces, OMS, and POS. To simplify the setup, they offer ready-made recipes that automate the foundational configuration.
+
+→ https://docs.medusajs.com/recipes/",medusajs/medusa,"24,878",1/18/2020 2:39:04 PM,,Node.js,true,,true,false,true,false,true,true,false,true,false,false,false,true,false,false,false,false,false,false,false,false,false,false,false,false,false,6,0,0
+Oracle Commerce,,,,,,,,,,,,,,,,,,,,,,,,,,false,,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,0,0,0
+OroCommerce,Commercial,https://oroinc.com/b2b-ecommerce/,,,,,"B2B,Marketplace",,,,,,,,,,,Visionary,,,,,,,,false,,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,0,0,0
+Saleor,Open Source,https://saleor.io/,,BSD-3,,,,,,,"On-Premise,Managed Hosting",,Full Access,,,,,,,,saleor/saleor,"20,643",2/12/2013 5:46:39 PM,,Python,false,,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,0,0,0
+Salesforce B2C Commerce,Commercial,https://www.salesforce.com/commerce/,Demandware,,All-in-one SaaS solution,"Companies that are already invested into the Salesforce tool landscape, want to fully outsource their B2C shop to a SaaS platform.",B2C,You'll primarily need JavaScript developers for building the storefront and handling integrations using Cartridges.,"Projects typically start by customizing one of the demo shops, followed by developing custom integrations, which are injected into the SaaS platform.","Projects usually begin by customizing the Demo shop, which is built on the Storefront Reference Architecture (SFRA) using Server-Side JavaScript (SSJS) and ISML templates.
+
+Alternatively, projects can be implemented with the more modern PWA Kit, which is based on React and also has a demo shop.
+
+Lastly, teams may choose to build and host their own storefront using the system’s REST-APIs.",SaaS,"The Salesforce Commerce solution, as well as custom integrations (Cartridge) and the storefront are hosted within the Salesforce Commerce Cloud environment.",No Access,"Integrations are implemented as ""Cartridges,"" developed using JavaScript, specifically Server-Side JavaScript (SSJS) based on the Rhino engine (which translates JavaScript to Java on the server-side). A proprietary templating language “ISML” (Internet Store Markup Language) is used for rendering frontend templates. Each cartridge contains the logic, controllers, services, and templates. The system's source code is not accessible.","ISO 27001,SOC-2,GDPR",https://help.salesforce.com/s/articleView?id=000391623&type=1,https://developer.salesforce.com/developer-centers/commerce-cloud,Leader,"Puma,GoPro,Adidas,L'Oréal,Under Armour,Crocs,Yeti","More information about Salesforce Commerce
+
+As Salesforce Commerce is a pretty closed system, there is not much public information available. We recommend these posts:
+
+* Oleg Sapishchuk explains Salesforce Commerce Cloud (SFCC), its architecture, integrations, and tools like Business Manager → https://osapishchuk.medium.com/how-to-understand-salesforce-commerce-cloud-78d71f1016de
+* Thomas Theunen provides an overview of Salesforce Commerce Cloud and explains why it is not native to the Salesforce platform.  → https://www.salesforceben.com/salesforce-b2c-commerce-cloud-architecture-explained/
+
+Alternative documentation
+
+There is a community-driven alternative to the official documentation here: https://sfccdocs.com/
+
+⚠️ B2C and B2B are different systems!
+
+B2C Commerce 
+
+Originally known as Demandware, an early cloud-based e-commerce solution, it was acquired by Salesforce in 2016. Salesforce B2C Commerce focuses on B2C commerce for retail brands. The platform can be extended using Salesforce Commerce Cloud’s proprietary scripting language, ISML (Internet Store Markup Language), along with JavaScript for front-end customizations. 
+
+Salesforce B2B Commerce:
+
+In contrast to the B2C system, the B2B Commerce solution is native to the Salesforce platform. As a result, it has a different architecture and requires different development skills, such as expertise in Apex, Lightning Web Components (LWC), and Salesforce’s declarative tools, compared to the JavaScript and ISML-based development used in B2C Commerce. You can read more about the differences here: https://www.salesforceben.com/salesforce-b2c-commerce-vs-b2b-commerce-what-are-the-differences/",,,,,,true,The provided PWA Kit has a responsive design and can be utilized to build a mobile-friendly shop. There is no out-of-the-box template for a native app.,true,true,true,true,true,true,true,true,true,true,true,true,false,false,false,false,false,false,false,false,false,false,false,false,false,12,0,0
+SAP Commerce,Commercial,https://www.sap.com/products/crm/commerce-cloud.html,Hybris,,"Modular, Java-based application",Companies with established Java teams that are heavily invested in the SAP ecosystem.,"B2C,B2B,Marketplace",You will need to maintain a larger in-house team of Java and JavaScript engineers.,,"Storefronts are typically implemented using SAP's Composable Storefront (formerly known as Spartacus), an open-source template built on AngularJS (code)
+
+",SaaS,"The SAP Commerce Cloud is usally deployed on Azure or AWS and operated by SAP, with each customer receiving their own instance as it is not a multi-tenant SaaS application.",Full Access,"SAP Commerce is a modular application, based on Java and the Spring Framework. ","SOC-2,ISO 27001,GDPR",https://www.sap.com/uk/about/trust-center/certification-compliance.html,https://help.sap.com/docs/SAP_COMMERCE,Leader,"Toyota Motor Philippines,DAIMANI,thyssenkrupp Materials Services,MVV Enamic,H&M","History
+
+In 2013, SAP acquired Hybris, a Java-based shop system for enterprises, founded in 1997. Today, SAP Commerce is a part of SAP’s broader Customer Experience (CX) suite, covering areas like sales, marketing, customer service, and commerce.
+
+Architecture overview
+
+image.png
+
+→ https://help.sap.com/docs/SAP_COMMERCE/b490bb4e85bc42a7aa09d513d0bcb18e/8b5588d8866910149d4eb5f99c75b6b4.html
+
+On-Premise Hosting Reaches End-of-Life
+
+⚠️ SAP has announced that support for its self-hosted SAP Commerce on-premise solution will end on July 31, 2026, requiring customers to either migrate to the cloud version or re-platform to a different e-commerce solution. → SAP Help Portal
+
+
+
+B2C: https://www.sap.com/germany/documents/2022/03/50a71260-1c7e-0010-bca6-c68f7e60039b.html
+
+B2b: https://www.sap.com/germany/documents/2022/08/de7b0903-3e7e-0010-bca6-c68f7e60039b.html
+
+List of success stories: https://online.flippingbook.com/view/309922361/22/
+
+https://www.sap.com/westbalkans/asset/dynamic/2022/12/90397f46-567e-0010-bca6-c68f7e60039b.html
+
+https://news.sap.com/germany/2019/05/customer-experience-daimani/",,,,,,true,,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,false,true,13,10,1
+Scayle,Commercial,https://www.scayle.com/,,,Headless SaaS platform,"Large-scale B2C shops, ideally fashion or similar products.","B2C,Marketplace","You don’t need experienced engineers to extend the shop system since it’s a SaaS solution, but you will need a small team of engineers to maintain the storefront (Nuxt) and your integration middleware.","A typical project involves implementing three systems: First, building a custom storefront, possibly using their template. Second, integrating Scayle with other systems by developing custom middleware. Third, potentially building a mobile app.","Scayle is a headless SaaS platform, requiring you to build and operate your own storefront. They provide a Nuxt.js-based template (Storefront Boilerplate), but the checkout is rendered by Scayle and can only be configured.
+
+",Mixed,"While Scayle is a fully vendor-operated SaaS system, the customer is responsible for hosting their storefront and additional integration services.",No Access,Scayle can be extended through REST APIs and webhooks. The source code is not accessible to customers.,GDPR,https://www.scayle.com/privacy-policy/,https://scayle.dev/en/,Niche Player,"About You,Deichmann,Depot,Fielmann,Pierce Group,Tom Tailor,Witt Weiden,Manchester United","History
+
+Scayle is a productized version of About You‘s self-developed shop system.",,,,,,true,"Since Scayle doesn’t provide a mobile boilerplate, you’ll need to build your own app using the REST APIs.",true,true,true,false,false,true,false,true,true,true,true,true,false,true,false,false,false,false,false,false,false,false,false,false,false,10,0,0
+Shopware,Commercial,https://www.shopware.com/,,MIT,,,,,,,,,Full Access,,,,,Visionary,,,shopware/shopware,"2,780",5/3/2018 3:00:31 PM,,,false,,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,0,0,0
+Shopware CE,Open Source,https://www.shopware.com/en/community/community-edition/,,MIT,,,,,,,,,,,,,,,,,shopware/shopware,"2,780",5/3/2018 3:00:31 PM,,PHP,true,,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,0,0,0
+Spree Commerce,Open Source,https://spreecommerce.org/,,AGPL-3.0,,Startups or small retailers seeking a solution based on Ruby on Rails.,"B2C,B2B,Marketplace",,,,,,,,,,,,"GoDaddy,Mason Cycles,Farmers To You,Craftsman,Planetka,Garmentory,Blue Apron,New England Patriots","Commercial version of Spree
+
+There is also a commercial more powerful version of Spree, called Vendo → https://www.getvendo.com/",spree/spree,"12,892",3/10/2008 3:45:35 PM,,Ruby,true,,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,0,0,0
+Spryker,Commercial,https://www.spryker.com/,,,Editable source code combined with managed hosting.,"Complex use cases, such as B2B and marketplaces, which often require code-level changes to the core system to implement unique functionality.","B2C,B2B,Marketplace","To succeed with Spryker, having an experienced PHP development team is essential, ideally in-house.","Projects typically start with the provided B2C or B2B template, followed by code customization and extension.","Spryker offers traditional PHP-based demo shops for B2C and B2B scenarios. Alternatively, customers can use their modern web components approach, Oryx, or decide to their own storefront using Spryker’s REST API.",Managed Hosting,Projects are fully hosted and supported by Spryker PaaS+ on AWS.,Full Access,"Customers extend Spryker on code-level (PHP). Any UI, business logic and database schema can be customized. Custom logic is typically developed as modules within the project's source code, resulting in a single modular application that extends Spryker’s core.
+
+The source-code can be viewed and extended, see https://github.com/spryker/ ","SOC-2,ISO 27001,GDPR",https://spryker.com/about-us/trust-security/,https://docs.spryker.com/,Visionary,"Alles Auto,Daimler Trucks,ESA,Hardeck,Hornbach,Jungheinrich,Kömpf,Louis,Pferd,Scania UK,SDVerse,Siemens Healthineers,Stauff,ZF Friedrichshafen","Trivia
+
+* Spryker is a modular application with over 1,000 modules, loaded into the project via Packagist → https://packagist.org/?query=spryker
+* One of Spryker's strengths is its emphasis on Clean Code principles, improving the developer experience. This is reflected in its high score on the code analysis platform Scrutinizer → https://scrutinizer-ci.com/g/spryker/spryker-core/?branch=master
+
+Video
+
+Spryker’s Chief Architect Denis Turkov explains the architecture here:
+
+https://www.youtube.com/watch?v=tMFX-rpPYhs",,,,,,true,,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,13,10,2
+Sylius,Open Source,https://sylius.com/,,MIT,,,,,,,,,Full Access,,,,,,,,Sylius/Sylius,"7,878",11/5/2011 11:05:52 PM,,PHP,true,,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,0,0,0
+Vendure,Open Source,https://vendure.io/,,GPL-3.0,Headless Platform,,B2C,,,,On-Premise,,Full Access,,,,,,"Paket Market,Swile",,vendure-ecommerce/vendure,"5,631",6/11/2018 4:29:20 PM,,Node.js,true,,true,true,false,false,false,false,false,true,false,true,true,true,false,false,false,false,false,false,false,false,true,false,false,false,true,6,1,1
+,,,,,,,,,,,,,,,,,,,,,,,,,,false,,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,,0,0,false

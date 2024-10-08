@@ -28,3 +28,88 @@
   --ifm-color-primary-lightest: #4fddbf;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
 }
+
+/* Custom divider style */
+.custom-divider {
+  border: 0;
+  height: 1px;
+  background: repeating-linear-gradient(90deg, transparent, transparent 4px, #ccc 4px, #ccc 8px);
+  margin: 20px 0;
+}
+
+.custom-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 20px 0;
+  font-size: 1rem;
+  font-family: Arial, sans-serif;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  overflow: hidden;
+  table-layout: fixed;
+}
+
+.table-header-row {
+  background-color: #f8f9fa;
+  border-bottom: 2px solid #dee2e6;
+}
+
+.table-header-cell {
+  padding: 8px;
+  text-align: left;
+  font-weight: bold;
+  border-right: 1px solid #dee2e6;
+  width: max(300px);
+}
+
+.table-header-cell:last-child {
+  border-right: none;
+}
+
+.table-body-row {
+  transition: background-color 0.3s ease;
+}
+
+.table-body-row:hover {
+  background-color: #f1f3f5;
+}
+
+.table-body-cell {
+  padding: 10px;
+  border-right: 1px solid #dee2e6;
+  border-bottom: 1px solid #dee2e6;
+  vertical-align: middle;
+  white-space: normal;
+}
+
+.table-body-cell:last-child {
+  border-right: none;
+}
+
+.table-filter {
+  margin-top: 5px;
+  padding: 6px;
+  width: 100%;
+  font-size: 0.9rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.badge {
+  background-color: #e2e6ea;
+  color: #495057;
+  padding: 5px 10px;
+  border-radius: 12px;
+  font-size: 0.9rem;
+  display: inline-block;
+}
+
+@media (max-width: 768px) {
+  .custom-table {
+    font-size: 0.9rem;
+  }
+
+  .table-header-cell, .table-body-cell {
+    padding: 8px;
+  }
+}
