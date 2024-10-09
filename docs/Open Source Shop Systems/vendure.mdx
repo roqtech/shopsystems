@@ -1,7 +1,5 @@
 import React from 'react';
 import CaseStudyTable from '/src/components/CaseStudyTable';
-import ThreeCols from '/src/components/ThreeCols';
-import TwoCols from '/src/components/TwoCols';
 
 # Vendure
 
@@ -10,37 +8,38 @@ This page reflects our views and assessments. All information is sourced from pu
 :::
 
 ## Evaluation
-
-<ThreeCols
-    col1Content={
-        <>
+<div class="container">
+<div class="row">
+    <div class="col col--4">
+        <div class="col-demo">
             <h3>⭐ Highlights</h3>
             <ul>
                 <li>Clean, modular codebase built on popular frameworks</li>
                 <li>Lightweight framework for rapid development</li>
             </ul>
-        </>
-    }
-    col2Content={
-        <>
+            </div>
+        </div>
+        <div className="col col--4">
+            <div className="col-demo">
             <h3>👍 When to use</h3>
             <ul>
                 <li>Startups outgrowing Shopify, needing code-level adjustments</li>
                 <li>Developer-driven teams</li>
             </ul>
-        </>
-    }
-    col3Content={
-        <>
+            </div>
+        </div>
+    <div className="col col--4">
+        <div className="col-demo">
             <h3>👎 When to avoid</h3>
             <ul>
                 <li>Projects with extensive requirements and marketplaces</li>
                 <li>Companies needing contractual agreements, compliance, or high-level support</li>
                 <li>Projects requiring vendor-managed hosting</li>
             </ul>
-        </>
-    }
-/>
+            </div>
+        </div>
+    </div>
+</div>
 
 <div className="custom-divider"></div>
 
@@ -64,7 +63,7 @@ The best way to understand a shop system is by analyzing its database schema. Ex
     src="https://link.excalidraw.com/readonly/9Xa1kkh8Ht36W3rhP4y9"
     width="100%"
     height="600"
-    style={{ border: '1px solid #ccc', marginTop: '20px' }}
+    style={{border: '1px solid #ccc', marginTop: '20px'}}
     title="Vendure Schema"
 />
 
@@ -76,40 +75,51 @@ The best way to understand a shop system is by analyzing its database schema. Ex
 
 ### Technology Stack
 
-<TwoCols
-    col1Content={
-        <>
-Vendure is fully built with TypeScript and utilizes the following technologies:
+<div className="container">
+    <div className="row">
+        <div className="col col--6">
+            <div className="col-demo">
+                Vendure is fully built with TypeScript and utilizes the following technologies:
 
-- [**NestJS**](https://nestjs.com/) as the underlying Node.js framework
-- **TypeORM** for interacting with any database
-- **Angular** for rendering the Admin UI
-- **GraphQL** for API communication
-        </>
-    }
-    col2Content={
-        <>
-            <a href="/img/vendure-logos.png" target="_blank"><img src="/img/vendure-logos.png" alt="Technology Stack" style={{ width: '70%', maxWidth: '800px' }} /></a>
-        </>
-    }
-/>
+                - [**NestJS**](https://nestjs.com/) as the underlying Node.js framework
+                - **TypeORM** for interacting with any database
+                - **Angular** for rendering the Admin UI
+                - **GraphQL** for API communication
+            </div>
+        </div>
+        <div className="col col--6">
+            <div className="col-demo">
+                <a href="/img/vendure-logos.png" target="_blank">
+                    <img src="/img/vendure-logos.png" alt="Technology Stack" style={{width: '70%', maxWidth: '800px'}}/>
+                </a>
+            </div>
+        </div>
+    </div>
+</div>
 
 
 <div className="custom-divider"></div>
 
 ### Starter kits (demo shops)
 
-<div style={{ display: 'flex', justifyContent: 'space-around' }}>
-    <div style={{ width: '50%', paddingRight: '10px' }}>
-        <p>Projects can choose to build their storefront on any technology or use one of the existing templates (starters) using different frameworks.</p>
-        <ul>
-            <li>Based on Remix ([demo](https://remix-storefront.vendure.io/) | [code](https://github.com/vendure-ecommerce/storefront-remix-starter))</li>
-            <li>Based on Qwik ([demo](https://qwik-storefront.vendure.io/) | [code](https://github.com/vendure-ecommerce/storefront-qwik-starter))</li>
-            <li>Based on Angular ([demo](https://angular-storefront.vendure.io/) | [code](https://github.com/vendure-ecommerce/storefront-angular-starter))</li>
-        </ul>
-    </div>
-    <div style={{ width: '50%' }}>
-        <a href="/img/vendure-template.png" target="_blank"><img src="/img/vendure-template.png" alt="Vendure Starter Kits" style={{ width: '100%' }} /></a>
+<div className="container">
+    <div className="row">
+        <div className="col col--6">
+            <div className="col-demo">
+            Projects can choose to build their storefront on any technology or use one of the existing templates (starters) using different frameworks.
+
+            - Based on Remix ([demo](https://remix-storefront.vendure.io/) | [code](https://github.com/vendure-ecommerce/storefront-remix-starter))
+            - Based on Qwik ([demo](https://qwik-storefront.vendure.io/) | [code](https://github.com/vendure-ecommerce/storefront-qwik-starter))
+            - Based on Angular ([demo](https://angular-storefront.vendure.io/) | [code](https://github.com/vendure-ecommerce/storefront-angular-starter))
+            </div>
+        </div>
+        <div className="col col--6">
+            <div className="col-demo">
+                    <a href="/img/vendure-template.png" target="_blank">
+                        <img src="/img/vendure-template.png" alt="Vendure Starter Kits" style={{width: '100%'}}/>
+                    </a>
+            </div>
+        </div>
     </div>
 </div>
 
@@ -117,14 +127,27 @@ Vendure is fully built with TypeScript and utilizes the following technologies:
 
 ### Architecture
 
-<div style={{ display: 'flex', justifyContent: 'space-around' }}>
-    <div style={{ width: '50%', paddingRight: '10px' }}>
-        <p>Vendure is a server-side application ("server") that provides two API endpoints: one for the storefront and one for the Admin UI.</p>
-        <p>As a headless platform, Vendure leaves storefront development to the developers, who can either build it from scratch or use one of the available templates (see demo shops above).</p>
-        <p>💡 The GraphQL API has a public playground: [https://readonlydemo.vendure.io/shop-api](https://readonlydemo.vendure.io/shop-api)</p>
-    </div>
-    <div style={{ width: '50%' }}>
-        <a href="/img/vendure-architecture.png" target="_blank"><img src="/img/vendure-architecture.png" alt="Vendure Architecture" style={{ width: '100%' }} /></a>
+<div className="container">
+    <div className="row">
+        <div className="col col--6">
+            <div className="col-demo">
+            <p>Vendure is a server-side application ("server") that provides two API endpoints: one for the
+                storefront and one for the Admin UI.</p>
+            <p>As a headless platform, Vendure leaves storefront development to the developers, who can
+                either build it from scratch or use one of the available templates (see demo shops
+                above).</p>
+            <p>💡 The GraphQL API has a public playground:
+                [https://readonlydemo.vendure.io/shop-api](https://readonlydemo.vendure.io/shop-api)</p>
+            </div>
+        </div>
+        <div className="col col--6">
+            <div className="col-demo">
+            <a href="/img/vendure-architecture.png" target="_blank">
+                <img src="/img/vendure-architecture.png" alt="Vendure Architecture"
+                     style={{width: '100%'}}/>
+            </a>
+            </div>
+        </div>
     </div>
 </div>
 
@@ -132,13 +155,23 @@ Vendure is fully built with TypeScript and utilizes the following technologies:
 
 ### Admin UI
 
-<div style={{ display: 'flex', justifyContent: 'space-around' }}>
-    <div style={{ width: '50%', paddingRight: '10px' }}>
-        <p>Vendure comes with an Admin UI built on Angular, which can be customized at the code level.</p>
-        <p>You can try it out without local installation here: [https://demo.vendure.io/](https://demo.vendure.io/)</p>
-    </div>
-    <div style={{ width: '50%' }}>
-        <a href="/img/vendure-admin.png" target="_blank"><img src="/img/vendure-admin.png" alt="Vendure Admin UI" style={{ width: '100%' }} /></a>
+<div className="container">
+    <div className="row">
+        <div className="col col--6">
+            <div className="col-demo">
+            <p>Vendure comes with an Admin UI built on Angular, which can be customized at the code
+                level.</p>
+            <p>You can try it out without local installation here:
+                [https://demo.vendure.io/](https://demo.vendure.io/)</p>
+            </div>
+        </div>
+        <div className="col col--6">
+            <div className="col-demo">
+            <a href="/img/vendure-admin.png" target="_blank">
+                <img src="/img/vendure-admin.png" alt="Vendure Admin UI" style={{width: '100%'}}/>
+            </a>
+            </div>
+        </div>
     </div>
 </div>
 
@@ -146,13 +179,15 @@ Vendure is fully built with TypeScript and utilizes the following technologies:
 
 ### Hosting options
 
-Vendure does not currently offer managed hosting, but provides deployment instructions for platforms like Render, Google Cloud Run, and others. [🌐](https://docs.vendure.io/guides/deployment/deploy-to-digital-ocean-app-platform/)
+Vendure does not currently offer managed hosting, but provides deployment instructions for platforms like
+Render, Google Cloud Run, and others.
+[🌐](https://docs.vendure.io/guides/deployment/deploy-to-digital-ocean-app-platform/)
 
 <div className="custom-divider"></div>
 
 ### Case Studies
 
-All information is based on public sources and manually curated. Projects that are completely hidden from the public are excluded. Contact us to contribute [contact@roq.tech](mailto:contact@roq.tech)
+All information is based on public sources and manually curated. Projects that are completely hidden from
+the public are excluded. Contact us to contribute [contact@roq.tech](mailto:contact@roq.tech)
 
-<CaseStudyTable system="Vendure" cols="Company,Shop URL,Industry,Type" />
-
+<CaseStudyTable system="Vendure" cols="Company,Shop URL,Industry,Type"/>
