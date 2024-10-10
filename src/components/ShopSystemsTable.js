@@ -1,6 +1,6 @@
 import React, { useMemo } from 'react';
 import { useTable, useSortBy, useFilters } from 'react-table';
-import data from '/static/data/shops.json';
+import data from '/static/data/shopsystems.json';
 
 function DefaultColumnFilter({ column: { filterValue, preFilteredRows, setFilter } }) {
     const count = preFilteredRows.length;
@@ -17,7 +17,7 @@ function DefaultColumnFilter({ column: { filterValue, preFilteredRows, setFilter
     );
 }
 
-export default function CaseStudyTable({ license, cols }) {
+export default function ShopSystemTable({ license, cols }) {
     const selectedCols = useMemo(
         () => (cols ? cols.split(',').map(c => c.trim()) : []),
         [cols]
@@ -25,27 +25,54 @@ export default function CaseStudyTable({ license, cols }) {
 
     const columns = useMemo(() => {
         const allColumns = {
-            'Company': {
-                Header: 'Company',
-                accessor: 'Company',
+            'Name': {
+                Header: 'Name',
+                accessor: 'Name',
                 Filter: DefaultColumnFilter,
             },
-            'Shop System': {
-                Header: 'Shop System',
-                accessor: 'Shop System',
+            'License': {
+                Header: 'License',
+                accessor: 'License',
+                Filter: DefaultColumnFilter,
             },
-            'Shop URL': {
-                Header: 'Shop URL',
-                accessor: 'Shop URL',
+            'URL': {
+                Header: 'URL',
+                accessor: 'URL',
                 Cell: ({ value }) => (
                     <a href={value} target="_blank" rel="noopener noreferrer">
                         {value}
                     </a>
                 ),
             },
-            'Type': {
-                Header: 'Type',
-                accessor: 'Type',
+            'NameUrl': {
+                Header: 'Vendor',
+                accessor: row => ({ name: row.Name, url: row.URL }),
+                id: 'nameUrl',
+                Cell: ({ value }) => (
+                    <a href={value.url} target="_blank" rel="noopener noreferrer">
+                        🌐
+                    </a>
+                ),
+            },
+            'OS license': {
+                Header: 'OS license',
+                accessor: 'OS license',
+            },
+            'Architecture': {
+                Header: 'Architecture',
+                accessor: 'Architecture',
+            },
+            'Code': {
+                Header: 'Code',
+                accessor: 'Code',
+            },
+            'Recommended for': {
+                Header: 'Recommended for',
+                accessor: 'Recommended for',
+            },
+            'Typical scenarios': {
+                Header: 'Typical scenarios',
+                accessor: 'Typical scenarios',
                 Cell: ({ value }) => {
                     const items = value.split(',');
                     return (
@@ -57,54 +84,34 @@ export default function CaseStudyTable({ license, cols }) {
                     );
                 },
             },
-            'Industry': {
-                Header: 'Industry',
-                accessor: 'Industry',
+            'Project Hosting': {
+                Header: 'Project Hosting',
+                accessor: 'Project Hosting',
             },
-            'Company Size': {
-                Header: 'Company Size',
-                accessor: 'Company Size',
+            'Code-access': {
+                Header: 'Code Access',
+                accessor: 'Code-access',
             },
-            'Company Briefing': {
-                Header: 'Company Briefing',
-                accessor: 'Company Briefing',
+            'Security certificates': {
+                Header: 'Security Certificates',
+                accessor: 'Security certificates',
             },
-            'Shop Description': {
-                Header: 'Shop Description',
-                accessor: 'Shop Description',
-            },
-            'Source 1': {
-                Header: 'Source 1',
-                accessor: 'Source 1',
-                Cell: ({ value }) =>
-                    value ? (
-                        <a href={value} target="_blank" rel="noopener noreferrer">
-                            Source 1
-                        </a>
-                    ) : null,
-            },
-            'Source 2': {
-                Header: 'Source 2',
-                accessor: 'Source 2',
-                Cell: ({ value }) =>
-                    value ? (
-                        <a href={value} target="_blank" rel="noopener noreferrer">
-                            Source 2
-                        </a>
-                    ) : null,
-            },
-            'Additional Information': {
-                Header: 'Additional Information',
-                accessor: 'Additional information',
+            'Privacy center': {
+                Header: 'Privacy Center',
+                accessor: 'Privacy center',
                 Cell: ({ value }) => (
-                    <div
-                        dangerouslySetInnerHTML={{
-                            __html: value.replace(
-                                /→ (https?:\/\/[\w\.\-\/]+\/?)/g,
-                                '<a href="$1" target="_blank" rel="noopener noreferrer">$1</a>'
-                            ),
-                        }}
-                    />
+                    <a href={value} target="_blank" rel="noopener noreferrer">
+                        Privacy Center
+                    </a>
+                ),
+            },
+            'Dev docs': {
+                Header: 'Dev Docs',
+                accessor: 'Dev docs',
+                Cell: ({ value }) => (
+                    <a href={value} target="_blank" rel="noopener noreferrer">
+                        Dev Docs
+                    </a>
                 ),
             },
         };
@@ -157,9 +164,6 @@ export default function CaseStudyTable({ license, cols }) {
                             className="table-header-cell"
                         >
                             {column.render('Header')}
-                            {/*<div>*/}
-                            {/*    {column.canFilter ? column.render('Filter') : null}*/}
-                            {/*</div>*/}
                         </th>
                     ))}
                 </tr>

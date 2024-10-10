@@ -1,5 +1,6 @@
 import React from 'react';
 import CaseStudyTable from '/src/components/CaseStudyTable';
+import FeatureTable from '/src/components/FeatureTable';
 
 # Vendure
 
@@ -8,10 +9,10 @@ This page reflects our views and assessments. All information is sourced from pu
 :::
 
 ## Evaluation
-<div class="container">
-<div class="row">
-    <div class="col col--4">
-        <div class="col-demo">
+<div className="container">
+<div className="row">
+    <div className="col col--4">
+        <div className="col-demo">
             <h3>⭐ Highlights</h3>
             <ul>
                 <li>Clean, modular codebase built on popular frameworks</li>
@@ -47,13 +48,39 @@ This page reflects our views and assessments. All information is sourced from pu
 
 ### Feature overview
 
-Vendure is well-suited for B2C use cases and offers flexibility for basic Marketplace scenarios due to its “multi-everything” approach. However, it lacks an integrated CMS, so developers must integrate a custom solution.
+Vendure is well-suited for B2C use cases and offers flexibility for basic Marketplace scenarios due to its “multi-everything” approach.
+However, it lacks an integrated CMS, so developers must integrate a custom solution.
+
+Although Vendure is not fully equipped for B2B situations, it is still commonly used for B2B scenarios due to its simple structure and ease of use in coding.
 
 Vendure offers unique enterprise features, including SSO integration with providers like Okta.
 
-It does not come with a built-in search engine (e.g., Elasticsearch or Solr); instead, the Search & Filter functionality relies on the underlying relational database.
+Although Vendure is open-source, certain official features require separate purchases. For instance, the “wishlist” feature costs €480 per year.
+[🌐](https://vendure.io/hub/vendure-wishlist-plugin)
 
-Although Vendure is open-source, certain official features require separate purchases. For instance, the “wish list” feature costs €480 per year. 🌐
+<div className="container">
+    <div className="row">
+        <div className="col col--4">
+            <div className="col-demo">
+                <h3>B2C</h3>
+                <FeatureTable name="Vendure" cols="Basic B2C Features,Search & Filtering,Gift Cards,CMS,OMS,PIM,Call Center,Multi-Warehouse,Multi-Store,Multi-Locale,Multi-Currency,Configurable Products" />
+            </div>
+        </div>
+        <div className="col col--4">
+            <div className="col-demo">
+                <h3>B2B</h3>
+                <FeatureTable name="Vendure" cols="Volume Prices,Quotation & Offer Management,Packaging Units,Measurement Units,Approval Workflows,Shopping Lists,Business Units & Organizations,Roles & Permissions,Products-per-Customer,Price-per-Customer" />
+            </div>
+        </div>
+        <div className="col col--4">
+            <div className="col-demo">
+                <h3>Marketplace</h3>
+                <FeatureTable name="Vendure" cols="Multi-Merchant, Merchant Portal" />
+            </div>
+        </div>
+    </div>
+
+</div>
 
 ### Schema explained
 
@@ -68,6 +95,8 @@ The best way to understand a shop system is by analyzing its database schema. Ex
 />
 
 [Fullscreen](https://link.excalidraw.com/readonly/9Xa1kkh8Ht36W3rhP4y9)
+
+
 
 <div className="custom-divider"></div>
 

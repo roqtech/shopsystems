@@ -26,36 +26,111 @@
     "Repository Created": "",
     "Summary of License": "",
     "Code": "",
-    "Ready": true,
+    "Ready": {
+      "Status": 2,
+      "Source": ""
+    },
     "Mobile App approach": "",
-    "Basic B2C Features": true,
-    "Search & Filtering": true,
-    "Gift Cards": true,
-    "CMS": true,
-    "OMS": true,
-    "PIM": true,
-    "Call Center": true,
-    "Multi-Warehouse": true,
-    "Location-Based Inventory": true,
-    "Multi-Store": true,
-    "Multi-Locale": true,
-    "Multi-Currency": true,
-    "Volume Prices": true,
-    "Configurable Products": true,
-    "Quotation & Offer Management": true,
-    "Packaging Units": true,
-    "Measurement Units": true,
-    "Approval Workflows": true,
-    "Shopping Lists": true,
-    "Business Units & Organizations": true,
-    "Roles & Permissions": true,
-    "Products-per-Customer": true,
-    "Price-per-Customer": true,
-    "Merchant Portal": false,
-    "Multi-Merchant": false,
-    "B2C Features": 13,
-    "B2B Features": 10,
-    "Marketplace Features": 0
+    "Basic B2C Features": {
+      "Status": 2,
+      "Source": ""
+    },
+    "Search & Filtering": {
+      "Status": 2,
+      "Source": ""
+    },
+    "Gift Cards": {
+      "Status": 2,
+      "Source": ""
+    },
+    "CMS": {
+      "Status": 2,
+      "Source": ""
+    },
+    "OMS": {
+      "Status": 2,
+      "Source": ""
+    },
+    "PIM": {
+      "Status": 2,
+      "Source": ""
+    },
+    "Call Center": {
+      "Status": 2,
+      "Source": ""
+    },
+    "Multi-Warehouse": {
+      "Status": 2,
+      "Source": ""
+    },
+    "Location-Based Inventory": {
+      "Status": 2,
+      "Source": ""
+    },
+    "Multi-Store": {
+      "Status": 2,
+      "Source": ""
+    },
+    "Multi-Locale": {
+      "Status": 2,
+      "Source": ""
+    },
+    "Multi-Currency": {
+      "Status": 2,
+      "Source": ""
+    },
+    "Volume Prices": {
+      "Status": 2,
+      "Source": ""
+    },
+    "Configurable Products": {
+      "Status": 2,
+      "Source": ""
+    },
+    "Quotation & Offer Management": {
+      "Status": 2,
+      "Source": ""
+    },
+    "Packaging Units": {
+      "Status": 2,
+      "Source": ""
+    },
+    "Measurement Units": {
+      "Status": 2,
+      "Source": ""
+    },
+    "Approval Workflows": {
+      "Status": 2,
+      "Source": ""
+    },
+    "Shopping Lists": {
+      "Status": 2,
+      "Source": ""
+    },
+    "Business Units & Organizations": {
+      "Status": 2,
+      "Source": ""
+    },
+    "Roles & Permissions": {
+      "Status": 2,
+      "Source": ""
+    },
+    "Products-per-Customer": {
+      "Status": 2,
+      "Source": ""
+    },
+    "Price-per-Customer": {
+      "Status": 2,
+      "Source": ""
+    },
+    "Merchant Portal": {
+      "Status": 0,
+      "Source": ""
+    },
+    "Multi-Merchant": {
+      "Status": 0,
+      "Source": ""
+    }
   },
   {
     "Name": "Commercetools",
@@ -84,36 +159,107 @@
     "Repository Created": "",
     "Summary of License": "",
     "Code": "",
-    "Ready": true,
     "Mobile App approach": "",
-    "Basic B2C Features": true,
-    "Search & Filtering": true,
-    "Gift Cards": false,
-    "CMS": false,
-    "OMS": true,
-    "PIM": true,
-    "Call Center": true,
-    "Multi-Warehouse": true,
-    "Location-Based Inventory": true,
-    "Multi-Store": true,
-    "Multi-Locale": true,
-    "Multi-Currency": true,
-    "Volume Prices": true,
-    "Configurable Products": false,
-    "Quotation & Offer Management": true,
-    "Packaging Units": false,
-    "Measurement Units": false,
-    "Approval Workflows": true,
-    "Shopping Lists": true,
-    "Business Units & Organizations": true,
-    "Roles & Permissions": true,
-    "Products-per-Customer": false,
-    "Price-per-Customer": false,
-    "Merchant Portal": false,
-    "Multi-Merchant": false,
-    "B2C Features": 10,
-    "B2B Features": 6,
-    "Marketplace Features": 0
+    "Basic B2C Features": {
+      "Status": 2,
+      "Source": ""
+    },
+    "Search & Filtering": {
+      "Status": 2,
+      "Source": ""
+    },
+    "Gift Cards": {
+      "Status": 0,
+      "Source": ""
+    },
+    "CMS": {
+      "Status": 0,
+      "Source": ""
+    },
+    "OMS": {
+      "Status": 2,
+      "Source": ""
+    },
+    "PIM": {
+      "Status": 2,
+      "Source": ""
+    },
+    "Call Center": {
+      "Status": 2,
+      "Source": ""
+    },
+    "Multi-Warehouse": {
+      "Status": 2,
+      "Source": ""
+    },
+    "Location-Based Inventory": {
+      "Status": 2,
+      "Source": ""
+    },
+    "Multi-Store": {
+      "Status": 2,
+      "Source": ""
+    },
+    "Multi-Locale": {
+      "Status": 2,
+      "Source": ""
+    },
+    "Multi-Currency": {
+      "Status": 2,
+      "Source": ""
+    },
+    "Volume Prices": {
+      "Status": 2,
+      "Source": ""
+    },
+    "Configurable Products": {
+      "Status": 0,
+      "Source": ""
+    },
+    "Quotation & Offer Management": {
+      "Status": 2,
+      "Source": ""
+    },
+    "Packaging Units": {
+      "Status": 0,
+      "Source": ""
+    },
+    "Measurement Units": {
+      "Status": 0,
+      "Source": ""
+    },
+    "Approval Workflows": {
+      "Status": 2,
+      "Source": ""
+    },
+    "Shopping Lists": {
+      "Status": 2,
+      "Source": ""
+    },
+    "Business Units & Organizations": {
+      "Status": 2,
+      "Source": ""
+    },
+    "Roles & Permissions": {
+      "Status": 2,
+      "Source": ""
+    },
+    "Products-per-Customer": {
+      "Status": 0,
+      "Source": ""
+    },
+    "Price-per-Customer": {
+      "Status": 0,
+      "Source": ""
+    },
+    "Merchant Portal": {
+      "Status": 0,
+      "Source": ""
+    },
+    "Multi-Merchant": {
+      "Status": 0,
+      "Source": ""
+    }
   },
   {
     "Name": "Crystallize",
@@ -316,7 +462,10 @@
     "Repository Created": "",
     "Summary of License": "",
     "Code": "",
-    "Ready": true,
+    "Ready": {
+      "Status": 2,
+      "Source": ""
+    },
     "Mobile App approach": "",
     "Basic B2C Features": false,
     "Search & Filtering": false,
@@ -432,7 +581,10 @@
     "Repository Created": "12/21/2021 5:14:38 PM",
     "Summary of License": "It seems like your request is incomplete. Could you please provide the content you would like me to summarize?",
     "Code": "PHP",
-    "Ready": true,
+    "Ready": {
+      "Status": 2,
+      "Source": ""
+    },
     "Mobile App approach": "Since there is no mobile-specific template, you'll need to create one yourself.",
     "Basic B2C Features": false,
     "Search & Filtering": false,
@@ -490,7 +642,10 @@
     "Repository Created": "11/30/2011 4:30:13 PM",
     "Summary of License": "",
     "Code": "PHP",
-    "Ready": true,
+    "Ready": {
+      "Status": 2,
+      "Source": ""
+    },
     "Mobile App approach": "",
     "Basic B2C Features": false,
     "Search & Filtering": false,
@@ -548,20 +703,41 @@
     "Repository Created": "1/18/2020 2:39:04 PM",
     "Summary of License": "",
     "Code": "Node.js",
-    "Ready": true,
+    "Ready": {
+      "Status": 2,
+      "Source": ""
+    },
     "Mobile App approach": "",
-    "Basic B2C Features": true,
+    "Basic B2C Features": {
+      "Status": 2,
+      "Source": ""
+    },
     "Search & Filtering": false,
-    "Gift Cards": true,
+    "Gift Cards": {
+      "Status": 2,
+      "Source": ""
+    },
     "CMS": false,
-    "OMS": true,
-    "PIM": true,
+    "OMS": {
+      "Status": 2,
+      "Source": ""
+    },
+    "PIM": {
+      "Status": 2,
+      "Source": ""
+    },
     "Call Center": false,
-    "Multi-Warehouse": true,
+    "Multi-Warehouse": {
+      "Status": 2,
+      "Source": ""
+    },
     "Location-Based Inventory": false,
     "Multi-Store": false,
     "Multi-Locale": false,
-    "Multi-Currency": true,
+    "Multi-Currency": {
+      "Status": 2,
+      "Source": ""
+    },
     "Volume Prices": false,
     "Configurable Products": false,
     "Quotation & Offer Management": false,
@@ -780,20 +956,59 @@
     "Repository Created": "",
     "Summary of License": "",
     "Code": "",
-    "Ready": true,
+    "Ready": {
+      "Status": 2,
+      "Source": ""
+    },
     "Mobile App approach": "The provided PWA Kit has a responsive design and can be utilized to build a mobile-friendly shop. There is no out-of-the-box template for a native app.",
-    "Basic B2C Features": true,
-    "Search & Filtering": true,
-    "Gift Cards": true,
-    "CMS": true,
-    "OMS": true,
-    "PIM": true,
-    "Call Center": true,
-    "Multi-Warehouse": true,
-    "Location-Based Inventory": true,
-    "Multi-Store": true,
-    "Multi-Locale": true,
-    "Multi-Currency": true,
+    "Basic B2C Features": {
+      "Status": 2,
+      "Source": ""
+    },
+    "Search & Filtering": {
+      "Status": 2,
+      "Source": ""
+    },
+    "Gift Cards": {
+      "Status": 2,
+      "Source": ""
+    },
+    "CMS": {
+      "Status": 2,
+      "Source": ""
+    },
+    "OMS": {
+      "Status": 2,
+      "Source": ""
+    },
+    "PIM": {
+      "Status": 2,
+      "Source": ""
+    },
+    "Call Center": {
+      "Status": 2,
+      "Source": ""
+    },
+    "Multi-Warehouse": {
+      "Status": 2,
+      "Source": ""
+    },
+    "Location-Based Inventory": {
+      "Status": 2,
+      "Source": ""
+    },
+    "Multi-Store": {
+      "Status": 2,
+      "Source": ""
+    },
+    "Multi-Locale": {
+      "Status": 2,
+      "Source": ""
+    },
+    "Multi-Currency": {
+      "Status": 2,
+      "Source": ""
+    },
     "Volume Prices": false,
     "Configurable Products": false,
     "Quotation & Offer Management": false,
@@ -838,33 +1053,108 @@
     "Repository Created": "",
     "Summary of License": "",
     "Code": "",
-    "Ready": true,
+    "Ready": {
+      "Status": 2,
+      "Source": ""
+    },
     "Mobile App approach": "",
-    "Basic B2C Features": true,
-    "Search & Filtering": true,
-    "Gift Cards": true,
-    "CMS": true,
-    "OMS": true,
-    "PIM": true,
-    "Call Center": true,
-    "Multi-Warehouse": true,
-    "Location-Based Inventory": true,
-    "Multi-Store": true,
-    "Multi-Locale": true,
-    "Multi-Currency": true,
-    "Volume Prices": true,
-    "Configurable Products": true,
-    "Quotation & Offer Management": true,
-    "Packaging Units": true,
-    "Measurement Units": true,
-    "Approval Workflows": true,
-    "Shopping Lists": true,
-    "Business Units & Organizations": true,
-    "Roles & Permissions": true,
-    "Products-per-Customer": true,
-    "Price-per-Customer": true,
+    "Basic B2C Features": {
+      "Status": 2,
+      "Source": ""
+    },
+    "Search & Filtering": {
+      "Status": 2,
+      "Source": ""
+    },
+    "Gift Cards": {
+      "Status": 2,
+      "Source": ""
+    },
+    "CMS": {
+      "Status": 2,
+      "Source": ""
+    },
+    "OMS": {
+      "Status": 2,
+      "Source": ""
+    },
+    "PIM": {
+      "Status": 2,
+      "Source": ""
+    },
+    "Call Center": {
+      "Status": 2,
+      "Source": ""
+    },
+    "Multi-Warehouse": {
+      "Status": 2,
+      "Source": ""
+    },
+    "Location-Based Inventory": {
+      "Status": 2,
+      "Source": ""
+    },
+    "Multi-Store": {
+      "Status": 2,
+      "Source": ""
+    },
+    "Multi-Locale": {
+      "Status": 2,
+      "Source": ""
+    },
+    "Multi-Currency": {
+      "Status": 2,
+      "Source": ""
+    },
+    "Volume Prices": {
+      "Status": 2,
+      "Source": ""
+    },
+    "Configurable Products": {
+      "Status": 2,
+      "Source": ""
+    },
+    "Quotation & Offer Management": {
+      "Status": 2,
+      "Source": ""
+    },
+    "Packaging Units": {
+      "Status": 2,
+      "Source": ""
+    },
+    "Measurement Units": {
+      "Status": 2,
+      "Source": ""
+    },
+    "Approval Workflows": {
+      "Status": 2,
+      "Source": ""
+    },
+    "Shopping Lists": {
+      "Status": 2,
+      "Source": ""
+    },
+    "Business Units & Organizations": {
+      "Status": 2,
+      "Source": ""
+    },
+    "Roles & Permissions": {
+      "Status": 2,
+      "Source": ""
+    },
+    "Products-per-Customer": {
+      "Status": 2,
+      "Source": ""
+    },
+    "Price-per-Customer": {
+      "Status": 2,
+      "Source": ""
+    },
     "Merchant Portal": false,
-    "Multi-Merchant": true,
+    "Multi-Merchant": {
+      "Status": 2,
+      "Source": ""
+    },
     "B2C Features": 13,
     "B2B Features": 10,
     "Marketplace Features": 1
@@ -896,22 +1186,55 @@
     "Repository Created": "",
     "Summary of License": "",
     "Code": "",
-    "Ready": true,
+    "Ready": {
+      "Status": 2,
+      "Source": ""
+    },
     "Mobile App approach": "Since Scayle doesn’t provide a mobile boilerplate, you’ll need to build your own app using the REST APIs.",
-    "Basic B2C Features": true,
-    "Search & Filtering": true,
-    "Gift Cards": true,
+    "Basic B2C Features": {
+      "Status": 2,
+      "Source": ""
+    },
+    "Search & Filtering": {
+      "Status": 2,
+      "Source": ""
+    },
+    "Gift Cards": {
+      "Status": 2,
+      "Source": ""
+    },
     "CMS": false,
     "OMS": false,
-    "PIM": true,
+    "PIM": {
+      "Status": 2,
+      "Source": ""
+    },
     "Call Center": false,
-    "Multi-Warehouse": true,
-    "Location-Based Inventory": true,
-    "Multi-Store": true,
-    "Multi-Locale": true,
-    "Multi-Currency": true,
+    "Multi-Warehouse": {
+      "Status": 2,
+      "Source": ""
+    },
+    "Location-Based Inventory": {
+      "Status": 2,
+      "Source": ""
+    },
+    "Multi-Store": {
+      "Status": 2,
+      "Source": ""
+    },
+    "Multi-Locale": {
+      "Status": 2,
+      "Source": ""
+    },
+    "Multi-Currency": {
+      "Status": 2,
+      "Source": ""
+    },
     "Volume Prices": false,
-    "Configurable Products": true,
+    "Configurable Products": {
+      "Status": 2,
+      "Source": ""
+    },
     "Quotation & Offer Management": false,
     "Packaging Units": false,
     "Measurement Units": false,
@@ -1012,7 +1335,10 @@
     "Repository Created": "5/3/2018 3:00:31 PM",
     "Summary of License": "",
     "Code": "PHP",
-    "Ready": true,
+    "Ready": {
+      "Status": 2,
+      "Source": ""
+    },
     "Mobile App approach": "",
     "Basic B2C Features": false,
     "Search & Filtering": false,
@@ -1070,7 +1396,10 @@
     "Repository Created": "3/10/2008 3:45:35 PM",
     "Summary of License": "",
     "Code": "Ruby",
-    "Ready": true,
+    "Ready": {
+      "Status": 2,
+      "Source": ""
+    },
     "Mobile App approach": "",
     "Basic B2C Features": false,
     "Search & Filtering": false,
@@ -1128,33 +1457,111 @@
     "Repository Created": "",
     "Summary of License": "",
     "Code": "",
-    "Ready": true,
+    "Ready": {
+      "Status": 2,
+      "Source": ""
+    },
     "Mobile App approach": "",
-    "Basic B2C Features": true,
-    "Search & Filtering": true,
-    "Gift Cards": true,
-    "CMS": true,
-    "OMS": true,
-    "PIM": true,
-    "Call Center": true,
-    "Multi-Warehouse": true,
-    "Location-Based Inventory": true,
-    "Multi-Store": true,
-    "Multi-Locale": true,
-    "Multi-Currency": true,
-    "Volume Prices": true,
-    "Configurable Products": true,
-    "Quotation & Offer Management": true,
-    "Packaging Units": true,
-    "Measurement Units": true,
-    "Approval Workflows": true,
-    "Shopping Lists": true,
-    "Business Units & Organizations": true,
-    "Roles & Permissions": true,
-    "Products-per-Customer": true,
-    "Price-per-Customer": true,
-    "Merchant Portal": true,
-    "Multi-Merchant": true,
+    "Basic B2C Features": {
+      "Status": 2,
+      "Source": ""
+    },
+    "Search & Filtering": {
+      "Status": 2,
+      "Source": ""
+    },
+    "Gift Cards": {
+      "Status": 2,
+      "Source": ""
+    },
+    "CMS": {
+      "Status": 2,
+      "Source": ""
+    },
+    "OMS": {
+      "Status": 2,
+      "Source": ""
+    },
+    "PIM": {
+      "Status": 2,
+      "Source": ""
+    },
+    "Call Center": {
+      "Status": 2,
+      "Source": ""
+    },
+    "Multi-Warehouse": {
+      "Status": 2,
+      "Source": ""
+    },
+    "Location-Based Inventory": {
+      "Status": 2,
+      "Source": ""
+    },
+    "Multi-Store": {
+      "Status": 2,
+      "Source": ""
+    },
+    "Multi-Locale": {
+      "Status": 2,
+      "Source": ""
+    },
+    "Multi-Currency": {
+      "Status": 2,
+      "Source": ""
+    },
+    "Volume Prices": {
+      "Status": 2,
+      "Source": ""
+    },
+    "Configurable Products": {
+      "Status": 2,
+      "Source": ""
+    },
+    "Quotation & Offer Management": {
+      "Status": 2,
+      "Source": ""
+    },
+    "Packaging Units": {
+      "Status": 2,
+      "Source": ""
+    },
+    "Measurement Units": {
+      "Status": 2,
+      "Source": ""
+    },
+    "Approval Workflows": {
+      "Status": 2,
+      "Source": ""
+    },
+    "Shopping Lists": {
+      "Status": 2,
+      "Source": ""
+    },
+    "Business Units & Organizations": {
+      "Status": 2,
+      "Source": ""
+    },
+    "Roles & Permissions": {
+      "Status": 2,
+      "Source": ""
+    },
+    "Products-per-Customer": {
+      "Status": 2,
+      "Source": ""
+    },
+    "Price-per-Customer": {
+      "Status": 2,
+      "Source": ""
+    },
+    "Merchant Portal": {
+      "Status": 2,
+      "Source": ""
+    },
+    "Multi-Merchant": {
+      "Status": 2,
+      "Source": ""
+    },
     "B2C Features": 13,
     "B2B Features": 10,
     "Marketplace Features": 2
@@ -1186,7 +1593,10 @@
     "Repository Created": "11/5/2011 11:05:52 PM",
     "Summary of License": "",
     "Code": "PHP",
-    "Ready": true,
+    "Ready": {
+      "Status": 2,
+      "Source": ""
+    },
     "Mobile App approach": "",
     "Basic B2C Features": false,
     "Search & Filtering": false,
@@ -1244,35 +1654,110 @@
     "Repository Created": "6/11/2018 4:29:20 PM",
     "Summary of License": "",
     "Code": "Node.js",
-    "Ready": true,
+    "Ready": {
+      "Status": 2,
+      "Source": ""
+    },
     "Mobile App approach": "",
-    "Basic B2C Features": true,
-    "Search & Filtering": true,
-    "Gift Cards": false,
-    "CMS": false,
-    "OMS": false,
-    "PIM": false,
-    "Call Center": false,
-    "Multi-Warehouse": true,
-    "Location-Based Inventory": false,
-    "Multi-Store": true,
-    "Multi-Locale": true,
-    "Multi-Currency": true,
-    "Volume Prices": false,
-    "Configurable Products": false,
-    "Quotation & Offer Management": false,
-    "Packaging Units": false,
-    "Measurement Units": false,
-    "Approval Workflows": false,
-    "Shopping Lists": false,
-    "Business Units & Organizations": false,
-    "Roles & Permissions": true,
-    "Products-per-Customer": false,
-    "Price-per-Customer": false,
-    "Merchant Portal": false,
-    "Multi-Merchant": true,
-    "B2C Features": 6,
-    "B2B Features": 1,
-    "Marketplace Features": 1
+    "Basic B2C Features": {
+      "Status": 2,
+      "Source": ""
+    },
+    "Search & Filtering": {
+      "Status": 2,
+      "Source": "https://docs.vendure.io/reference/core-plugins/elasticsearch-plugin/"
+    },
+    "Gift Cards": {
+      "Status": 0,
+      "Source": ""
+    },
+    "CMS": {
+      "Status": 0,
+      "Source": ""
+    },
+    "OMS": {
+      "Status": 1,
+      "Source": "https://docs.vendure.io/guides/core-concepts/orders/#the-order-process"
+    },
+    "PIM": {
+      "Status": 1,
+      "Source": ""
+    },
+    "Call Center": {
+      "Status": 0,
+      "Source": ""
+    },
+    "Multi-Warehouse": {
+      "Status": 2,
+      "Source": ""
+    },
+    "Location-Based Inventory": {
+      "Status": 2,
+      "Source": ""
+    },
+    "Multi-Store": {
+      "Status": 2,
+      "Source": ""
+    },
+    "Multi-Locale": {
+      "Status": 2,
+      "Source": ""
+    },
+    "Multi-Currency": {
+      "Status": 2,
+      "Source": "https://docs.vendure.io/guides/core-concepts/money/"
+    },
+    "Configurable Products": {
+      "Status": 1,
+      "Source": "https://docs.vendure.io/guides/how-to/configurable-products/"
+    },
+    "Volume Prices": {
+      "Status": 0,
+      "Source": ""
+    },
+    "Quotation & Offer Management": {
+      "Status": 0,
+      "Source": ""
+    },
+    "Packaging Units": {
+      "Status": 0,
+      "Source": ""
+    },
+    "Measurement Units": {
+      "Status": 0,
+      "Source": ""
+    },
+    "Approval Workflows": {
+      "Status": 0,
+      "Source": ""
+    },
+    "Shopping Lists": {
+      "Status": 0,
+      "Source": ""
+    },
+    "Business Units & Organizations": {
+      "Status": 0,
+      "Source": ""
+    },
+    "Roles & Permissions": {
+      "Status": 1,
+      "Source": "https://docs.vendure.io/guides/core-concepts/auth/#roles--permissions"
+    },
+    "Products-per-Customer": {
+      "Status": 0,
+      "Source": ""
+    },
+    "Price-per-Customer": {
+      "Status": 0,
+      "Source": ""
+    },
+    "Multi-Merchant": {
+      "Status": 2,
+      "Source": "https://docs.vendure.io/guides/how-to/multi-vendor-marketplaces/"
+    },
+    "Merchant Portal": {
+      "Status": null,
+      "Source": ""
+    }
   }
 ]
