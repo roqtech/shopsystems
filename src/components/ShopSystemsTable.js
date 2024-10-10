@@ -17,7 +17,7 @@ function DefaultColumnFilter({ column: { filterValue, preFilteredRows, setFilter
     );
 }
 
-export default function ShopSystemTable({ license, cols }) {
+export default function ShopSystemTable({ name, license, cols }) {
     const selectedCols = useMemo(
         () => (cols ? cols.split(',').map(c => c.trim()) : []),
         [cols]
@@ -57,6 +57,14 @@ export default function ShopSystemTable({ license, cols }) {
             'OS license': {
                 Header: 'OS license',
                 accessor: 'OS license',
+            },
+            'Repository': {
+                Header: 'Repository',
+                accessor: 'Repository',
+            },
+            'Stars': {
+                Header: 'Stars',
+                accessor: 'Stars',
             },
             'Architecture': {
                 Header: 'Architecture',
@@ -135,6 +143,9 @@ export default function ShopSystemTable({ license, cols }) {
     const filteredData = useMemo(() => {
         if (license) {
             return data.filter(row => row['License'] === license);
+        }
+        if (name) {
+            return data.filter(row => row['Name'] === name);
         }
         return data;
     }, [license]);

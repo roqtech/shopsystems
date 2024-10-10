@@ -29,8 +29,7 @@
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
 }
 
-/* Custom divider style */
-.custom-divider {
+hr {
   border: 0;
   height: 1px;
   background: repeating-linear-gradient(90deg, transparent, transparent 4px, #ccc 4px, #ccc 8px);

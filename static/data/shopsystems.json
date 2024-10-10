@@ -1664,7 +1664,7 @@
       "Source": ""
     },
     "Search & Filtering": {
-      "Status": 2,
+      "Status": 1,
       "Source": "https://docs.vendure.io/reference/core-plugins/elasticsearch-plugin/"
     },
     "Gift Cards": {
@@ -1756,7 +1756,7 @@
       "Source": "https://docs.vendure.io/guides/how-to/multi-vendor-marketplaces/"
     },
     "Merchant Portal": {
-      "Status": null,
+      "Status": 0,
       "Source": ""
     }
   }
