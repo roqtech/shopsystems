@@ -3,7 +3,6 @@ import { Tooltip } from 'react-tooltip';
 import 'react-tooltip/dist/react-tooltip.css'; // TODO move somewhere else
 import data from '/static/data/shopsystems.json';
 
-
 export default function FeatureTable({ name, cols }) {
     const selectedCols = useMemo(
         () => (cols ? cols.split(',').map(c => c.trim()) : []),
@@ -21,15 +20,11 @@ export default function FeatureTable({ name, cols }) {
         return <p>No matching data found.</p>;
     }
 
-    const featureKeys = Object.keys(filteredData[0]).filter(
-        key => key !== 'Name' && selectedCols.includes(key)
-    );
+    // Ensure featureKeys are ordered as per the `cols` prop
+    const featureKeys = selectedCols.filter(key => filteredData[0].hasOwnProperty(key));
 
     return (
         <div className="feature-table-container" style={{fontSize: '13px', width: '100%'}}>
-
-
-
             {filteredData.map((row, rowIndex) => (
                 <table key={rowIndex} className="feature-table" style={{border: '0'}}>
                     <tbody>
@@ -44,9 +39,7 @@ export default function FeatureTable({ name, cols }) {
                         const statusIcon = {
                             3: <svg xmlns='http://www.w3.org/2000/svg' width='16' height='16' viewBox='0 0 16 16'>
                                 <circle cx='8' cy='8' r='7' fill='none' stroke='#22c55e' strokeWidth='2'/>
-
                                 <circle cx='8' cy='8' r='4' fill='#22c55e'/>
-
                                 <line x1='8' y1='0' x2='8' y2='3' stroke='#22c55e' strokeWidth='1'/>
                                 <line x1='8' y1='13' x2='8' y2='16' stroke='#22c55e' strokeWidth='1'/>
                                 <line x1='0' y1='8' x2='3' y2='8' stroke='#22c55e' strokeWidth='1'/>
@@ -55,8 +48,7 @@ export default function FeatureTable({ name, cols }) {
                                 <line x1='12' y1='2' x2='14' y2='4' stroke='#22c55e' strokeWidth='1'/>
                                 <line x1='2' y1='12' x2='4' y2='14' stroke='#22c55e' strokeWidth='1'/>
                                 <line x1='12' y1='12' x2='14' y2='14' stroke='#22c55e' strokeWidth='1'/>
-                            </svg>
-                            ,
+                            </svg>,
                             2: <svg xmlns='http://www.w3.org/2000/svg' width='16' height='16' fill='#22c55e'
                                     viewBox='0 0 16 16'>
                                 <circle cx='8' cy='8' r='8'/>
@@ -74,8 +66,7 @@ export default function FeatureTable({ name, cols }) {
                                     viewBox='0 0 16 16'>
                                 <circle cx='8' cy='8' r='8'/>
                             </svg>,
-                        }
-                            [status] || <span style={{color: 'gray', fontWeight: 'bold'}}>?</span>;
+                        }[status] || <span style={{color: 'gray', fontWeight: 'bold'}}>?</span>;
 
                         const keyContent = (status === 2 || status === 1) ? <b>{key}</b> :
                             <span style={{color: 'gray'}}>{key}</span>;

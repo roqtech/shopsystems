@@ -16,30 +16,24 @@ This page reflects our views and assessments. All information is sourced from pu
     <div className="row">
         <div className="col col--4">
             <div className="col-demo">
-                <h3>⭐ Highlights</h3>
-                <ul>
-                    <li>Clean, modular codebase built on popular frameworks</li>
-                    <li>Lightweight framework for rapid development</li>
-                </ul>
+                #### ⭐ Highlights
+                * Clean, modular codebase built on popular frameworks
+                * Lightweight framework for rapid development
             </div>
         </div>
         <div className="col col--4">
             <div className="col-demo">
-                <h3>👍 When to use</h3>
-                <ul>
-                    <li>Startups outgrowing Shopify, needing code-level adjustments</li>
-                    <li>Developer-driven teams</li>
-                </ul>
+                #### 👍 When to use
+                * Startups outgrowing Shopify, needing code-level adjustments
+                * Developer-driven teams
             </div>
         </div>
         <div className="col col--4">
             <div className="col-demo">
-                <h3>👎 When to avoid</h3>
-                <ul>
-                    <li>Projects with extensive requirements and marketplaces</li>
-                    <li>Companies needing contractual agreements, compliance, or high-level support</li>
-                    <li>Projects requiring vendor-managed hosting</li>
-                </ul>
+                #### 👎 When to avoid
+                * Projects with extensive requirements and marketplaces
+                * Companies needing contractual agreements, compliance, or high-level support
+                * Projects requiring vendor-managed hosting
             </div>
         </div>
     </div>
@@ -49,37 +43,56 @@ This page reflects our views and assessments. All information is sourced from pu
 
 ## Functionality
 
-### Feature overview
-
-Vendure is ideal for B2C use cases and offers flexibility for basic marketplace scenarios thanks to its “multi-everything” approach.
-
-While not specifically designed for B2B, Vendure is still commonly used in these scenarios due to its simple architecture and ease of development.
-
-Vendure also supports enterprise-level features, such as SSO integration with providers like Okta.
-
-Although Vendure is open-source, some official features require separate licensing. For example, the “wishlist” feature costs €480 per year.
-[🌐](https://vendure.io/hub/vendure-wishlist-plugin)
+As a headless system that
+functions more like a framework, you may need to complete or customize certain features to fit your
+specific needs.
 
 <div className="container">
     <div className="row">
         <div className="col col--4">
             <div className="col-demo">
                 ### B2C
-                <FeatureTable name="Vendure"
-                              cols="Basic B2C Features,Search & Filtering,Gift Cards,CMS,OMS,PIM,Call Center,Multi-Warehouse,Multi-Store,Multi-Locale,Multi-Currency,Configurable Products"/>
+
+                Vendure comes with all essential features for B2C use cases.
             </div>
         </div>
         <div className="col col--4">
             <div className="col-demo">
                 ### B2B
-                <FeatureTable name="Vendure"
-                              cols="Volume Prices,Quotation & Offer Management,Packaging Units,Measurement Units,Approval Workflows,Shopping Lists,Business Units & Organizations,Roles & Permissions,Products-per-Customer,Price-per-Customer"/>
+
+                Although its B2B feature set is not fully developed, Vendure is still frequently used for B2B scenarios
+                because of its simple architecture and ease of development.
             </div>
         </div>
         <div className="col col--4">
             <div className="col-demo">
                 ### Marketplace
-                <FeatureTable name="Vendure" cols="Multi-Merchant, Merchant Portal"/>
+
+                Vendure's multi-channel capability prepares the system for marketplace scenarios, however it doesn't ship with a dedicated merchant portal.
+            </div>
+        </div>
+    </div>
+
+</div>
+
+
+<div className="container">
+    <div className="row">
+        <div className="col col--4">
+            <div className="col-demo">
+                <FeatureTable name="Vendure"
+                              cols="B2C Storefront,Default B2C Features,CMS, Multi-Locale, Multi-Store, Multi-Currency"/>
+            </div>
+        </div>
+        <div className="col col--4">
+            <div className="col-demo">
+                <FeatureTable name="Vendure"
+                              cols="B2B Storefront,Business Units & Organizations,Roles & Permissions,Quotation & Offer Management,Approval Workflows,Price-per-Customer"/>
+            </div>
+        </div>
+        <div className="col col--4">
+            <div className="col-demo">
+                <FeatureTable name="Vendure" cols="Merchant Portal, Multi-Merchant"/>
             </div>
         </div>
     </div>

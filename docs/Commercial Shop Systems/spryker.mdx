@@ -1,0 +1,294 @@
+import React from 'react';
+import CaseStudyTable from '/src/components/CaseStudyTable';
+import FeatureTable from '/src/components/FeatureTable';
+import ShopSystemsTable from '/src/components/ShopSystemsTable';
+
+# Spryker
+
+:::info
+This page reflects our views and assessments. All information is sourced from publicly available information and does not represent the vendor’s official position.
+:::
+
+<ShopSystemsTable name="Spryker" cols="OS license,Code, Repository, Stars"/>
+
+## Evaluation
+<div className="container">
+    <div className="row">
+        <div className="col col--4">
+            <div className="col-demo">
+                #### ⭐ Highlights
+                * Spryker has a very broad and deep feature set, making it ideal for sophisticated projects, such as
+                international B2B marketplaces for spare parts.
+                * Spryker’s code is fully open and extendable, allowing for extensive customization.
+                * Spryker ships with fully-working demo shops for all kind of scenarios
+                * Spryker provides full hosting infrastructure on AWS.
+            </div>
+        </div>
+        <div className="col col--4">
+            <div className="col-demo">
+                #### 👍 When to use
+                * For projects with advanced requirements, particularly in B2B and/or marketplaces.
+                * For companies with mature in-house IT teams that can fully utilize Spryker’s modular architecture.
+            </div>
+        </div>
+        <div className="col col--4">
+            <div className="col-demo">
+                #### 👎 When to avoid
+                * For projects with standard requirements and low complexity, such as a basic B2C shop for shoes.
+                * For companies lacking or not planning to have a senior-level IT team.
+            </div>
+        </div>
+    </div>
+</div>
+
+---
+
+## Functionality
+
+Spryker is suitable for B2C [🌐](https://spryker.com/app/uploads/2021/03/2021_Handout_Spryker_B2C_Features_EN.pdf)  B2B [🌐](https://spryker.com/app/uploads/2021/03/2021_Handout_Spryker_B2B_Features_EN.pdf) and Marketplace use cases. It includes all standard features along with additional, complex functionality that most of its competitors do not offer, like measurement/packing units, gift cards, punch out, approvals, quotation, etc.
+
+Spryker can be combined with other solutions, but is also capable to run in a stand-alone mode, because it’s fully equipped with most required features.
+
+
+<div className="container">
+    <div className="row">
+        <div className="col col--4">
+            <div className="col-demo">
+                ### B2C
+
+                Spryker has a complete set of B2C features.
+            </div>
+        </div>
+        <div className="col col--4">
+            <div className="col-demo">
+                ### B2B
+
+                Spryker has a complete set of B2B features.
+            </div>
+        </div>
+        <div className="col col--4">
+            <div className="col-demo">
+                ### Marketplace
+
+                Spryker can be used for marketplace-scenarions without any additional vendor.
+            </div>
+        </div>
+    </div>
+
+</div>
+<div className="container">
+    <div className="row">
+        <div className="col col--4">
+            <div className="col-demo">
+                <FeatureTable name="Spryker"
+                              cols="B2C Storefront,Default B2C Features,CMS, Multi-Locale, Multi-Store, Multi-Currency"/>
+            </div>
+        </div>
+        <div className="col col--4">
+            <div className="col-demo">
+                <FeatureTable name="Spryker"
+                              cols="B2B Storefront,Business Units & Organizations,Roles & Permissions,Quotation & Offer Management,Approval Workflows,Price-per-Customer"/>
+            </div>
+        </div>
+        <div className="col col--4">
+            <div className="col-demo">
+                <FeatureTable name="Spryker" cols="Merchant Portal, Multi-Merchant"/>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+
+
+---
+
+## Development approach
+
+<div className="container">
+    <div className="row">
+        <div className="col col--6">
+            <div className="col-demo">
+                ### Demo shops
+
+                Spryker is a very feature-rich system, that represents totally different use cases. For this reason,
+                there are multiple templates (Demo Shops) available to start with:
+
+                - B2C Shop ([code](https://github.com/spryker-shop/b2c-demo-shop) |
+                [demo](https://www.de.b2c.demo-spryker.com/) |
+                [doc](https://docs.spryker.com/docs/about/all/b2c-suite.html)) - PHP-based, "Yves"
+                - B2C Shop ([demo](https://www.b2c.oryx.demo-spryker.com/) |
+                [doc](https://docs.spryker.com/docs/dg/dev/frontend-development/202404.0/oryx/oryx.html)) - Web
+                Components, "Oryx"
+                - B2B Shop ([code](https://github.com/spryker-shop/b2b-demo-shop) |
+                [demo](https://www.de.b2b.demo-spryker.com/) |
+                [doc](https://docs.spryker.com/docs/about/all//b2b-suite.html))
+                - B2C Marketplace ([code](https://github.com/spryker-shop/b2c-demo-marketplace) |
+                [demo](https://www.de.b2c-marketplace.demo-spryker.com/) |
+                [doc](https://docs.spryker.com/docs/about/all/spryker-marketplace/marketplace-b2c-suite.html))
+                - B2B Marketplace ([code](https://github.com/spryker-shop/b2b-demo-marketplace) |
+                [demo](https://www.de.b2b-marketplace.demo-spryker.com/) |
+                [doc](https://docs.spryker.com/docs/about/all/spryker-marketplace/marketplace-b2b-suite.html))
+                - Suite ([code](https://github.com/spryker-shop/suite)) - The suite is a special demo shop, that holds
+                all of Spryker's functionality at once.
+            </div>
+        </div>
+        <div className="col col--6">
+            <div className="col-demo">
+                <img src="/img/spryker-demo.png" alt="Medusa Starter Kit" style={{width: '100%'}}/>
+            </div>
+        </div>
+    </div>
+</div>
+
+---
+
+<div className="container">
+    <div className="row">
+        <div className="col col--6">
+            <div className="col-demo">
+                <img src="/img/spryker-modules.png" alt="Medusa Architecture" style={{width: '100%'}}/>
+            </div>
+        </div>
+        <div className="col col--6">
+
+            <div className="col-demo">
+                ### Modularity & Flexibility
+
+                Spryker is a highly modular system that allows projects to select only the modules they need. The
+                system's architecture can vary depending on the project's requirements (see examples below).
+
+                Developers have the option to assemble the modules themselves or start with one of the pre-built
+                templates (as shown in the demo shops above).
+
+                Technically, this assembly is done by selecting modules through Composer (PHP’s package manager, similar
+                to NPM for JavaScript) and provisioning applications using Docker Compose.
+            </div>
+        </div>
+    </div>
+</div>
+
+    ---
+
+<div className="container">
+    <div className="row">
+        <div className="col col--4">
+            <div className="col-demo">
+                ### B2C & B2B setup
+
+                Spryker’s default architecture consists of a storefront and a backend (Gateway).
+
+                For performance and scalability reasons, the storefront does not directly access the SQL database.
+                Instead, it retrieves all data from a key-value storage system and a search engine.
+            </div>
+        </div>
+        <div className="col col--8">
+            <div className="col-demo">
+                <img src="/img/spryker-architecture.png" alt="Medusa Admin UI"
+                     style={{width: '100%'}}/>
+            </div>
+        </div>
+    </div>
+</div>
+
+---
+
+<div className="container">
+    <div className="row">
+        <div className="col col--8">
+            <div className="col-demo">
+                <img src="/img/spryker-spa.png" alt="Medusa Admin UI"
+                     style={{width: '100%'}}/>
+            </div>
+        </div>
+        <div className="col col--4">
+            <div className="col-demo">
+                ### SPA Setup
+
+                Projects that prefer a single-page application (SPA) over Spryker's default PHP-rendered storefront
+                can opt to use Spryker’s framework called Oryx, which leverages web components and the Lit
+                framework.
+
+                In this setup, the storefront communicates with a public service called Glue, which exposes a REST
+                API.
+            </div>
+        </div>
+    </div>
+</div>
+
+---
+
+<div className="container">
+    <div className="row">
+        <div className="col col--4">
+            <div className="col-demo">
+                ### Marketplace
+
+                When using Spryker to implement a marketplace, you'll also utilize the Merchant Portal application. This is a user interface designed for merchants to manage their products and orders.
+
+
+            </div>
+        </div>
+        <div className="col col--8">
+            <div className="col-demo">
+                <img src="/img/spryker-marketplace.png" alt="Medusa Admin UI"
+                     style={{width: '100%'}}/>
+            </div>
+        </div>
+    </div>
+</div>
+
+---
+
+<div className="container">
+    <div className="row">
+        <div className="col col--4">
+            <div className="col-demo">
+                ### Back Office
+
+                Spryker includes an admin UI that can be extended at the code level to meet any requirements.
+
+
+            </div>
+        </div>
+        <div className="col col--8">
+            <div className="col-demo">
+                <img src="/img/spryker-backoffice.png" alt="Medusa Admin UI"
+                     style={{width: '100%'}}/>
+            </div>
+        </div>
+    </div>
+</div>
+
+---
+
+<div className="container">
+    <div className="row">
+        <div className="col col--4">
+            <div className="col-demo">
+                ### Hosting options
+
+                Shops or marketplaces built on Spryker are typically hosted on Spryker's PaaS+ [🌐](https://spryker.com/app/uploads/2021/10/Handout-Spryker-PaaS.pdf) solution, which provides managed hosting on AWS.
+
+                Each environment is a dedicated instance.
+
+
+            </div>
+        </div>
+        <div className="col col--8">
+            <div className="col-demo">
+                <img src="/img/spryker-hosting.png" alt="Medusa Admin UI"
+                     style={{width: '100%'}}/>
+            </div>
+        </div>
+    </div>
+</div>
+
+---
+
+### Case Studies
+
+All information is based on public sources and manually curated. Projects that are completely hidden from
+the public are excluded. Contact us to contribute [contact@roq.tech](mailto:contact@roq.tech)
+
+<CaseStudyTable system="Spryker" cols="Company,Shop URL,Industry,Type"/>
