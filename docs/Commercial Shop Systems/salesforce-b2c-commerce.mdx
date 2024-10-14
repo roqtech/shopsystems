@@ -1,0 +1,202 @@
+import React from 'react';
+import CaseStudyTable from '/src/components/CaseStudyTable';
+import FeatureTable from '/src/components/FeatureTable';
+import ShopSystemsTable from '/src/components/ShopSystemsTable';
+
+# Salesforce B2C Commerce
+
+:::info
+This page reflects our views and assessments. All information is sourced from publicly available information and does not represent the vendor’s official position.
+:::
+
+<ShopSystemsTable name="Commercetools" cols="OS license,Code, Repository, Stars"/>
+
+## Evaluation
+<div className="container">
+    <div className="row">
+        <div className="col col--4">
+            <div className="col-demo">
+                #### ⭐ Highlights
+                * Mature platform, based on Demandware which first version was launched in 2005
+            </div>
+        </div>
+        <div className="col col--4">
+            <div className="col-demo">
+                #### 👍 When to use
+                * Companies that are already invested into the Salesforce tool landscape, want to fully outsource their
+                B2C shop to a SaaS platform.
+            </div>
+        </div>
+        <div className="col col--4">
+            <div className="col-demo">
+                #### 👎 When to avoid
+                * B2B scenarios should look at Salesforce’s B2B Commerce solution instead
+                * Projects with unique requirements that require frequent or extensive custom code changes.
+                * Companies that require an on-premise solution for compliance, data security, or other reasons.
+            </div>
+        </div>
+    </div>
+</div>
+
+---
+
+## Functionality
+
+<div className="container">
+    <div className="row">
+        <div className="col col--4">
+            <div className="col-demo">
+                ### B2C
+
+                Salesforce B2C Commerce is feature-complete for B2C. See their Feature guide: [🌐](https://help.salesforce.com/s/articleView?id=cc.b2c_merchandising_your_site.htm&type=5)
+            </div>
+        </div>
+        <div className="col col--4">
+            <div className="col-demo">
+                ### B2B
+
+                Salesforce offers another system for B2B scenarios
+            </div>
+        </div>
+        <div className="col col--4">
+            <div className="col-demo">
+                ### Marketplace
+
+                Salesforce B2C Commerce isn't prepared for launching a marketplace
+            </div>
+        </div>
+    </div>
+
+</div>
+<div className="container">
+    <div className="row">
+        <div className="col col--4">
+            <div className="col-demo">
+                <FeatureTable name="Salesforce B2C Commerce"
+                              cols="B2C Storefront,Default B2C Features,CMS, Multi-Locale, Multi-Store, Multi-Currency"/>
+            </div>
+        </div>
+        <div className="col col--4">
+            <div className="col-demo">
+                <FeatureTable name="Salesforce B2C Commerce"
+                              cols="B2B Storefront,Business Units & Organizations,Roles & Permissions,Quotation & Offer Management,Approval Workflows,Price-per-Customer"/>
+            </div>
+        </div>
+        <div className="col col--4">
+            <div className="col-demo">
+                <FeatureTable name="Salesforce B2C Commerce" cols="Merchant Portal, Multi-Merchant"/>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+---
+
+:::warning
+Salesforce B2C Commerce and B2B Commerce isn’t the same system!
+:::
+
+<div className="container">
+    <div className="row">
+        <div className="col col--6">
+
+            <div className="col-demo">
+                ### Salesforce B2C Commerce
+
+                Originally known as [Demandware](https://en.wikipedia.org/wiki/Demandware), an early cloud-based e-commerce solution, it was acquired by Salesforce in 2016. Salesforce B2C Commerce focuses on B2C commerce for retail brands. The platform can be extended using Salesforce Commerce Cloud's proprietary scripting language, ISML (Internet Store Markup Language), along with JavaScript for front-end customizations.
+            </div>
+        </div>
+        <div className="col col--6">
+            <div className="col-demo">
+                ### Salesforce B2B Commerce
+
+                In contrast to the B2C system, the B2B Commerce solution is native to the Salesforce platform. As a result, it has a different architecture and requires different development skills, such as expertise in Apex, Lightning Web Components (LWC), and Salesforce's declarative tools, compared to the JavaScript and ISML-based development used in B2C Commerce. You can read more about the differences here: [🌐](https://www.salesforceben.com/salesforce-b2c-commerce-vs-b2b-commerce-what-are-the-differences/)
+            </div>
+        </div>
+    </div>
+</div>
+
+---
+
+## Development approach
+
+---
+
+<div className="container">
+    <div className="row">
+        <div className="col col--4">
+
+            <div className="col-demo">
+                ### Bird’s eye view
+
+                Salesforce B2C Commerce is a headless SaaS backend, often used with tools like Mulesoft for data integration and Einstein for built-in AI capabilities.
+            </div>
+        </div>
+        <div className="col col--8">
+            <div className="col-demo">
+                <img src="/img/salesforce-b2c-architecture.png" alt="Salesforce B2C Commerce architecture overview" style={{width: '100%'}}/>
+            </div>
+        </div>
+    </div>
+</div>
+
+---
+
+<div className="container">
+    <div className="row">
+        <div className="col col--6">
+
+            <div className="col-demo">
+                ### Extension concept (Cartridges)
+
+                Although Salesforce B2C Commerce (SFCC) is a closed-source system, it can be extended at the code level using a modular approach called Cartridges.
+
+                Unlike other SaaS platforms that rely on APIs or events for integration, Cartridges function as Java plugins within the same JVM, allowing direct access to the core system.
+
+                Cartridges are written in JavaScript, uploaded to the Cartridge directory, and executed within SFCC using the Rhino Engine, which compiles the JavaScript into Java code.
+            </div>
+        </div>
+        <div className="col col--6">
+            <div className="col-demo">
+                <img src="/img/salesforce-b2c-cartridges.png" alt="Salesforce B2C Commerce cartridges overview" style={{width: '100%'}}/>
+            </div>
+        </div>
+    </div>
+</div>
+
+---
+
+<div className="container">
+    <div className="row">
+        <div className="col col--6">
+
+            <div className="col-demo">
+                ### Storefront approach
+
+                Projects can be developed from scratch or by using the "Retail React App," a template designed for B2C shops. The PWA, built with React and Chakra UI, runs on Salesforce's Managed Runtime, eliminating the need for external hosting.
+
+                -   Demo: [🌐](https://pwa-kit.mobify-storefront.com/)
+                -   Guide: [🌐](https://developer.salesforce.com/docs/commerce/pwa-kit-managed-runtime/guide/retail-react-app.html)
+                -   Code: [🌐](https://github.com/SalesforceCommerceCloud/pwa-kit)
+                -   Figma Design Kit: [🌐](https://www.figma.com/design/gOUKasMrK16zS5qrLCTSJl/PWA-Design-Kit?node-id=406-21&node-type=frame)
+
+
+            </div>
+        </div>
+        <div className="col col--6">
+            <div className="col-demo">
+                <img src="/img/salesforce-b2c-demo.png" alt="Salesforce B2C Commerce demo interface" style={{width: '100%'}}/>
+            </div>
+        </div>
+    </div>
+</div>
+
+---
+
+### Case Studies
+
+All information is based on public sources and manually curated. Projects that are completely hidden from
+the public are excluded. Contact us to contribute [contact@roq.tech](mailto:contact@roq.tech)
+
+<CaseStudyTable system="Salesforce B2C Commerce" cols="Company,Shop URL,Industry,Type"/>

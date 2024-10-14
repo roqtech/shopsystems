@@ -1,0 +1,278 @@
+import React from 'react';
+import CaseStudyTable from '/src/components/CaseStudyTable';
+import FeatureTable from '/src/components/FeatureTable';
+import ShopSystemsTable from '/src/components/ShopSystemsTable';
+
+# SAP Commerce Cloud
+
+:::info
+This page reflects our views and assessments. All information is sourced from publicly available information and does not represent the vendor’s official position.
+:::
+
+<ShopSystemsTable name="Commercetools" cols="OS license,Code, Repository, Stars"/>
+
+## Evaluation
+<div className="container">
+    <div className="row">
+        <div className="col col--4">
+            <div className="col-demo">
+                #### ⭐ Highlights
+                * SAP Commerce, especially when integrated with other SAP products like S/4HANA, is extremely powerful and capable of serving even the largest enterprises.
+                * The underlying Java platform (Hybris) was released in 2001, making SAP Commerce a highly mature and battle-tested system.
+            </div>
+        </div>
+        <div className="col col--4">
+            <div className="col-demo">
+                #### 👍 When to use
+                * Companies with established Java teams that heavily use SAP ecosystem services may effectively leverage the full capabilities of this extensive system.
+                * Companies with extreme requirements in with regard to scalability
+            </div>
+        </div>
+        <div className="col col--4">
+            <div className="col-demo">
+                #### 👎 When to avoid
+                * Companies seeking a more lightweight solution and lacking extensive in-house SAP expertise may find SAP Commerce overly complex for their needs.
+            </div>
+        </div>
+    </div>
+</div>
+
+---
+
+## Functionality
+
+<div className="container">
+    <div className="row">
+        <div className="col col--4">
+            <div className="col-demo">
+                ### B2C
+
+                SAP Commerce is feature-complete for B2C scenarios.
+            </div>
+        </div>
+        <div className="col col--4">
+            <div className="col-demo">
+                ### B2B
+
+                SAP Commerce is feature-complete for B2B scenarios.
+            </div>
+        </div>
+        <div className="col col--4">
+            <div className="col-demo">
+                ### Marketplace
+
+                SAP Commerce is limited in supporting Marketplace use cases, as it does not include a dedicated merchant portal. For this purpose, SAP officially recommends an additional vendor like Mirakl [🌐](https://www.sap.com/products/crm/commerce-marketplace-management.html).
+            </div>
+        </div>
+    </div>
+
+</div>
+<div className="container">
+    <div className="row">
+        <div className="col col--4">
+            <div className="col-demo">
+                <FeatureTable name="SAP Commerce"
+                              cols="B2C Storefront,Default B2C Features,CMS, Multi-Locale, Multi-Store, Multi-Currency"/>
+            </div>
+        </div>
+        <div className="col col--4">
+            <div className="col-demo">
+                <FeatureTable name="SAP Commerce"
+                              cols="B2B Storefront,Business Units & Organizations,Roles & Permissions,Quotation & Offer Management,Approval Workflows,Price-per-Customer"/>
+            </div>
+        </div>
+        <div className="col col--4">
+            <div className="col-demo">
+                <FeatureTable name="SAP Commerce" cols="Merchant Portal, Multi-Merchant"/>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+## Development approach
+
+---
+
+<div className="container">
+    <div className="row">
+        <div className="col col--6">
+
+            <div className="col-demo">
+                ### Bird’s eye view
+
+                SAP Commerce Cloud is a suite of e-commerce services run by SAP on Azure.
+
+                Its core component, the "Platform," is a headless application built on Java and Spring, previously known as Hybris.
+
+                The storefront can either be built from scratch or using the "Composable Storefront" framework, which is pre-integrated with SAP's CMS, SmartEdit.
+
+                Overview: [🌐](https://learning.sap.com/learning-journeys/explore-the-technical-essentials-of-sap-commerce-cloud/sap-commerce-cloud-system-architecture_eaf56ab6-5a53-47a2-a3c2-67236f1057a8)
+            </div>
+        </div>
+        <div className="col col--6">
+            <div className="col-demo">
+                <img src="/img/sap-commerce-architecture.png" alt="SAP Commerce Cloud architecture overview" style={{width: '100%'}}/>
+            </div>
+        </div>
+    </div>
+</div>
+
+---
+
+<div className="container">
+    <div className="row">
+        <div className="col col--12">
+
+            <div className="col-demo">
+                ### Extendability
+
+                There are multiple approaches to tailor SAP Commerce to specific needs:
+
+                -   Full Source Code Access: Licensed customers receive access to the complete source code of SAP Commerce (formerly Hybris). This allows for in-depth customization of the platform. SAP Commerce provides an extension architecture designed to ensure that customizations do not interfere with updates, enabling the platform to remain updatable even after modifications.
+            </div>
+        </div>
+    </div>
+</div>
+<div className="container">
+    <div className="row">
+
+        <div className="col col--6">
+            <div className="col-demo">
+                -   Side-by-Side Extensibility: This approach focuses on maintaining a clean core without making code-level changes. Instead, businesses can build web services that integrate with SAP Commerce using APIs and events. SAP's Kyma Runtime [🌐](https://kyma-project.io/#/) running on an isolated Kubernetes cluster supports this by enabling the development of custom microservices and serverless functions. This allows for extensions without altering the core platform, ensuring updates and system stability are maintained.
+
+
+                ⚠️ Some customers have informed us that the Kyma runtime is a separate product, incurring additional licensing fees.
+            </div>
+        </div>
+        <div className="col col--6">
+
+            <div className="col-demo">
+                <img src="/img/sap-commerce-kyma.png" alt="SAP Commerce Cloud Kyma runtime integration" style={{width: '100%'}}/>
+            </div>
+        </div>
+    </div>
+</div>
+
+---
+
+<div className="container">
+    <div className="row">
+        <div className="col col--6">
+
+            <div className="col-demo">
+                ### Storefront approach
+
+                SAP offers a template-based solution called Composable Storefront, built on Angular. It is available exclusively to licensed customers.
+
+                However, there is an open-source alternative called "Spartacus," which can be used by customers of SAP Hybris on-premise (now end-of-life, as noted below). You can find the repository here: [🌐](https://github.com/SAP/spartacus/) and an official explanation video here: [🌐](https://microlearning.opensap.com/playlist/dedicated/178318381/1_sokuy66v/1_byncj8az)
+            </div>
+        </div>
+        <div className="col col--6">
+            <div className="col-demo">
+                <img src="/img/sap-commerce-demoshop.png" alt="SAP Commerce Cloud demo shop interface" style={{width: '100%'}}/>
+            </div>
+        </div>
+    </div>
+</div>
+<div className="container">
+    <div className="row">
+        <div className="col col--6">
+
+            <div className="col-demo">
+                The Composable Storefront application is pre-integrated with SAP’s CMS solution SmartEdit:
+            </div>
+        </div>
+
+        <div className="col col--6">
+            <div className="col-demo">
+                <img src="/img/sap-commerce-smartedit.png" alt="SmartEdit integration with Composable Storefront" style={{width: '100%'}}/>
+            </div>
+        </div>
+    </div>
+</div>
+---
+
+<div className="container">
+    <div className="row">
+        <div className="col col--6">
+
+            <div className="col-demo">
+                ### Admin UI
+
+                The shop is managed through the admin UI called "Backoffice," which is based on the open-source ZK framework [🌐](https://www.zkoss.org/) and can be fully customized at the code level.
+            </div>
+        </div>
+        <div className="col col--6">
+            <div className="col-demo">
+                <img src="/img/sap-commerce-adminui.png" alt="SAP Commerce Cloud Backoffice administration interface" style={{width: '100%'}}/>
+            </div>
+        </div>
+    </div>
+</div>
+---
+
+<div className="container">
+    <div className="row">
+        <div className="col col--6">
+
+            <div className="col-demo">
+                ### Integration into the SAP landscape
+
+                SAP offers a wide range of enterprise services. A typical SAP Commerce setup integrates with several of these services, like the SAP S/4HANA ERP system, via the Integration Extension Pack.
+            </div>
+        </div>
+        <div className="col col--6">
+            <div className="col-demo">
+                <img src="/img/sap-commerce-integrations.png" alt="SAP Commerce Cloud integration with SAP S/4HANA ERP system" style={{width: '100%'}}/>
+            </div>
+        </div>
+    </div>
+</div>
+
+---
+
+<div className="container">
+    <div className="row">
+        <div className="col col--12">
+
+            <div className="col-demo">
+                ### Hosting
+
+                :::info
+                While it was previously possible to self-host SAP Commerce, the on-premise version is now deprecated and will no longer be supported after mid-2026. Existing customers must transition to the cloud version or another shop system.
+                :::
+
+            </div>
+        </div>
+    </div>
+</div>
+
+<div className="container">
+    <div className="row">
+        <div className="col col--6">
+
+            <div className="col-demo">
+                SAP Commerce is hosted on the SAP Commerce Cloud Version 2 (CCv2), managed through a cloud portal. The automation engine provisions and deploys the storefront, SAP Commerce, and the Solr search engine.
+
+                SAP Commerce Cloud is operated on MS Azure.
+
+                The Angular-based Composable Storefront can be hosted either in SAP Commerce Cloud or with any other provider.
+            </div>
+        </div>
+        <div className="col col--6">
+            <div className="col-demo">
+                <img src="/img/sap-commerce-hosting.png" alt="SAP Commerce Cloud hosting infrastructure on MS Azure" style={{width: '100%'}}/>
+            </div>
+        </div>
+    </div>
+</div>
+
+---
+
+### Case Studies
+
+All information is based on public sources and manually curated. Projects that are completely hidden from
+the public are excluded. Contact us to contribute [contact@roq.tech](mailto:contact@roq.tech)
+
+<CaseStudyTable system="SAP Commerce" cols="Company,Shop URL,Industry,Type"/>

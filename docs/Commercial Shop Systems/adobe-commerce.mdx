@@ -1,0 +1,189 @@
+import React from 'react';
+import CaseStudyTable from '/src/components/CaseStudyTable';
+import FeatureTable from '/src/components/FeatureTable';
+import ShopSystemsTable from '/src/components/ShopSystemsTable';
+
+# Adobe Commerce
+
+:::info
+This page reflects our views and assessments. All information is sourced from publicly available information and does not represent the vendor’s official position.
+:::
+
+<ShopSystemsTable name="Adobe Commerce" cols="OS license,Code, Repository, Stars"/>
+
+## Evaluation
+<div className="container">
+    <div className="row">
+        <div className="col col--4">
+            <div className="col-demo">
+                #### ⭐ Highlights
+                * Adobe offers many additions as part of their Experience Platform
+                * Adobe offers both, a closed-source commercial and an open-source version of the system.
+                * On-premise hosting is still available
+            </div>
+        </div>
+        <div className="col col--4">
+            <div className="col-demo">
+                #### 👍 When to use
+                * For shops currently running on older versions of Magento 2 that need an upgrade or managed hosting
+                * For businesses heavily leveraging Adobe’s Experience Cloud Solutions
+            </div>
+        </div>
+        <div className="col col--4">
+            <div className="col-demo">
+                #### 👎 When to avoid
+                * Due to ongoing architecture changes by Adobe, avoid unless there is a strong reason to use it
+            </div>
+        </div>
+    </div>
+</div>
+
+---
+
+## Functionality
+
+The underlying Magento 2 is a robust, feature-rich platform for both B2C and B2B use cases.
+
+⚠️ However, as Adobe is adding services on-top, the overall out-of-the-box functionality may be affected or even reduced. We strongly recommend requesting a demo, especially for B2B features, as the official documentation still showcases these on the old Magento 2 storefront rather than the new Adobe Commerce Storefront. [🌐](https://experienceleague.adobe.com/en/docs/commerce-admin/b2b/quotes/quote-request)
+
+<div className="container">
+    <div className="row">
+        <div className="col col--4">
+            <div className="col-demo">
+                ### B2C
+
+                Adobe Commerce has a complete set of B2C features.
+            </div>
+        </div>
+        <div className="col col--4">
+            <div className="col-demo">
+                ### B2B
+
+                Adobe Commerce has a complete set of B2B features.
+            </div>
+        </div>
+        <div className="col col--4">
+            <div className="col-demo">
+                ### Marketplace
+
+                Adobe Commerce isn't prepared for marketplace scenarios.
+            </div>
+        </div>
+    </div>
+
+</div>
+<div className="container">
+    <div className="row">
+        <div className="col col--4">
+            <div className="col-demo">
+                <FeatureTable name="Adobe Commerce"
+                              cols="B2C Storefront,Default B2C Features,CMS, Multi-Locale, Multi-Store, Multi-Currency"/>
+            </div>
+        </div>
+        <div className="col col--4">
+            <div className="col-demo">
+                <FeatureTable name="Adobe Commerce"
+                              cols="B2B Storefront,Business Units & Organizations,Roles & Permissions,Quotation & Offer Management,Approval Workflows,Price-per-Customer"/>
+            </div>
+        </div>
+        <div className="col col--4">
+            <div className="col-demo">
+                <FeatureTable name="Adobe Commerce" cols="Merchant Portal, Multi-Merchant"/>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+---
+
+## Development approach
+
+:::warning
+The entire architecture is in a state of change, which, in our opinion, causes unnecessary risks and efforts for projects. Alternatively, you may decide to use the open source version of Magento 2 instead [🌐](https://developer.adobe.com/open/magento)
+:::
+
+---
+
+<div className="container">
+    <div className="row">
+        <div className="col col--4">
+            <div className="col-demo">
+                ### Bird’s eye view
+
+
+
+                Adobe Commerce is built on Magento 2, the successor to the most popular e-commerce platform of the 2010s.​
+
+                Adobe is transitioning its on-premise software, Magento, into a true multi-tenant SaaS application. Currently, it operates as a hybrid model with a managed Magento 2 instance per customer, alongside shared multi-tenant domain services.
+
+                Source: [🌐](https://experienceleague.adobe.com/en/docs/commerce-operations/implementation-playbook/architecture/enterprise-blueprint)
+            </div>
+        </div>
+        <div className="col col--8">
+            <div className="col-demo">
+                <img src="/img/adobe-architecture.png" alt="Adobe Commerce architecture overview" style={{width: '100%'}}/>
+            </div>
+        </div>
+    </div>
+</div>
+
+---
+
+<div className="container">
+    <div className="row">
+        <div className="col col--12">
+
+            <div className="col-demo">
+                ### Development approach
+
+                There are multiple approaches to customize a shop based on Adobe Commerce:
+
+                -   The storefront can be adjusted on code-level using the Adobe Commerce Storefront template
+                -   New apps can be developed and deployed using Adobe's low-code solution, App Builder. These Node.js-based apps integrate with the API Mesh and can react to Magento's events.
+                -   Any external software can be integrated via APIs
+                -   Developers may be able to extend the PHP-code of the underlying Magento 2 on code-level [🌐](https://developer.adobe.com/commerce/php/)\
+                ⚠️ However, as Adobe Commerce is transitioning into a multi-tenant SaaS platform, this approach isn't recommended. If source-code access is essential, the open-source version of Magento 2, maintained by Adobe, may be a better fit. [🌐](https://developer.adobe.com/open/magento)
+            </div>
+        </div>
+    </div>
+</div>
+
+---
+
+<div className="container">
+    <div className="row">
+        <div className="col col--4">
+
+            <div className="col-demo">
+                ### Storefront approach
+
+                Adobe Commerce provides a dedicated storefront solution known as the Adobe Commerce Storefront. Unlike other platforms that rely on popular frameworks like Next.js or Nuxt.js, this storefront is built using just Preact, a lightweight and performant alternative to React.
+
+                It utilizes a modular architecture with pre-built components ("Dropins") for core e-commerce functionalities, like product-details-page and cart.
+
+                There is an optional extension called Sidekick that enables data loading from Google Drive or SharePoint.
+
+                To our knowledge, Adobe's visual page builder, "Universal Editor" (part of Experience Manager, not Adobe Commerce), is not pre-integrated into this storefront.
+
+                Demo: [🌐](https://main--citisignal--adobedevxsc.aem.live/)
+
+                Installation Guide: [🌐](https://experienceleague.adobe.com/developer/commerce/storefront/get-started/)
+            </div>
+        </div>
+        <div className="col col--5">
+            <div className="col-demo">
+                <img src="/img/adobe-storefront.png" alt="Adobe Commerce storefront demo" style={{width: '100%'}}/>
+            </div>
+        </div>
+    </div>
+</div>
+
+---
+
+### Case Studies
+
+All information is based on public sources and manually curated. Projects that are completely hidden from
+the public are excluded. Contact us to contribute [contact@roq.tech](mailto:contact@roq.tech)
+
+<CaseStudyTable system="Adobe Commerce" cols="Company,Shop URL,Industry,Type"/>

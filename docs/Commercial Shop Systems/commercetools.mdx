@@ -1,0 +1,271 @@
+import React from 'react';
+import CaseStudyTable from '/src/components/CaseStudyTable';
+import FeatureTable from '/src/components/FeatureTable';
+import ShopSystemsTable from '/src/components/ShopSystemsTable';
+
+# Commercetools
+
+:::info
+This page reflects our views and assessments. All information is sourced from publicly available information and does not represent the vendor’s official position.
+:::
+
+<ShopSystemsTable name="Commercetools" cols="OS license,Code, Repository, Stars"/>
+
+## Evaluation
+<div className="container">
+    <div className="row">
+        <div className="col col--4">
+            <div className="col-demo">
+                #### ⭐ Highlights
+                * Commercetools covers all essential features for both B2C and B2B use cases.
+                * It hides much of its complexity internally, making it relatively easy to use.
+                * It doesn’t enforce the use of a specific programming language.
+                * Self-developed storefronts and middleware can be hosted by Commercetools, avoiding shared-responsibility situations.
+            </div>
+        </div>
+        <div className="col col--4">
+            <div className="col-demo">
+                #### 👍 When to use
+                * For enterprise customers with advanced yet standard e-commerce needs.
+                * Shops that require unlimited scalability.
+                * Companies with small IT teams (e.g., two frontend- and two backend engineers).
+            </div>
+        </div>
+        <div className="col col--4">
+            <div className="col-demo">
+                #### 👎 When to avoid
+                * Most marketplace setups that require dedicated user interfaces for merchants.
+                * Projects with unique requirements that require frequent or extensive custom code changes.
+                * Companies that require an on-premise solution for compliance, data security, or other reasons.
+            </div>
+        </div>
+    </div>
+</div>
+
+---
+
+## Functionality
+
+<div className="container">
+    <div className="row">
+        <div className="col col--4">
+            <div className="col-demo">
+                ### B2C
+
+                Commercetools is feature-complete for B2C shops
+            </div>
+        </div>
+        <div className="col col--4">
+            <div className="col-demo">
+                ### B2B
+
+                Commercetools ships with advanced B2B functionality
+            </div>
+        </div>
+        <div className="col col--4">
+            <div className="col-demo">
+                ### Marketplace
+
+                Commercetools isn't prepared for marketplace scenarios.
+            </div>
+        </div>
+    </div>
+
+</div>
+<div className="container">
+    <div className="row">
+        <div className="col col--4">
+            <div className="col-demo">
+                <FeatureTable name="Commercetools"
+                              cols="B2C Storefront,Default B2C Features,CMS, Multi-Locale, Multi-Store, Multi-Currency"/>
+            </div>
+        </div>
+        <div className="col col--4">
+            <div className="col-demo">
+                <FeatureTable name="Commercetools"
+                              cols="B2B Storefront,Business Units & Organizations,Roles & Permissions,Quotation & Offer Management,Approval Workflows,Price-per-Customer"/>
+            </div>
+        </div>
+        <div className="col col--4">
+            <div className="col-demo">
+                <FeatureTable name="Commercetools" cols="Merchant Portal, Multi-Merchant"/>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+---
+
+## Development approach
+
+:::warning
+The entire architecture is in a state of change, which, in our opinion, causes unnecessary risks and efforts for projects. Alternatively, you may decide to use the open source version of Magento 2 instead [🌐](https://developer.adobe.com/open/magento)
+:::
+
+---
+
+<div className="container">
+    <div className="row">
+        <div className="col col--8">
+            <div className="col-demo">
+                <img src="/img/commercetools-architecture.png" alt="Commercetools architecture overview" style={{width: '100%'}}/>
+            </div>
+        </div>
+        <div className="col col--4">
+            <div className="col-demo">
+                ### Bird’s eye view
+
+                When building a project with Commercetools, the typical steps may include:
+
+                * Manual configuration of your shop in the Merchant Center
+                * Development of your Custom Storefront based either on their templates or from-scratch (see below)
+                * Optional: Creation of pages and content in their visual site builder, called Studio
+                * Integration with other systems via self-developed Custom Middleware
+            </div>
+        </div>
+
+    </div>
+</div>
+
+---
+
+<div className="container">
+    <div className="row">
+        <div className="col col--6">
+
+            <div className="col-demo">
+                ### Storefront approach
+
+                Projects may start building from scratch or use their frontend solution, which is an entire suite of tools, that consists of
+
+                -   a Next.js based storefront, pre-integrated with Commercetools. There are templates for B2C [🌐](https://docs.commercetools.com/frontend-development/b2c-store-launchpad-overview) and B2B [🌐](https://docs.commercetools.com/frontend-development/b2b-store-launchpad-overview) scenarios.
+                -   a hosting environment that is based on a Node.js environment (Extension runner) and a frontend delivery system (Frontend delivery) based on Netlify and GCP
+                -   and a visual site builder for non-technical users called Studio [🌐](https://docs.commercetools.com/frontend-studio/)
+
+
+            </div>
+        </div>
+        <div className="col col--6">
+            <div className="col-demo">
+                <img src="/img/commercetools-studio.png" alt="Commercetools Studio interface screenshot" style={{width: '100%'}}/>
+            </div>
+        </div>
+    </div>
+</div>
+
+---
+
+<div className="container">
+    <div className="row">
+        <div className="col col--6">
+
+            <div className="col-demo">
+                ### Embedded SaaS Checkout
+
+                Projects can decide if they implement their checkout themselves or use Commercetools' one-page checkout that ships with a configurable user interface [🌐](https://docs.commercetools.com/checkout/overview).
+
+            </div>
+        </div>
+        <div className="col col--6">
+            <div className="col-demo">
+                <img src="/img/commercetools-checkout.png" alt="Commercetools one-page checkout interface" style={{width: '100%'}}/>
+            </div>
+        </div>
+    </div>
+</div>
+
+---
+
+<div className="container">
+    <div className="row">
+        <div className="col col--6">
+            <div className="col-demo">
+                <img src="/img/commercetools-middleware.png" alt="Commercetools middleware integration diagram" style={{width: '100%'}}/>
+            </div>
+        </div>
+
+        <div className="col col--6">
+
+            <div className="col-demo">
+                ### Integration middleware
+
+                Typically, customers want to integrate their shop with other IT systems, such as ERP, warehouse-software or PIM.
+
+                Since Commercetools is a closed system, these integrations must be custom developed using various techniques, like their APIs, an Import-API [🌐](https://docs.commercetools.com/import-export/) for bulk imports and the event system [🌐](https://docs.commercetools.com/api/projects/subscriptions).
+
+                Teams that are using Java, can use the official Java-SDK[🌐](https://docs.commercetools.com/sdk/java-sdk-middleware).
+
+
+            </div>
+        </div>
+    </div>
+</div>
+
+---
+
+<div className="container">
+    <div className="row">
+        <div className="col col--6">
+
+            <div className="col-demo">
+                ### Merchant Center
+
+                Commercetools is managed through their admin UI, called Merchant Center. It's used for initial configuration and for managing entities such as orders, customers, and products:
+
+
+            </div>
+        </div>
+        <div className="col col--6">
+            <div className="col-demo">
+                <img src="/img/commercetools-merchantcenter.png" alt="Commercetools Merchant Center dashboard" style={{width: '100%'}}/>
+            </div>
+        </div>
+    </div>
+</div>
+
+---
+
+<div className="container">
+    <div className="row">
+        <div className="col col--6">
+
+            <div className="col-demo">
+                ### Merchant Center Extensions
+
+                You may want to add custom pages and logic to the Merchant Center, which is a SaaS application (so direct code modifications are not possible).
+
+                Commercetools uses a technique called Micro Frontend, allowing you to implement a small application that leverages their authentication and UI Kit for a consistent look and feel. This mini-app is then integrated into the Merchant Center, appearing as a seamless part of the interface.
+
+
+            </div>
+        </div>
+        <div className="col col--6">
+            <div className="col-demo">
+                <img src="/img/commercetools-merchantcenter-extensions.png" alt="Commercetools Merchant Center extensions integration" style={{width: '100%'}}/>
+            </div>
+        </div>
+    </div>
+</div>
+---
+
+<div className="container">
+    <div className="row">
+        <div className="col col--12">
+
+            <div className="col-demo">
+                ### Hosting options
+
+                While Commercetools is fully managed by their team, your custom storefront and middleware require a scalable, high-availability hosting solution. You can either use any cloud provider, such as Vercel, Netlify, or Heroku, or leverage their Connect solution, which offers a managed hosting environment [🌐](https://docs.commercetools.com/connect/)
+            </div>
+        </div>
+    </div>
+</div>
+---
+
+### Case Studies
+
+All information is based on public sources and manually curated. Projects that are completely hidden from
+the public are excluded. Contact us to contribute [contact@roq.tech](mailto:contact@roq.tech)
+
+<CaseStudyTable system="Commercetools" cols="Company,Shop URL,Industry,Type"/>

@@ -1,5 +1,74 @@
 [
   {
+    "Name": "Adobe Commerce",
+    "License": "Commercial",
+    "URL": "https://business.adobe.com/products/magento/magento-commerce.html",
+    "OS license": "",
+    "Project Hosting": "Managed Hosting",
+    "Code-access": "Partial Access",
+    "Gartner Magic Q 23": "Leader",
+    "Repository": "",
+    "Stars": "",
+    "Code": "",
+    "Default B2C Features": {
+      "Status": 2,
+      "Source": ""
+    },
+    "B2C Storefront": {
+      "Status": 2,
+      "Source": ""
+    },
+    "B2B Storefront": {
+      "Status": 1,
+      "Source": "https://experienceleague.adobe.com/en/docs/commerce-admin/customers/customer-accounts/storefront/account-dashboard"
+    },
+    "CMS": {
+      "Status": 2,
+      "Source": ""
+    },
+    "Multi-Store": {
+      "Status": 2,
+      "Source": ""
+    },
+    "Multi-Locale": {
+      "Status": 2,
+      "Source": ""
+    },
+    "Multi-Currency": {
+      "Status": 2,
+      "Source": ""
+    },
+    "Quotation & Offer Management": {
+      "Status": 2,
+      "Source": ""
+    },
+    "Approval Workflows": {
+      "Status": 2,
+      "Source": ""
+    },
+    "Business Units & Organizations": {
+      "Status": 2,
+      "Source": "https://experienceleague.adobe.com/en/docs/commerce-admin/b2b/companies/account-companies"
+    },
+    "Roles & Permissions": {
+      "Status": 2,
+      "Source": ""
+    },
+    "Price-per-Customer": {
+      "Status": 2,
+      "Source": ""
+    },
+    "Multi-Merchant": {
+      "Status": 0,
+      "Source": ""
+    },
+    "Merchant Portal": {
+      "Status": 0,
+      "Source": ""
+    }
+  },
+
+  {
     "Name": "Commercetools",
     "License": "Commercial",
     "URL": "https://commercetools.com/",
@@ -828,11 +897,11 @@
       "Source": ""
     },
     "B2C Storefront": {
-      "Status": null,
+      "Status": 2,
       "Source": ""
     },
     "B2B Storefront": {
-      "Status": null,
+      "Status": 0,
       "Source": ""
     },
     "CMS": {
@@ -852,31 +921,31 @@
       "Source": ""
     },
     "Quotation & Offer Management": {
-      "Status": null,
+      "Status": 0,
       "Source": ""
     },
     "Approval Workflows": {
-      "Status": null,
+      "Status": 0,
       "Source": ""
     },
     "Business Units & Organizations": {
-      "Status": null,
+      "Status": 0,
       "Source": ""
     },
     "Roles & Permissions": {
-      "Status": null,
+      "Status": 0,
       "Source": ""
     },
     "Price-per-Customer": {
-      "Status": null,
+      "Status": 0,
       "Source": ""
     },
     "Multi-Merchant": {
-      "Status": null,
+      "Status": 0,
       "Source": ""
     },
     "Merchant Portal": {
-      "Status": null,
+      "Status": 0,
       "Source": ""
     }
   },
@@ -896,12 +965,12 @@
       "Source": ""
     },
     "B2C Storefront": {
-      "Status": null,
+      "Status": 2,
       "Source": ""
     },
     "B2B Storefront": {
-      "Status": null,
-      "Source": ""
+      "Status": 2,
+      "Source": "https://help.sap.com/docs/SAP_COMMERCE_COMPOSABLE_STOREFRONT/eaef8c61b6d9477daf75bff9ac1b7eb4/7baec2c402ab439ebd36cf215b72bf3f.html"
     },
     "CMS": {
       "Status": 2,
@@ -944,7 +1013,7 @@
       "Source": ""
     },
     "Merchant Portal": {
-      "Status": null,
+      "Status": 0,
       "Source": ""
     }
   },
@@ -964,15 +1033,15 @@
       "Source": ""
     },
     "B2C Storefront": {
-      "Status": null,
+      "Status": 2,
       "Source": ""
     },
     "B2B Storefront": {
-      "Status": null,
+      "Status": 0,
       "Source": ""
     },
     "CMS": {
-      "Status": null,
+      "Status": 0,
       "Source": ""
     },
     "Multi-Store": {
@@ -988,31 +1057,31 @@
       "Source": ""
     },
     "Quotation & Offer Management": {
-      "Status": null,
+      "Status": 0,
       "Source": ""
     },
     "Approval Workflows": {
-      "Status": null,
+      "Status": 0,
       "Source": ""
     },
     "Business Units & Organizations": {
-      "Status": null,
+      "Status": 0,
       "Source": ""
     },
     "Roles & Permissions": {
-      "Status": null,
+      "Status": 0,
       "Source": ""
     },
     "Price-per-Customer": {
-      "Status": null,
+      "Status": 0,
       "Source": ""
     },
     "Multi-Merchant": {
-      "Status": null,
+      "Status": 0,
       "Source": ""
     },
     "Merchant Portal": {
-      "Status": null,
+      "Status": 0,
       "Source": ""
     }
   },
