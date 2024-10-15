@@ -481,19 +481,6 @@
     "Additional information": ""
   },
   {
-    "Company": "Paket Market",
-    "Shop System": "Vendure",
-    "Shop URL": "",
-    "Type": "",
-    "Industry": "",
-    "Company Size": "",
-    "Company Briefing": "",
-    "Shop Description": "",
-    "Source 1": "",
-    "Source 2": "https://vendure.io/case-studies/groceries-marketplace",
-    "Additional information": ""
-  },
-  {
     "Company": "Pferd",
     "Shop System": "Spryker",
     "Shop URL": "https://de.pferd.com/en",
@@ -1077,5 +1064,117 @@
     "Source 1": "https://www.scayle.com/company/newsroom/manchester-united-go-live-press-release",
     "Source 2": "",
     "Additional information": ""
+  },
+  {
+    "Company": "Paket Market",
+    "Shop System": "Vendure",
+    "Shop URL": "https://paket.mk/",
+    "Type": "B2C, Marketplace",
+    "Industry": "Online Groceries",
+    "Company Size": "Small",
+    "Company Briefing": "North Macedonia's largest online grocer aiming to build a local equivalent of Amazon starting from groceries.",
+    "Shop Description": "Offers online grocery shopping and delivery, with ambitions to expand into a comprehensive marketplace platform.",
+    "Source 1": "https://vendure.io/case-studies/groceries-marketplace",
+    "Source 2": "https://www.linkedin.com/in/duskojordanovski/?originalSubdomain=mk",
+    "Additional information": "Migrated from WooCommerce to Vendure; built custom integrations with inventory (Dearsystems) and delivery management systems (Detrack); uses Vendure as the central hub for business operations; technology stack includes Next.js, React, TypeScript, NestJS, PostgreSQL, and Google Cloud services."
+  },
+  {
+    "Company": "Deesup",
+    "Shop System": "Vendure",
+    "Shop URL": "https://www.deesup.com/",
+    "Type": "B2C, Marketplace",
+    "Industry": "Design Furniture",
+    "Company Size": "Small to Medium",
+    "Company Briefing": "An exclusive marketplace for iconic design furniture, lighting, and accessories, specializing in selected brands where individuals and retailers can buy and sell high-quality, branded design items.",
+    "Shop Description": "Provides a platform for buying and selling high-quality, branded design furniture, lighting, and accessories, offering a seamless and innovative shopping experience.",
+    "Source 1": "https://www.linkedin.com/pulse/vendure-backbone-deesups-growth-deesup-vckvf/",
+    "Source 2": "",
+    "Additional information": "Migrated from WooCommerce to Vendure to overcome limitations and scale the business efficiently. Implemented custom plugins and features, including a 'boost plan' for sellers to increase product visibility. Technology stack includes Node.js, Vendure, TypeScript, NestJS, PostgreSQL, Docker, Kubernetes, Google Cloud, and AWS services. Actively participates in the Vendure community, contributing to plugins and core codebase. Plans to use Vendure for new projects by creating pre-built e-commerce solutions for multiple customers. CEO and co-founder Valentina Cerolini stated, 'When scaling the business you also need a supportive and solid stack to work with, moving to Vendure we enforced Deesup’s technological stack, enhancing our ability to deliver a seamless and innovative shopping experience for our customers.'"
+  },
+  {
+    "Company": "Breitling China",
+    "Shop System": "Vendure",
+    "Shop URL": "https://www.breitling.cn/",
+    "Type": "B2C",
+    "Industry": "Luxury Watches",
+    "Company Size": "Enterprise",
+    "Company Briefing": "Breitling is a Swiss luxury watchmaker focusing on expanding its market share in China, where the luxury watch market is expected to grow significantly.",
+    "Shop Description": "Offers a range of luxury watches to customers in China through their online store.",
+    "Source 1": "https://www.linkedin.com/feed/update/urn:li:activity:7196399678207234048/",
+    "Source 2": "",
+    "Additional information": "Recently adopted Vendure as their commerce engine for the China website. The CEO mentioned that China currently accounts for about 5% of their total revenue but is expected to grow in the coming years."
+  },
+  {
+    "Company": "Wristcheck",
+    "Shop System": "Vendure",
+    "Shop URL": "https://wristcheck.com/",
+    "Type": "B2C, Marketplace",
+    "Industry": "Luxury Watch Trading",
+    "Company Size": "Startup",
+    "Company Briefing": "A luxury watch trading startup with a physical store in Hong Kong's Landmark building, aiming to educate Gen Z and Millennials on horology topics to create excitement in the space.",
+    "Shop Description": "Provides a platform for buying and selling luxury watches, catering to both enthusiasts and newcomers, featuring KYC processes, selling, buying, and educational content.",
+    "Source 1": "https://rushhourdigital.com/case-studies/wristcheck/wristcheck",
+    "Source 2": "",
+    "Additional information": "Launched in January 2024 after rebuilding their digital platform using Vendure for product, orders, and user management. Adopted a headless architecture with Strapi for static content management and Next.js for the frontend. Integrated third-party services like Sumsub for KYC, Checkout as the payment gateway, and DocuSign for document signatures. Successfully secured an $8M USD seed round post-launch to scale their internal tech team and platform."
+  },
+  {
+    "Company": "Fainin",
+    "Shop System": "Vendure",
+    "Shop URL": "https://fainin.com/",
+    "Type": "Marketplace",
+    "Industry": "Sharing Economy",
+    "Company Size": "Startup",
+    "Company Briefing": "Fainin is a platform aimed at democratizing the sharing economy by enabling users to rent and lend items among each other.",
+    "Shop Description": "Provides a mobile-optimized platform where users can fully access the order flow to rent and lend items, enhancing the sharing economy experience.",
+    "Source 1": "https://www.linkedin.com/posts/maximilian-lehmann_im-excited-to-announce-that-we-have-just-activity-7021814394946744320-bnQd",
+    "Source 2": "",
+    "Additional information": "Recently launched a new website with backend improvements and load speed optimization for a smoother experience, utilizing the latest version of Vendure. Co-founder Maximilian Lehmann expressed excitement about the upgrade and thanked Michael Bromley for the Vendure enhancements."
+  },
+  {
+    "Company": "AKRO Compounds",
+    "Shop System": "Custom Customer Portal",
+    "Shop URL": "",
+    "Type": "B2B, Customer Portal",
+    "Industry": "Plastic Compounds Manufacturing",
+    "Company Size": "Enterprise",
+    "Company Briefing": "A leading manufacturer of plastic compounds and part of the Feddersen Group, specializing in high-quality plastic materials.",
+    "Shop Description": "Provides a customer portal allowing B2B clients to access comprehensive product and order information, track order statuses in real-time, view account manager contact details, and utilize a product finder to identify suitable compounds.",
+    "Source 1": "https://www.alpin11.com/#case-studies",
+    "Source 2": "",
+    "Additional information": "Developed a sophisticated customer portal to enhance digital customer experience and reduce the workload on the sales team. The portal does not support direct purchasing due to the complexity of long-term volume contracts but offers essential self-service functionalities. The project was executed by Alpin11, focusing on centralizing and automating information delivery previously handled via phone and email."
+  },
+  {
+    "Company": "Stocker Kaminsysteme",
+    "Shop System": "Vendure",
+    "Shop URL": "https://www.stocker-kaminsysteme.com/",
+    "Type": "B2B",
+    "Industry": "Chimney Systems Manufacturing",
+    "Company Size": "Medium to Large",
+    "Company Briefing": "An Austrian manufacturer of high-quality chimney systems for commercial and private real estate in Central Europe.",
+    "Shop Description": "Offers a digital commerce portal for B2B customers, featuring a quotation tool that allows partners to create personalized quotes with their own branding, enhancing the overall shopping experience.",
+    "Source 1": "https://www.alpin11.com/#case-studies",
+    "Source 2": "",
+    "Additional information": "Modernized their digital commerce infrastructure by implementing Vendure as a headless commerce platform. Developed a new storefront using Next.js and Chakra UI, and introduced a middleware to manage ERP system interactions. The platform provides greater flexibility and scalability, improving website performance and development speed. The business logic is accessible via Vendure's API, allowing for future expansion across other platforms."
+  },
+  {
+    "Company": "Weidebeef.at",
+    "Shop System": "Vendure",
+    "Shop URL": "https://www.weidebeef.at/",
+    "Type": "B2C",
+    "Industry": "Organic Farming",
+    "Company Size": "Small",
+    "Company Briefing": "An organic farm near Vienna selling mainly organic meat and other organic products through their online shop.",
+    "Shop Description": "Offers a click & collect service for organic meat and products, with various pickup stores in and around Vienna. Customers can place orders between Wednesdays to be collected and paid for on the following Friday at one of the pickup stores.",
+    "Source 1": "https://discord.com/channels/1100672177260478564/1180529202215272448/1180529202215272448",
+    "Source 2": "",
+    "Additional information": "Initially built in 2015 with Drupal Commerce 7, the shop was rebuilt on Vendure starting in July 2021 and went live in August 2022. Recently migrated to Vendure 3.0. The storefront is a PWA App using React and NextJS v12 with Material-UI v4, hosted on netcup.de in Vienna. Several custom plugins are used, including a simple CMS in Vendure, Mailjet integration, product reviews, subscriptions, customer surveys, and timeslots. The shop uses ShippingMethods for the pickup stores with additional custom fields. An admin UI for farmers is built with React and NextJS v12 for product management, order management, timeslot and stock management, customer management, reports, content management, and pickup store management. Currently working on migrating the storefront to NextJS v14 and Material-UI v5."
   }
+
+
+
+
+
+
+
+
 ]
