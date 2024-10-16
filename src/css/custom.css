@@ -33,6 +33,10 @@
   display: none;
 }
 
+.font-small{
+  font-size: 80%;
+}
+
 hr {
   border: 0;
   height: 1px;

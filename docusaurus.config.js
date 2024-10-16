@@ -13,7 +13,7 @@ const config = {
   favicon: 'img/roq.gif',
 
   // Set the production url of your site here
-  url: 'https://your-docusaurus-site.example.com',
+  url: 'https://shopsystems.roq.com',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
   baseUrl: '/',
@@ -45,7 +45,7 @@ const config = {
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+            'https://github.com/roqtech/shopsystems/blob/main/',
         },
         blog: {
           showReadingTime: true,
@@ -85,64 +85,68 @@ const config = {
           src: 'img/roq.gif',
         },
         items: [
-          {
-            type: 'docSidebar',
-            sidebarId: 'tutorialSidebar',
-            position: 'left',
-            label: 'Tutorial',
-          },
-          {to: '/blog', label: 'Blog', position: 'left'},
-          {
-            href: 'https://github.com/roqtech/shopsystems',
-            label: 'GitHub',
-            position: 'right',
-          },
+
+            {
+                href: 'https://www.roq.tech/',
+                label: 'ROQ.tech - Consulting Boutique',
+                position: 'right',
+            }
+
         ],
       },
       footer: {
         style: 'dark',
         links: [
           {
-            title: 'Docs',
+            title: 'Vendor',
             items: [
               {
-                label: 'Tutorial',
-                to: '/docs/intro',
+                html: 'The vendor of this internet presence is in the legal sense:',
+              },
+              {
+                html: 'ROQ Technology GmbH',
+              },
+              {
+                html: 'Perler Str. 26 13088 Berlin',
               },
             ],
           },
           {
-            title: 'Community',
+            title: 'Representative',
             items: [
               {
-                label: 'Stack Overflow',
-                href: 'https://stackoverflow.com/questions/tagged/docusaurus',
-              },
-              {
-                label: 'Discord',
-                href: 'https://discordapp.com/invite/docusaurus',
-              },
-              {
-                label: 'Twitter',
-                href: 'https://twitter.com/docusaurus',
-              },
+                html: 'ROQ Technology GmbH is legally represented by its founders Fabian Wesner and Tim Niemeier',
+              }
             ],
           },
           {
-            title: 'More',
+            title: 'Content Responsibility',
             items: [
               {
-                label: 'Blog',
-                to: '/blog',
+                html: 'Responsible for content within the meaning of section 55 (2) RStV (Rundfunkstaatsvertrag): Tim Niemeier',
               },
               {
-                label: 'GitHub',
-                href: 'https://github.com/facebook/docusaurus',
-              },
+                href: '/privacy',
+                label: '→ Privacy Policy',
+              }
             ],
           },
+          {
+            title: 'Commercial Registry',
+            items: [
+              {
+                html: 'Amtsgericht Charlottenburg HRB 220113',
+              },
+              {
+                html: 'USt-ID: DE335594684',
+              },
+              {
+                html: 'contact@roq.tech +49178-4047432',
+              }
+            ],
+          }
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+        copyright: ` `,
       },
       prism: {
         theme: prismThemes.github,
@@ -160,6 +164,15 @@ const config = {
         }
       }
     }),
+
+  scripts: [
+    {
+    src: '//static.getclicky.com/js',
+        'data-id': '101467319',
+    async: true
+    },
+  ],
+
 
 };
 
