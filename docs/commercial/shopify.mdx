@@ -1,0 +1,200 @@
+import React from 'react';
+import CaseStudyTable from '/src/components/CaseStudyTable';
+import FeatureTable from '/src/components/FeatureTable';
+import ShopSystemsTable from '/src/components/ShopSystemsTable';
+import FullFeatureIcon from '/src/components/svg/FullFeatureIcon';
+import PartialFeatureIcon from '/src/components/svg/PartialFeatureIcon';
+import NoFeatureIcon from '/src/components/svg/NoFeatureIcon';
+
+# Shopify
+
+:::info
+This page reflects our views and assessments. All information is sourced from publicly available information and does not represent the vendor’s official position.
+:::
+
+## Evaluation
+<div className="container">
+    <div className="row">
+        <div className="col col--4">
+            <div className="col-demo">
+                #### ⭐ Highlights
+                * Shopify provides managed, extensible, and modular solutions tailored for B2C commerce with a proven record of scalability.
+                * Shopify is by far the most popular e-commerce platform with a large ecosystem of apps and integrations.
+            </div>
+        </div>
+        <div className="col col--4">
+            <div className="col-demo">
+                #### 👍 When to use
+                * Ideal for small to medium-sized businesses seeking rapid go-to-market solutions with integrated capabilities for scalability and customization.
+                * Suitable for companies with low budget for development and operations. A Shopify shop can be launched without any engineers.
+            </div>
+        </div>
+        <div className="col col--4">
+            <div className="col-demo">
+                #### 👎 When to avoid
+                * Enterprises with advanced B2B requirements.
+                * Companies needing high operational control and deep customization options that extend beyond Shopify's app ecosystem.
+                * Projects that require extensive backend logic modifications.
+            </div>
+        </div>
+    </div>
+</div>
+
+---
+
+## Functionality
+<div className="container">
+    <div className="row">
+        <div className="col col--4">
+            <div className="col-demo">
+                ### <FullFeatureIcon /> B2C
+                Shopify offers a robust set of features for B2C scenarios.
+            </div>
+        </div>
+        <div className="col col--4">
+            <div className="col-demo">
+                ### <PartialFeatureIcon /> B2B
+                Shopify provides limited out-of-the-box B2B functionalities, with Trade as a B2B-optimized theme available for Shopify Plus customers.
+            </div>
+        </div>
+        <div className="col col--4">
+            <div className="col-demo">
+                ### <NoFeatureIcon /> Marketplace
+                Shopify isn’t designed to support marketplace scenarios natively.
+            </div>
+        </div>
+    </div>
+</div>
+
+---
+
+## Development approach
+
+### Bird’s eye view
+
+<div class="row"><div class="col">
+
+![Shopify architecture overview](/img/shopify-architecture.png)
+
+</div><div class="col">
+
+Shopify is a full-stack SaaS platform which is managed via the Shopify Admin. It's possible to launch a new shop in minutes and without any engineers. Shopify takes care for the data handling, business logic and storefront.
+
+</div></div>
+
+---
+
+### Classic Storefront approach
+
+<div class="row">
+
+<div class="col">
+
+Users can choose one of the templates as Shopify's storefront. For instance the popular "Dawn theme" for B2C scenarios or "Trade" for B2B scenarios. These templates can then be customized with Liquid, which is Shopify's templating language [🌐](https://shopify.dev/docs/api/liquid)
+
+→ [B2C Template "Dawn" Demo](https://themes.shopify.com/themes/dawn/styles/default/preview)\
+→ [B2B Template "Trade"" Demo](https://themes.shopify.com/themes/trade/styles/default/preview)
+
+</div>
+
+<div class="col">
+
+![Shopify demo storefront interface](/img/shopify-demo.png)
+
+</div>
+
+</div>
+
+---
+
+### Headless Storefront approach
+
+<div class="row">
+
+<div class="col">
+
+Developers can build their own storefront using [Hydrogen](https://hydrogen.shopify.dev/) (or any other technology). Hydrogen is a React-based framework for building headless stores with Shopify’s back-end services. However, the cart and checkout user interfaces are still managed by Shopify and can only be extended, but not replaced.
+
+ Projects build on Hydrogen can be hosted on any platform, including Shopify's own cloud infrastructure called Oxygen [🌐](https://shopify.dev/docs/storefronts/headless/hydrogen/getting-started). 
+
+💡 Hydrogen is build on top of the React Router framework (formerly known as Remix.js), which was acquired by Shopify in 2022. [🌐](https://techcrunch.com/2022/10/31/shopify-acquires-remix-to-bolster-its-storefront-design-tools/)
+
+
+💡 Shopify promotes some extremely ambitious storefronts, like [drakerelated.com](https://drakerelated.com/rooms/el-chico-studios)
+
+</div>
+
+<div class="col">
+
+![Shopify architecture overview](/img/shopify-architecture2.png)
+
+</div>
+
+</div>
+
+---
+
+### Extendability
+     
+Shopify offers multiple approaches to extend its functionality:
+                  
+* By installing and extending apps from the Shopify App Store.
+* By building custom applications that are integrated via Shopify's Admin API or Webhooks.
+* By changing its internal data structures or business logic:
+  * **Metafields** - Custom fields created via Admin or APIs that attach to existing data objects (e.g., products, customers), support multiple data types, and include validation rules to ensure data integrity.
+  * **Metaobjects** - Custom objects (e.g. store locations) retrieved and edited via Admin, through Liquid or APIs.
+  * **Functions** - Shopify Functions allow developers to customize backend logic (like cart validations, bundles, discounts, delivery, order routing, and payments) while running entirely on Shopify's infrastructure.
+
+
+
+
+---
+
+### Content Management
+
+<div class="row"><div class="col">
+
+![Shopify architecture overview](/img/shopify-cms.png)
+
+</div><div class="col">
+
+Shops built on Liquid themes can use Shopify's lightweight CMS "Theme Customizer" to manage content [🌐](https://help.shopify.com/en/manual/online-store/themes/customizing-themes/edit), while custom storefronts built on Hydrogen often require additional CMS solutions like Contentful or Sanity.
+</div></div>
+
+
+
+{/* ---
+
+### Admin (Backend Management)
+Shopify Admin is the central platform for managing storefronts, including inventory, customer data, and order fulfillment. Shopify allows customizations through its Admin API, enabling more advanced functionalities for developers and operators. */}
+
+---
+
+### Hosting
+
+Shopify is a SaaS platform, which means that the hosting is fully managed by Shopify. Shopify itself is based on Ruby on Rails and hosted at Google's GCP. The APIs are distributed globally using Cloudflare's Edege Network.
+
+Custom storefronts based on Hydrogen can be hosted on Shopify's Oxygen cloud infrastructure.
+
+---
+
+### App Ecosystem
+
+Shopify's app ecosystem is one of the largest in the e-commerce space. It includes apps for marketing, sales, shipping, payments, and more. The app ecosystem is managed via the Shopify App Store and currently hosts over 13,000 public, plus numerous private apps. All apps are reviewed by Shopify.
+
+→ [Shopify App Store](https://apps.shopify.com/)
+
+---
+
+### Licence and initial setup costs
+Shopify's pricing is standardized but varies significantly between different tiers (Basic, Standard, Plus). Shopify Plus, which targets enterprise-level businesses, has negotiable pricing and starts at $2300/month on a 3-year term [🌐](https://www.shopify.com/plus/pricing). The pricing switches to a reven-share model, when a defined revenue is reached (e.g. 10M USD per year). In addition Shopify charges a transaction fees for credit card payments. The pricing model is described here: [🌐](https://ambaum.com/shopify-plus-pricing).
+
+Customizations and additional app installations may further impact the initial setup cost. Projects using custom storefronts will have a higher setup cost.
+
+---
+
+### Case Studies
+All information is based on public sources and manually curated. Projects that are completely hidden from the public are excluded. Contact us to contribute [contact@roq.tech](mailto:contact@roq.tech)
+
+<CaseStudyTable system="Shopify" cols="Company,Shop URL,Industry,Type"/>
+

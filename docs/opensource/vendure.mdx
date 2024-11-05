@@ -2,6 +2,9 @@ import React from 'react';
 import CaseStudyTable from '/src/components/CaseStudyTable';
 import FeatureTable from '/src/components/FeatureTable';
 import ShopSystemsTable from '/src/components/ShopSystemsTable';
+import FullFeatureIcon from '/src/components/svg/FullFeatureIcon';
+import PartialFeatureIcon from '/src/components/svg/PartialFeatureIcon';
+import NoFeatureIcon from '/src/components/svg/NoFeatureIcon';
 
 # Vendure
 
@@ -10,6 +13,10 @@ This page reflects our views and assessments. All information is sourced from pu
 :::
 
 <ShopSystemsTable name="Vendure" cols="OS license,Code, Repository, Stars"/>
+
+:::tip
+We recorded an interview podcast with David Höck, one of the makers of Vendure. You can listen to this episode on [Spotify](https://open.spotify.com/show/2vQa0sH0T4UzvP4VxaU021) or read the summary [here](/podcasts/vendure).
+:::
 
 ## Evaluation
 <div className="container">
@@ -52,22 +59,21 @@ specific needs.
     <div className="row">
         <div className="col col--4">
             <div className="col-demo">
-                ### B2C
+                ### <FullFeatureIcon /> B2C
 
                 Vendure comes with all essential features for B2C use cases.
             </div>
         </div>
         <div className="col col--4">
             <div className="col-demo">
-                ### B2B
+                ### <PartialFeatureIcon /> B2B
 
-                Although its B2B feature set is not fully developed, Vendure is still frequently used for B2B scenarios
-                because of its simple architecture and ease of development.
+                Although its B2B feature set is not fully developed, Vendure is still frequently used for B2B scenarios because of its simple architecture and ease of development.
             </div>
         </div>
         <div className="col col--4">
             <div className="col-demo">
-                ### Marketplace
+                ### <NoFeatureIcon /> Marketplace
 
                 Vendure's multi-channel capability prepares the system for marketplace scenarios, however it doesn't ship with a dedicated merchant portal.
             </div>
@@ -75,58 +81,6 @@ specific needs.
     </div>
 
 </div>
-
-
-<div className="container">
-    <div className="row">
-        <div className="col col--4">
-            <div className="col-demo">
-                <FeatureTable name="Vendure"
-                              cols="B2C Storefront,Default B2C Features,CMS, Multi-Locale, Multi-Store, Multi-Currency"/>
-            </div>
-        </div>
-        <div className="col col--4">
-            <div className="col-demo">
-                <FeatureTable name="Vendure"
-                              cols="B2B Storefront,Business Units & Organizations,Roles & Permissions,Quotation & Offer Management,Approval Workflows,Price-per-Customer"/>
-            </div>
-        </div>
-        <div className="col col--4">
-            <div className="col-demo">
-                <FeatureTable name="Vendure" cols="Merchant Portal, Multi-Merchant"/>
-            </div>
-        </div>
-    </div>
-
-</div>
-
-[//]: # (---)
-
-[//]: # ()
-[//]: # (### Schema explained)
-
-[//]: # ()
-[//]: # (The best way to understand a shop system is by analyzing its database schema. Explore a zoomable schema with descriptions here:)
-
-[//]: # ()
-[//]: # (<iframe)
-
-[//]: # (    src="https://link.excalidraw.com/readonly/9Xa1kkh8Ht36W3rhP4y9")
-
-[//]: # (    width="100%")
-
-[//]: # (    height="600")
-
-[//]: # (    style={{border: '1px solid #ccc', marginTop: '20px'}})
-
-[//]: # (    title="Vendure Schema")
-
-[//]: # (/>)
-
-[//]: # ()
-[//]: # ([Fullscreen]&#40;https://link.excalidraw.com/readonly/9Xa1kkh8Ht36W3rhP4y9&#41;)
-
-
 
 ---
 

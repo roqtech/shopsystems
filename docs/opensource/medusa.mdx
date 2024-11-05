@@ -2,6 +2,9 @@ import React from 'react';
 import CaseStudyTable from '/src/components/CaseStudyTable';
 import FeatureTable from '/src/components/FeatureTable';
 import ShopSystemsTable from '/src/components/ShopSystemsTable';
+import FullFeatureIcon from '/src/components/svg/FullFeatureIcon';
+import PartialFeatureIcon from '/src/components/svg/PartialFeatureIcon';
+import NoFeatureIcon from '/src/components/svg/NoFeatureIcon';
 
 # Medusa
 
@@ -19,13 +22,15 @@ This page reflects our views and assessments. All information is sourced from pu
                 #### ⭐ Highlights
                 * Clean, modular codebase built on popular frameworks
                 * Lightweight framework for rapid development
+                * Strong TypeScript support with generated types
+                * Modern tech stack (Node.js, PostgreSQL)
             </div>
         </div>
         <div className="col col--4">
             <div className="col-demo">
                 #### 👍 When to use
                 * Startups outgrowing Shopify, needing code-level adjustments
-                * Developer-driven teams
+                * Developer-driven teams, comfortable with Node.js/TypeScript
             </div>
         </div>
         <div className="col col--4">
@@ -33,7 +38,7 @@ This page reflects our views and assessments. All information is sourced from pu
                 #### 👎 When to avoid
                 * Projects that require a large set of out-of-the-box features
                 * Companies needing contractual agreements with high compliance standards
-                * Projects requiring vendor-managed hosting
+                * Teams without strong development capabilities
             </div>
         </div>
     </div>
@@ -43,29 +48,27 @@ This page reflects our views and assessments. All information is sourced from pu
 
 ## Functionality
 
-Medusa positions itself as a framework for code-level customization to achieve specific functionalities. For example, while the "Draft Order" feature can be adapted for use cases like Quotation, it doesn’t offer full functionality out-of-the-box. Instead, the Medusa team provides instructions (recipes) for extending features, such as B2B use cases.
-[🌐](https://docs.medusajs.com/recipes/b2b)
-
+Medusa positions itself as a framework for code-level customization to achieve specific functionalities.
 
 <div className="container">
     <div className="row">
         <div className="col col--4">
             <div className="col-demo">
-                ### B2C
+                ### <FullFeatureIcon /> B2C
 
-                Medusa consists of multiple components covering all relevant aspects of B2C functionality.
+                Medusa covers all relevant aspects of B2C functionality, but doesn't ship with a pre-integrated CMS.
             </div>
         </div>
         <div className="col col--4">
             <div className="col-demo">
-                ### B2B
+                ### <PartialFeatureIcon /> B2B
 
-                Medusa published a recipe for B2B scenarios and is in active development of a B2B storefront.
+                Medusa v2 includes some B2B capabilities, but still requires custom development for advanced B2B scenarios
             </div>
         </div>
         <div className="col col--4">
             <div className="col-demo">
-                ### Marketplace
+                ### <NoFeatureIcon /> Marketplace
 
                 Medusa's multi-channel capability prepares the system for marketplace scenarios, however it doesn't ship with a dedicated merchant portal.
             </div>
@@ -73,57 +76,6 @@ Medusa positions itself as a framework for code-level customization to achieve s
     </div>
 
 </div>
-<div className="container">
-    <div className="row">
-        <div className="col col--4">
-            <div className="col-demo">
-                <FeatureTable name="Medusa"
-                              cols="B2C Storefront,Default B2C Features,CMS, Multi-Locale, Multi-Store, Multi-Currency"/>
-            </div>
-        </div>
-        <div className="col col--4">
-            <div className="col-demo">
-                <FeatureTable name="Medusa"
-                              cols="B2B Storefront,Business Units & Organizations,Roles & Permissions,Quotation & Offer Management,Approval Workflows,Price-per-Customer"/>
-            </div>
-        </div>
-        <div className="col col--4">
-            <div className="col-demo">
-                <FeatureTable name="Medusa" cols="Merchant Portal, Multi-Merchant"/>
-            </div>
-        </div>
-    </div>
-
-</div>
-
-[//]: # ()
-[//]: # (---)
-
-[//]: # ()
-[//]: # (### Schema explained)
-
-[//]: # ()
-[//]: # (The best way to understand a shop system is by analyzing its database schema. Explore a zoomable schema with descriptions here:)
-
-[//]: # ()
-[//]: # (<iframe)
-
-[//]: # (    src="https://link.excalidraw.com/readonly/9Xa1kkh8Ht36W3rhP4y9")
-
-[//]: # (    width="100%")
-
-[//]: # (    height="600")
-
-[//]: # (    style={{border: '1px solid #ccc', marginTop: '20px'}})
-
-[//]: # (    title="Medusa Schema")
-
-[//]: # (/>)
-
-[//]: # ()
-[//]: # ([Fullscreen]&#40;https://link.excalidraw.com/readonly/9Xa1kkh8Ht36W3rhP4y9&#41;)
-
-
 
 ---
 
@@ -137,7 +89,8 @@ Medusa positions itself as a framework for code-level customization to achieve s
 
                 Medusa is a headless system, meaning you'll need to build your own storefront. However, it includes an optional template built with Next.js to help projects get started.
 
-                → [demo](https://next.medusajs.com/de) (B2C)
+                → [demo](https://next.medusajs.com/de) (B2C)\
+                → [demo](https://medusa-b2b-starter.vercel.app/de) (B2B)
             </div>
         </div>
         <div className="col col--6">
@@ -156,9 +109,13 @@ Medusa positions itself as a framework for code-level customization to achieve s
             <div className="col-demo">
                 ### Architecture
 
-                Medusa is a modular TypeScript backend that provides functionality through REST APIs and uses TypeORM for database integration. Built on Express.js, Medusa doesn't rely on frameworks like Nest or Adonis.
-
-                Its architecture is composed of various modules such as "cart," "products," and "orders." Additionally, Medusa includes an event system to handle asynchronous logic.
+                Medusa v2 is built on Node.js with TypeScript and introduces several architectural improvements:
+                * Module API for better extensibility and plugin development
+                * Built-in job scheduling and queuing system
+                * Remote and local caching capabilities
+                * Database-agnostic design (PostgreSQL default, others via plugins)
+                * GraphQL API in addition to REST
+                * Improved TypeScript support with generated types
             </div>
         </div>
         <div className="col col--6">
@@ -197,7 +154,13 @@ Medusa positions itself as a framework for code-level customization to achieve s
             <div className="col-demo">
                 ### Hosting options
 
-                The Medusa team is preparing a cloud hosting offer. Meanwhile, the Medusa backend can be deployed on PaaS-providers like Heroku, or DigitalOcean etc. while the Admin Dashboard and Next.js Storefront are typically deployed on Vercel
+                Medusa Cloud is now available in beta, offering:
+                * Managed hosting with automatic scaling
+                * Built-in monitoring and logging
+                * One-click deployments
+                * Automated backups
+
+                Self-hosting options remain available on platforms like Heroku, DigitalOcean, and other cloud providers.
             </div>
         </div>
     </div>

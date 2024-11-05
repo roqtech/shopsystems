@@ -2,6 +2,9 @@ import React from 'react';
 import CaseStudyTable from '/src/components/CaseStudyTable';
 import FeatureTable from '/src/components/FeatureTable';
 import ShopSystemsTable from '/src/components/ShopSystemsTable';
+import FullFeatureIcon from '/src/components/svg/FullFeatureIcon';
+import PartialFeatureIcon from '/src/components/svg/PartialFeatureIcon';
+import NoFeatureIcon from '/src/components/svg/NoFeatureIcon';
 
 # Commercetools
 
@@ -9,34 +12,35 @@ import ShopSystemsTable from '/src/components/ShopSystemsTable';
 This page reflects our views and assessments. All information is sourced from publicly available information and does not represent the vendor’s official position.
 :::
 
-<ShopSystemsTable name="Commercetools" cols="OS license,Code, Repository, Stars"/>
-
 ## Evaluation
 <div className="container">
     <div className="row">
         <div className="col col--4">
             <div className="col-demo">
                 #### ⭐ Highlights
-                * Commercetools covers all essential features for both B2C and B2B use cases.
-                * It hides much of its complexity internally, making it relatively easy to use.
-                * It doesn’t enforce the use of a specific programming language.
-                * Self-developed storefronts and middleware can be hosted by Commercetools, avoiding shared-responsibility situations.
+                * Commercetools is an API-first platform and pioneer of composable commerce
+                * Commercetools covers all essential features for both B2C and B2B use cases
+                * It hides much of its complexity internally, making it relatively easy to use
+                * It doesn't enforce the use of a specific programming language
+                * Self-developed storefronts and middleware can be hosted by Commercetools, avoiding shared-responsibility situations
             </div>
         </div>
         <div className="col col--4">
             <div className="col-demo">
                 #### 👍 When to use
-                * For enterprise customers with advanced yet standard e-commerce needs.
-                * Shops that require unlimited scalability.
-                * Companies with small IT teams (e.g., two frontend- and two backend engineers).
+                * For enterprise customers with advanced yet standard e-commerce needs
+                * Shops that require unlimited scalability
+                * Companies with small IT teams (e.g., two frontend- and two backend engineers)
             </div>
         </div>
         <div className="col col--4">
             <div className="col-demo">
                 #### 👎 When to avoid
-                * Most marketplace setups that require dedicated user interfaces for merchants.
-                * Projects with unique requirements that require frequent or extensive custom code changes.
-                * Companies that require an on-premise solution for compliance, data security, or other reasons.
+                * Most marketplace setups that require dedicated user interfaces for merchants
+                * Projects with unique requirements that require frequent or extensive custom code changes
+                * Companies that require an on-premise solution for compliance, data security, or other reasons
+                * Teams without API-first architecture experience (steep learning curve)
+                * Projects with tight budgets (costs can be high for large-scale operations)
             </div>
         </div>
     </div>
@@ -44,51 +48,45 @@ This page reflects our views and assessments. All information is sourced from pu
 
 ---
 
+
 ## Functionality
 
 <div className="container">
     <div className="row">
         <div className="col col--4">
             <div className="col-demo">
-                ### B2C
+                ### <FullFeatureIcon /> B2C
 
-                Commercetools is feature-complete for B2C shops
+                Commercetools has a complete set of B2C features, but is missing a pre-integrated CMS.
+
+                [🌐](https://docs.commercetools.com/api/projects/products) Product management\
+                [🌐](https://docs.commercetools.com/api/projects/orders) Order management\
+                [🌐](https://docs.commercetools.com/api/projects/customers) Customer management\
+                [🌐](https://docs.commercetools.com/api/projects/carts) Shopping cart\
+                [🌐](https://docs.commercetools.com/api/projects/payments) Payment processing\
+                [🌐](https://docs.commercetools.com/api/projects/stores) Multi-store capabilities
+
             </div>
         </div>
         <div className="col col--4">
             <div className="col-demo">
-                ### B2B
+                ### <FullFeatureIcon /> B2B
 
                 Commercetools ships with advanced B2B functionality
+
+                [🌐](https://docs.commercetools.com/api/projects/business-units) Business units and organizations\
+                [🌐](https://docs.commercetools.com/api/projects/associate-roles) Roles and permissions\
+                [🌐](https://docs.commercetools.com/api/projects/quotes) Quotes\
+                [🌐](https://docs.commercetools.com/api/projects/approval-rules) Approval rules\
+                [🌐](https://docs.commercetools.com/api/projects/product-selections) Product selections
+
             </div>
         </div>
         <div className="col col--4">
             <div className="col-demo">
-                ### Marketplace
+                ### <NoFeatureIcon /> Marketplace
 
                 Commercetools isn't prepared for marketplace scenarios.
-            </div>
-        </div>
-    </div>
-
-</div>
-<div className="container">
-    <div className="row">
-        <div className="col col--4">
-            <div className="col-demo">
-                <FeatureTable name="Commercetools"
-                              cols="B2C Storefront,Default B2C Features,CMS, Multi-Locale, Multi-Store, Multi-Currency"/>
-            </div>
-        </div>
-        <div className="col col--4">
-            <div className="col-demo">
-                <FeatureTable name="Commercetools"
-                              cols="B2B Storefront,Business Units & Organizations,Roles & Permissions,Quotation & Offer Management,Approval Workflows,Price-per-Customer"/>
-            </div>
-        </div>
-        <div className="col col--4">
-            <div className="col-demo">
-                <FeatureTable name="Commercetools" cols="Merchant Portal, Multi-Merchant"/>
             </div>
         </div>
     </div>
@@ -98,12 +96,6 @@ This page reflects our views and assessments. All information is sourced from pu
 ---
 
 ## Development approach
-
-:::warning
-The entire architecture is in a state of change, which, in our opinion, causes unnecessary risks and efforts for projects. Alternatively, you may decide to use the open source version of Magento 2 instead [🌐](https://developer.adobe.com/open/magento)
-:::
-
----
 
 <div className="container">
     <div className="row">
@@ -192,15 +184,24 @@ The entire architecture is in a state of change, which, in our opinion, causes u
 
                 Typically, customers want to integrate their shop with other IT systems, such as ERP, warehouse-software or PIM.
 
-                Since Commercetools is a closed system, these integrations must be custom developed using various techniques, like their APIs, an Import-API [🌐](https://docs.commercetools.com/import-export/) for bulk imports and the event system [🌐](https://docs.commercetools.com/api/projects/subscriptions).
+                Since Commercetools is a closed system, these integrations must be custom developed using various techniques, like their:
+                * REST and GraphQL APIs
+                * Import-API [🌐](https://docs.commercetools.com/import-export/) for bulk imports
+                * Event system [🌐](https://docs.commercetools.com/api/projects/subscriptions)
+                * Pre-built integrations with common payment providers
+                * Integration capabilities with major search engines (Algolia, Elasticsearch)
+                * CDN connectivity options
 
                 Teams that are using Java, can use the official Java-SDK[🌐](https://docs.commercetools.com/sdk/java-sdk-middleware).
 
+                
 
             </div>
         </div>
     </div>
 </div>
+
+💡 Commercetools API's are not versioned. Instead they are using an evergreen approach, where existing API endpoints never have backward-compatibility breaks.
 
 ---
 
@@ -256,7 +257,7 @@ The entire architecture is in a state of change, which, in our opinion, causes u
             <div className="col-demo">
                 ### Hosting options
 
-                While Commercetools is fully managed by their team, your custom storefront and middleware require a scalable, high-availability hosting solution. You can either use any cloud provider, such as Vercel, Netlify, or Heroku, or leverage their Connect solution, which offers a managed hosting environment [🌐](https://docs.commercetools.com/connect/)
+                While Commercetools is fully managed by their team and built on Google Cloud Platform (GCP) with a multi-tenant architecture, your custom storefront and middleware require a scalable, high-availability hosting solution. You can either use any cloud provider, such as Vercel, Netlify, or Heroku, or leverage their Connect solution, which offers a managed hosting environment [🌐](https://docs.commercetools.com/connect/)
             </div>
         </div>
     </div>

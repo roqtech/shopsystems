@@ -2,14 +2,14 @@ import React from 'react';
 import CaseStudyTable from '/src/components/CaseStudyTable';
 import FeatureTable from '/src/components/FeatureTable';
 import ShopSystemsTable from '/src/components/ShopSystemsTable';
+import FullFeatureIcon from '/src/components/svg/FullFeatureIcon';
+import PartialFeatureIcon from '/src/components/svg/PartialFeatureIcon';
 
 # SAP Commerce Cloud
 
 :::info
 This page reflects our views and assessments. All information is sourced from publicly available information and does not represent the vendor’s official position.
 :::
-
-<ShopSystemsTable name="Commercetools" cols="OS license,Code, Repository, Stars"/>
 
 ## Evaluation
 <div className="container">
@@ -45,45 +45,23 @@ This page reflects our views and assessments. All information is sourced from pu
     <div className="row">
         <div className="col col--4">
             <div className="col-demo">
-                ### B2C
+                ### <FullFeatureIcon /> B2C
 
-                SAP Commerce is feature-complete for B2C scenarios.
+                SAP Commerce Cloud has a complete set of B2C features.
             </div>
         </div>
         <div className="col col--4">
             <div className="col-demo">
-                ### B2B
+                ### <FullFeatureIcon /> B2B
 
-                SAP Commerce is feature-complete for B2B scenarios.
+                SAP Commerce Cloud has a complete set of B2B features.
             </div>
         </div>
         <div className="col col--4">
             <div className="col-demo">
-                ### Marketplace
+                ### <PartialFeatureIcon /> Marketplace
 
                 SAP Commerce is limited in supporting Marketplace use cases, as it does not include a dedicated merchant portal. For this purpose, SAP officially recommends an additional vendor like Mirakl [🌐](https://www.sap.com/products/crm/commerce-marketplace-management.html).
-            </div>
-        </div>
-    </div>
-
-</div>
-<div className="container">
-    <div className="row">
-        <div className="col col--4">
-            <div className="col-demo">
-                <FeatureTable name="SAP Commerce"
-                              cols="B2C Storefront,Default B2C Features,CMS, Multi-Locale, Multi-Store, Multi-Currency"/>
-            </div>
-        </div>
-        <div className="col col--4">
-            <div className="col-demo">
-                <FeatureTable name="SAP Commerce"
-                              cols="B2B Storefront,Business Units & Organizations,Roles & Permissions,Quotation & Offer Management,Approval Workflows,Price-per-Customer"/>
-            </div>
-        </div>
-        <div className="col col--4">
-            <div className="col-demo">
-                <FeatureTable name="SAP Commerce" cols="Merchant Portal, Multi-Merchant"/>
             </div>
         </div>
     </div>

@@ -2,14 +2,14 @@ import React from 'react';
 import CaseStudyTable from '/src/components/CaseStudyTable';
 import FeatureTable from '/src/components/FeatureTable';
 import ShopSystemsTable from '/src/components/ShopSystemsTable';
+import FullFeatureIcon from '/src/components/svg/FullFeatureIcon';
+import NoFeatureIcon from '/src/components/svg/NoFeatureIcon';
 
 # Scayle
 
 :::info
 This page reflects our views and assessments. All information is sourced from publicly available information and does not represent the vendor’s official position.
 :::
-
-<ShopSystemsTable name="Scayle" cols="OS license,Code, Repository, Stars"/>
 
 ## Evaluation
 <div className="container">
@@ -41,49 +41,27 @@ This page reflects our views and assessments. All information is sourced from pu
 
 ## Functionality
 
+
 <div className="container">
     <div className="row">
         <div className="col col--4">
             <div className="col-demo">
-                ### B2C
-
-                Scayle is feature-complete for B2C use cases.
+                ### <FullFeatureIcon /> B2C
+                Scayle has a complete set of B2C features, but is missing a pre-integrated CMS. Its overall functionality perfectly fits fashion retailers, like About You.
             </div>
         </div>
         <div className="col col--4">
             <div className="col-demo">
-                ### B2B
+                ### <NoFeatureIcon /> B2B
 
                 Scayle doesn't offer B2B features
             </div>
         </div>
         <div className="col col--4">
             <div className="col-demo">
-                ### Marketplace
+                ### <NoFeatureIcon /> Marketplace
 
                 Scayle isn't ready for marketplace scenarios.
-            </div>
-        </div>
-    </div>
-
-</div>
-<div className="container">
-    <div className="row">
-        <div className="col col--4">
-            <div className="col-demo">
-                <FeatureTable name="Scayle"
-                              cols="B2C Storefront,Default B2C Features,CMS, Multi-Locale, Multi-Store, Multi-Currency"/>
-            </div>
-        </div>
-        <div className="col col--4">
-            <div className="col-demo">
-                <FeatureTable name="Scayle"
-                              cols="B2B Storefront,Business Units & Organizations,Roles & Permissions,Quotation & Offer Management,Approval Workflows,Price-per-Customer"/>
-            </div>
-        </div>
-        <div className="col col--4">
-            <div className="col-demo">
-                <FeatureTable name="Scayle" cols="Merchant Portal, Multi-Merchant"/>
             </div>
         </div>
     </div>

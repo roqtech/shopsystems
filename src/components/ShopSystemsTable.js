@@ -61,6 +61,13 @@ export default function ShopSystemTable({ name, license, cols }) {
             'Repository': {
                 Header: 'Repository',
                 accessor: 'Repository',
+                Cell: ({ value }) => (
+                    value ? (
+                        <a href={`https://github.com/${value}`} target="_blank" rel="noopener noreferrer">
+                            {value}
+                        </a>
+                    ) : null
+                ),
             },
             'Stars': {
                 Header: 'Stars',

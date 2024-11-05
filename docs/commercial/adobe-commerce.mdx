@@ -2,14 +2,15 @@ import React from 'react';
 import CaseStudyTable from '/src/components/CaseStudyTable';
 import FeatureTable from '/src/components/FeatureTable';
 import ShopSystemsTable from '/src/components/ShopSystemsTable';
+import FullFeatureIcon from '/src/components/svg/FullFeatureIcon';
+import PartialFeatureIcon from '/src/components/svg/PartialFeatureIcon';
+import NoFeatureIcon from '/src/components/svg/NoFeatureIcon';
 
 # Adobe Commerce
 
 :::info
 This page reflects our views and assessments. All information is sourced from publicly available information and does not represent the vendor’s official position.
 :::
-
-<ShopSystemsTable name="Adobe Commerce" cols="OS license,Code, Repository, Stars"/>
 
 ## Evaluation
 <div className="container">
@@ -46,49 +47,46 @@ The underlying Magento 2 is a robust, feature-rich platform for both B2C and B2B
 
 ⚠️ However, as Adobe is adding services on-top, the overall out-of-the-box functionality may be affected or even reduced. We strongly recommend requesting a demo, especially for B2B features, as the official documentation still showcases these on the old Magento 2 storefront rather than the new Adobe Commerce Storefront. [🌐](https://experienceleague.adobe.com/en/docs/commerce-admin/b2b/quotes/quote-request)
 
+
 <div className="container">
     <div className="row">
         <div className="col col--4">
             <div className="col-demo">
-                ### B2C
+                ### <FullFeatureIcon /> B2C
 
                 Adobe Commerce has a complete set of B2C features.
-            </div>
-        </div>
-        <div className="col col--4">
-            <div className="col-demo">
-                ### B2B
 
-                Adobe Commerce has a complete set of B2B features.
+                [🌐](https://experienceleague.adobe.com/docs/commerce-admin/catalog/products/products-list.html) Product catalog and inventory\
+                [🌐](https://experienceleague.adobe.com/docs/commerce-admin/stores-sales/point-of-purchase/cart/cart.html) Shopping cart and checkout\
+                [🌐](https://experienceleague.adobe.com/docs/commerce-admin/customers/customers-menu/customer-accounts.html) Customer accounts\
+                [🌐](https://experienceleague.adobe.com/docs/commerce-admin/stores-sales/order-management/orders/orders.html) Order management\
+                [🌐](https://experienceleague.adobe.com/docs/commerce-admin/catalog/catalog/search/search.html) Product search\
+                [🌐](https://experienceleague.adobe.com/docs/commerce-admin/marketing/promotions/cart-rules/price-rules-cart.html) Promotions and pricing\
+                [🌐](https://experienceleague.adobe.com/docs/commerce-admin/content-design/elements/pages/pages.html) Content management\
+                [🌐](https://experienceleague.adobe.com/docs/commerce-admin/stores-sales/site-store/stores.html) Multi-store capabilities
+
             </div>
         </div>
         <div className="col col--4">
             <div className="col-demo">
-                ### Marketplace
+                ### <FullFeatureIcon /> B2B
+
+                Adobe Commerce has a complete set of B2B features
+
+                [🌐](https://experienceleague.adobe.com/docs/commerce-admin/b2b/companies/account-companies.html) Company accounts\
+                [🌐](https://experienceleague.adobe.com/docs/commerce-admin/b2b/quotes/quotes.html) Quotes\
+                [🌐](https://experienceleague.adobe.com/docs/commerce-admin/b2b/purchase-orders/purchase-order-flow.html) Purchase orders\
+                [🌐](https://experienceleague.adobe.com/docs/commerce-admin/b2b/shared-catalogs/catalog-shared.html) Shared catalogs\
+                [🌐](https://experienceleague.adobe.com/docs/commerce-admin/b2b/requisition-lists/requisition-lists.html) Requisition lists\
+                [🌐](https://experienceleague.adobe.com/docs/commerce-admin/b2b/companies/credit-company.html) Company credit
+
+            </div>
+        </div>
+        <div className="col col--4">
+            <div className="col-demo">
+                ### <NoFeatureIcon /> Marketplace
 
                 Adobe Commerce isn't prepared for marketplace scenarios.
-            </div>
-        </div>
-    </div>
-
-</div>
-<div className="container">
-    <div className="row">
-        <div className="col col--4">
-            <div className="col-demo">
-                <FeatureTable name="Adobe Commerce"
-                              cols="B2C Storefront,Default B2C Features,CMS, Multi-Locale, Multi-Store, Multi-Currency"/>
-            </div>
-        </div>
-        <div className="col col--4">
-            <div className="col-demo">
-                <FeatureTable name="Adobe Commerce"
-                              cols="B2B Storefront,Business Units & Organizations,Roles & Permissions,Quotation & Offer Management,Approval Workflows,Price-per-Customer"/>
-            </div>
-        </div>
-        <div className="col col--4">
-            <div className="col-demo">
-                <FeatureTable name="Adobe Commerce" cols="Merchant Portal, Multi-Merchant"/>
             </div>
         </div>
     </div>

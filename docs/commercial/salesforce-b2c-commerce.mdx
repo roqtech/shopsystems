@@ -2,14 +2,15 @@ import React from 'react';
 import CaseStudyTable from '/src/components/CaseStudyTable';
 import FeatureTable from '/src/components/FeatureTable';
 import ShopSystemsTable from '/src/components/ShopSystemsTable';
+import FullFeatureIcon from '/src/components/svg/FullFeatureIcon';
+import PartialFeatureIcon from '/src/components/svg/PartialFeatureIcon';
+import NoFeatureIcon from '/src/components/svg/NoFeatureIcon';
 
 # Salesforce B2C Commerce
 
 :::info
 This page reflects our views and assessments. All information is sourced from publicly available information and does not represent the vendor’s official position.
 :::
-
-<ShopSystemsTable name="Commercetools" cols="OS license,Code, Repository, Stars"/>
 
 ## Evaluation
 <div className="container">
@@ -46,21 +47,31 @@ This page reflects our views and assessments. All information is sourced from pu
     <div className="row">
         <div className="col col--4">
             <div className="col-demo">
-                ### B2C
+                ### <FullFeatureIcon /> B2C
 
                 Salesforce B2C Commerce is feature-complete for B2C. See their Feature guide: [🌐](https://help.salesforce.com/s/articleView?id=cc.b2c_merchandising_your_site.htm&type=5)
-            </div>
-        </div>
-        <div className="col col--4">
-            <div className="col-demo">
-                ### B2B
 
-                Salesforce offers another system for B2B scenarios
+                * Product & Catalog Management
+                * Order Management & Processing
+                * Personalization & Customer Segmentation
+                * AI-powered Search & Merchandising (Einstein)
+                * Multi-site & Multi-language Support
+                * Mobile-first Responsive Design
+                * Built-in Analytics & Reporting
+                * Promotions & Campaign Management
+
             </div>
         </div>
         <div className="col col--4">
             <div className="col-demo">
-                ### Marketplace
+                ### <NoFeatureIcon /> B2B
+
+                Salesforce offers another system called Salesforce B2B Commerce for B2B scenarios
+            </div>
+        </div>
+        <div className="col col--4">
+            <div className="col-demo">
+                ### <NoFeatureIcon /> Marketplace
 
                 Salesforce B2C Commerce isn't prepared for launching a marketplace
             </div>
@@ -68,28 +79,7 @@ This page reflects our views and assessments. All information is sourced from pu
     </div>
 
 </div>
-<div className="container">
-    <div className="row">
-        <div className="col col--4">
-            <div className="col-demo">
-                <FeatureTable name="Salesforce B2C Commerce"
-                              cols="B2C Storefront,Default B2C Features,CMS, Multi-Locale, Multi-Store, Multi-Currency"/>
-            </div>
-        </div>
-        <div className="col col--4">
-            <div className="col-demo">
-                <FeatureTable name="Salesforce B2C Commerce"
-                              cols="B2B Storefront,Business Units & Organizations,Roles & Permissions,Quotation & Offer Management,Approval Workflows,Price-per-Customer"/>
-            </div>
-        </div>
-        <div className="col col--4">
-            <div className="col-demo">
-                <FeatureTable name="Salesforce B2C Commerce" cols="Merchant Portal, Multi-Merchant"/>
-            </div>
-        </div>
-    </div>
 
-</div>
 
 ---
 
