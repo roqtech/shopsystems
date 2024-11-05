@@ -1,0 +1,64 @@
+import React from 'react';
+import CaseStudyTable from '/src/components/CaseStudyTable';
+import FeatureTable from '/src/components/FeatureTable';
+import ShopSystemsTable from '/src/components/ShopSystemsTable';
+
+# Interview with David Höck from Vendure
+
+
+:::tip
+You can listen to this episode on [Spotify](https://open.spotify.com/show/2vQa0sH0T4UzvP4VxaU021)
+:::
+
+Podcast Summary
+===============
+
+In this episode of the ROQ Tech Shop Systems Podcast, Fabian Wesner and Tim Niemeier from ROQ Technology interview [David Höck](https://www.linkedin.com/in/davidhoeck/), co-founder and CEO of [Vendure](/opensource/vendure), an open-source headless commerce platform. The conversation dives into Vendure's unique approach to e-commerce technology, the platform's architectural philosophy, and the challenges of balancing open-source principles with commercial sustainability.
+
+### History and Positioning
+
+David begins by outlining Vendure's origins. Initially developed to address a need for a scalable, TypeScript-based e-commerce platform, Vendure was co-created by [Michael Bromley](https://www.linkedin.com/in/michael-bromley-ab1704156), who initially built it for his family's business. David joined forces with Michael to further develop Vendure into a robust headless commerce solution aimed at enterprises. Today, the platform targets organizations with complex digital commerce needs, typically those generating over 100 million EUR in annual revenue or having advanced multichannel and multi-region requirements.
+
+David explains that Vendure is specifically designed for larger, more sophisticated digital commerce setups, such as B2B marketplaces, multi-tenant environments, and highly customized digital storefronts. Unlike platforms like Shopify, Vendure is not intended for simple, small-scale retail projects. Instead, it aims to serve businesses that require heavy customization, strong API support, and a high degree of flexibility in how they structure their front-end and back-end systems.
+
+### Architectural Philosophy and Technology Stack
+
+The core architectural philosophy of Vendure centers around maintainability and scalability for large development teams. Vendure is built on Node.js and [NestJS](https://nestjs.com/) for the back-end and [Angular](https://angular.dev/) for the admin interface. The use of NestJS is a deliberate choice to provide a structured, opinionated framework similar to what frameworks like Laravel or Symfony offer in the PHP world. David emphasizes that this structure is crucial when scaling projects to large development teams, where good practices and architectural patterns become essential to maintain code quality and reduce onboarding time.
+
+David contrasts Vendure's headless architecture with the broader concept of "composable" architecture, noting that while the two terms are often used interchangeably, they are not the same. In Vendure's case, headless means decoupling the front-end from the back-end, allowing businesses to integrate different presentation layers, such as mobile apps, point-of-sale (POS) systems, or IoT devices, without being locked into a specific rendering engine.
+
+Vendure's modularity is key to its flexibility. Customizations are handled through Vendure plugins, which are essentially NestJS modules. This allows developers to add new API endpoints, modify data models, and extend core functionality without modifying the core codebase. This architecture enables Vendure to support a wide range of use cases, from multi-vendor marketplaces to complex B2B setups with features like organizational hierarchies and customer-specific pricing.
+
+### Business Model and Monetization
+
+When it comes to monetization, David explains that Vendure follows an open-core model, where the core platform remains open-source (licensed under GPL), while additional enterprise-level features are offered through a commercial license. These enterprise plugins include advanced features like single sign-on (SSO), detailed audit logs, and role-based access control. By building these features as separate plugins, Vendure is able to cater to larger enterprises without limiting the capabilities of the open-source community.
+
+Additionally, Vendure has a growing revenue stream from consulting, training, and support services, which are essential for helping enterprise clients navigate complex integrations and implementations. Although these services are not easily scalable, they play a crucial role in supporting Vendure's growth and in ensuring that larger organizations can effectively use the platform.
+
+David also mentions the [Vendure Hub](https://vendure.io/hub), a marketplace for plugins developed by both the core Vendure team and third-party partners. While still in its early stages, the marketplace allows agencies and developers to build and monetize their own plugins, making it easier for businesses to find ready-made solutions for common integrations like ERP or PIM systems.
+
+### Integration Strategies for Enterprise Environments
+
+The discussion moves to integration strategies, where David shares his experience with various enterprise environments. Vendure is designed to work seamlessly with existing enterprise systems such as ERPs, PIMs, and CRMs. It supports both point-to-point integrations (direct connections between systems) and more sophisticated setups using an enterprise service bus (ESB) or integration platform as a service (iPaaS).
+
+David explains that while point-to-point integrations can be effective in simple setups, they quickly become unmanageable in complex environments. Instead, he recommends using an ESB approach, where Vendure acts as one of many consumers and publishers on a shared messaging bus. This setup allows for more flexibility and scalability, as it decouples the communication between systems and avoids the "spaghetti" effect of numerous direct integrations.
+
+### Hosting and Deployment
+
+When asked about hosting, David shares that Vendure is designed to be highly flexible and can be deployed on a variety of platforms, from traditional bare-metal servers to cloud services like AWS or even lightweight PaaS solutions like Heroku. Vendure uses Docker extensively, making it easy to deploy and scale across different environments.
+
+For global deployments, David recommends using a multi-region strategy, with separate server instances for different geographical locations to reduce latency for end-users. He points out that the real challenge lies not in the application layer itself, but in managing database replication and caching across regions. Vendure's support for Postgres and other databases allows enterprises to configure read replicas for high-availability setups in multiple regions, while still keeping write operations centralized.
+
+David also touches on the potential of using edge computing and CDN caching, particularly when integrating Vendure with modern front-end frameworks like Next.js, which can leverage edge functions to serve content faster to global audiences.
+
+### Community and Open-Source Focus
+
+David reiterates Vendure's commitment to being an open-source project first. This focus has driven decisions like changing Vendure's license from MIT to GPL to ensure that enterprises using Vendure in proprietary environments contribute back to the project, either through commercial licenses or active community engagement.
+
+He also highlights the importance of community involvement, noting that Vendure's success relies heavily on its contributors and ecosystem. To support this, Vendure hosts regular community events, including a two-day conference in Vienna where users and contributors can meet, share knowledge, and learn from each other ([Vendure Conf 2024](https://vendure.io/events/vendure-conf-2024)).
+
+### Funding and Long-Term Vision
+
+David concludes by discussing Vendure's approach to funding and growth. Although they considered external funding in the past, David and his co-founder ultimately decided to remain bootstrapped for now. They believe this approach aligns better with their long-term vision of building a sustainable open-source business, rather than chasing rapid growth and potentially compromising the project's integrity.
+
+They want Vendure to be an "evergreen" platform that remains relevant and valuable in the e-commerce landscape for decades to come. By staying independent, they can focus on serving their core community of developers and enterprise clients without the pressure to pivot towards a more commercially-driven SaaS model, as some investors suggested.

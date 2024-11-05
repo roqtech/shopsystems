@@ -60,11 +60,23 @@ hr {
   border-radius: 8px;
   overflow: hidden;
   table-layout: fixed;
+  border: 1px solid #dee2e6;
 }
 
 .table-header-row {
   background-color: #f8f9fa;
   border-bottom: 2px solid #dee2e6;
+}
+
+[data-theme='dark'] .table-header-row {
+  background-color: #dee2e6;
+  color: #000000;
+}
+
+[data-theme='dark'] .custom-table,
+[data-theme='dark'] .table-body-cell,
+[data-theme='dark'] .table-header-cell {
+  border-color: gray;
 }
 
 .table-header-cell {
@@ -125,4 +137,17 @@ hr {
   .table-header-cell, .table-body-cell {
     padding: 8px;
   }
+}
+
+[data-theme='dark'] .custom-table {
+  border-color: gray;
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.1);
+}
+
+[data-theme='dark'] .table-body-row:last-child .table-body-cell {
+  border-bottom: none;
+}
+
+[data-theme='dark'] .table-body-row:hover {
+  background-color: #2d2d2d;
 }

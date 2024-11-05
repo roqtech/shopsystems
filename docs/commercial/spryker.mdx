@@ -2,6 +2,7 @@ import React from 'react';
 import CaseStudyTable from '/src/components/CaseStudyTable';
 import FeatureTable from '/src/components/FeatureTable';
 import ShopSystemsTable from '/src/components/ShopSystemsTable';
+import FullFeatureIcon from '/src/components/svg/FullFeatureIcon';
 
 # Spryker
 
@@ -53,45 +54,36 @@ Spryker can be combined with other solutions, but is also capable to run in a st
     <div className="row">
         <div className="col col--4">
             <div className="col-demo">
-                ### B2C
+                ### <FullFeatureIcon /> B2C
 
-                Spryker has a complete set of B2C features.
+                Spryker has a complete set of B2C features, like:
+                * B2C Storefront
+                * Order-Management-System based on state-machines
+                * Integrated CMS
+                * Advanced product functionalities like packing- and measurement units
             </div>
         </div>
         <div className="col col--4">
             <div className="col-demo">
-                ### B2B
+                ### <FullFeatureIcon /> B2B
 
-                Spryker has a complete set of B2B features.
+                Spryker has a complete set of B2B features, like:
+                * B2B Storefront
+                * Business Units & Organizations
+                * Roles & Permissions
+                * Quotation & Offer Management
+                * Approval Workflows
+                * Price-per-Customer
             </div>
         </div>
         <div className="col col--4">
             <div className="col-demo">
-                ### Marketplace
+                ### <FullFeatureIcon /> Marketplace
 
-                Spryker can be used for marketplace-scenarions without any additional vendor.
-            </div>
-        </div>
-    </div>
-
-</div>
-<div className="container">
-    <div className="row">
-        <div className="col col--4">
-            <div className="col-demo">
-                <FeatureTable name="Spryker"
-                              cols="B2C Storefront,Default B2C Features,CMS, Multi-Locale, Multi-Store, Multi-Currency"/>
-            </div>
-        </div>
-        <div className="col col--4">
-            <div className="col-demo">
-                <FeatureTable name="Spryker"
-                              cols="B2B Storefront,Business Units & Organizations,Roles & Permissions,Quotation & Offer Management,Approval Workflows,Price-per-Customer"/>
-            </div>
-        </div>
-        <div className="col col--4">
-            <div className="col-demo">
-                <FeatureTable name="Spryker" cols="Merchant Portal, Multi-Merchant"/>
+                Spryker has a complete set of marketplace features, like:
+                * Marketplace storefronts for B2C and B2B scenarios
+                * Merchant Portal for sellers
+                * Multi-vendor shop system
             </div>
         </div>
     </div>
