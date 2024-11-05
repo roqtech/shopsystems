@@ -2,816 +2,157 @@
   {
     "Name": "Adobe Commerce",
     "License": "Commercial",
+    "Deepdive": "adobe-commerce",
     "URL": "https://business.adobe.com/products/magento/magento-commerce.html",
     "OS license": "",
     "Project Hosting": "Managed Hosting",
     "Code-access": "Partial Access",
-    "Gartner Magic Q 23": "Leader",
+    "Gartner": "Leader",
     "Repository": "",
     "Stars": "",
-    "Code": "",
-    "Default B2C Features": {
-      "Status": 2,
-      "Source": ""
-    },
-    "B2C Storefront": {
-      "Status": 2,
-      "Source": ""
-    },
-    "B2B Storefront": {
-      "Status": 1,
-      "Source": "https://experienceleague.adobe.com/en/docs/commerce-admin/customers/customer-accounts/storefront/account-dashboard"
-    },
-    "CMS": {
-      "Status": 2,
-      "Source": ""
-    },
-    "Multi-Store": {
-      "Status": 2,
-      "Source": ""
-    },
-    "Multi-Locale": {
-      "Status": 2,
-      "Source": ""
-    },
-    "Multi-Currency": {
-      "Status": 2,
-      "Source": ""
-    },
-    "Quotation & Offer Management": {
-      "Status": 2,
-      "Source": ""
-    },
-    "Approval Workflows": {
-      "Status": 2,
-      "Source": ""
-    },
-    "Business Units & Organizations": {
-      "Status": 2,
-      "Source": "https://experienceleague.adobe.com/en/docs/commerce-admin/b2b/companies/account-companies"
-    },
-    "Roles & Permissions": {
-      "Status": 2,
-      "Source": ""
-    },
-    "Price-per-Customer": {
-      "Status": 2,
-      "Source": ""
-    },
-    "Multi-Merchant": {
-      "Status": 0,
-      "Source": ""
-    },
-    "Merchant Portal": {
-      "Status": 0,
-      "Source": ""
-    }
+    "Code": ""
   },
-
   {
     "Name": "Commercetools",
     "License": "Commercial",
+    "Deepdive": "commercetools",
     "URL": "https://commercetools.com/",
     "OS license": "",
     "Project Hosting": "SaaS",
     "Code-access": "No Access",
-    "Gartner Magic Q 23": "Leader",
+    "Gartner": "Leader",
     "Repository": "",
     "Stars": "",
-    "Code": "",
-    "Default B2C Features": {
-      "Status": 2,
-      "Source": ""
-    },
-    "B2C Storefront": {
-      "Status": null,
-      "Source": ""
-    },
-    "B2B Storefront": {
-      "Status": null,
-      "Source": ""
-    },
-    "CMS": {
-      "Status": 0,
-      "Source": ""
-    },
-    "Multi-Store": {
-      "Status": 2,
-      "Source": ""
-    },
-    "Multi-Locale": {
-      "Status": 2,
-      "Source": ""
-    },
-    "Multi-Currency": {
-      "Status": 2,
-      "Source": ""
-    },
-    "Quotation & Offer Management": {
-      "Status": 2,
-      "Source": ""
-    },
-    "Approval Workflows": {
-      "Status": 2,
-      "Source": ""
-    },
-    "Business Units & Organizations": {
-      "Status": 2,
-      "Source": ""
-    },
-    "Roles & Permissions": {
-      "Status": 2,
-      "Source": ""
-    },
-    "Price-per-Customer": {
-      "Status": 0,
-      "Source": ""
-    },
-    "Multi-Merchant": {
-      "Status": 0,
-      "Source": ""
-    },
-    "Merchant Portal": {
-      "Status": null,
-      "Source": ""
-    }
+    "Code": ""
   },
   {
     "Name": "Crystallize",
     "License": "Commercial",
+    "Deepdive": "",
     "URL": "https://crystallize.com/",
     "OS license": "",
-    "Project Hosting": "",
-    "Code-access": "",
-    "Gartner Magic Q 23": "",
+    "Project Hosting": "SaaS",
+    "Code-access": "No Access",
+    "Gartner": "---",
     "Repository": "",
     "Stars": "",
-    "Code": "",
-    "Default B2C Features": {
-      "Status": null,
-      "Source": ""
-    },
-    "B2C Storefront": {
-      "Status": null,
-      "Source": ""
-    },
-    "B2B Storefront": {
-      "Status": null,
-      "Source": ""
-    },
-    "CMS": {
-      "Status": null,
-      "Source": ""
-    },
-    "Multi-Store": {
-      "Status": null,
-      "Source": ""
-    },
-    "Multi-Locale": {
-      "Status": null,
-      "Source": ""
-    },
-    "Multi-Currency": {
-      "Status": null,
-      "Source": ""
-    },
-    "Quotation & Offer Management": {
-      "Status": null,
-      "Source": ""
-    },
-    "Approval Workflows": {
-      "Status": null,
-      "Source": ""
-    },
-    "Business Units & Organizations": {
-      "Status": null,
-      "Source": ""
-    },
-    "Roles & Permissions": {
-      "Status": null,
-      "Source": ""
-    },
-    "Price-per-Customer": {
-      "Status": null,
-      "Source": ""
-    },
-    "Multi-Merchant": {
-      "Status": null,
-      "Source": ""
-    },
-    "Merchant Portal": {
-      "Status": null,
-      "Source": ""
-    }
+    "Code": ""
   },
   {
     "Name": "Elasticpath",
     "License": "Commercial",
+    "Deepdive": "",
     "URL": "https://www.elasticpath.com/",
     "OS license": "",
-    "Project Hosting": "",
-    "Code-access": "",
-    "Gartner Magic Q 23": "Visionary",
+    "Project Hosting": "SaaS, Managed Hosting, On-Promise",
+    "Code-access": "Full Access",
+    "Gartner": "Visionary",
     "Repository": "",
     "Stars": "",
-    "Code": "",
-    "Default B2C Features": {
-      "Status": null,
-      "Source": ""
-    },
-    "B2C Storefront": {
-      "Status": null,
-      "Source": ""
-    },
-    "B2B Storefront": {
-      "Status": null,
-      "Source": ""
-    },
-    "CMS": {
-      "Status": null,
-      "Source": ""
-    },
-    "Multi-Store": {
-      "Status": null,
-      "Source": ""
-    },
-    "Multi-Locale": {
-      "Status": null,
-      "Source": ""
-    },
-    "Multi-Currency": {
-      "Status": null,
-      "Source": ""
-    },
-    "Quotation & Offer Management": {
-      "Status": null,
-      "Source": ""
-    },
-    "Approval Workflows": {
-      "Status": null,
-      "Source": ""
-    },
-    "Business Units & Organizations": {
-      "Status": null,
-      "Source": ""
-    },
-    "Roles & Permissions": {
-      "Status": null,
-      "Source": ""
-    },
-    "Price-per-Customer": {
-      "Status": null,
-      "Source": ""
-    },
-    "Multi-Merchant": {
-      "Status": null,
-      "Source": ""
-    },
-    "Merchant Portal": {
-      "Status": null,
-      "Source": ""
-    }
+    "Code": ""
   },
   {
     "Name": "Emporix",
     "License": "Commercial",
+    "Deepdive": "",
     "URL": "https://www.emporix.com/",
     "OS license": "",
-    "Project Hosting": "",
-    "Code-access": "",
-    "Gartner Magic Q 23": "",
+    "Project Hosting": "SaaS",
+    "Code-access": "No Access",
+    "Gartner": "---",
     "Repository": "",
     "Stars": "",
-    "Code": "",
-    "Default B2C Features": {
-      "Status": null,
-      "Source": ""
-    },
-    "B2C Storefront": {
-      "Status": null,
-      "Source": ""
-    },
-    "B2B Storefront": {
-      "Status": null,
-      "Source": ""
-    },
-    "CMS": {
-      "Status": null,
-      "Source": ""
-    },
-    "Multi-Store": {
-      "Status": null,
-      "Source": ""
-    },
-    "Multi-Locale": {
-      "Status": null,
-      "Source": ""
-    },
-    "Multi-Currency": {
-      "Status": null,
-      "Source": ""
-    },
-    "Quotation & Offer Management": {
-      "Status": null,
-      "Source": ""
-    },
-    "Approval Workflows": {
-      "Status": null,
-      "Source": ""
-    },
-    "Business Units & Organizations": {
-      "Status": null,
-      "Source": ""
-    },
-    "Roles & Permissions": {
-      "Status": null,
-      "Source": ""
-    },
-    "Price-per-Customer": {
-      "Status": null,
-      "Source": ""
-    },
-    "Multi-Merchant": {
-      "Status": null,
-      "Source": ""
-    },
-    "Merchant Portal": {
-      "Status": null,
-      "Source": ""
-    }
+    "Code": ""
   },
   {
     "Name": "HCL Commerce",
     "License": "Commercial",
+    "Deepdive": "",
     "URL": "https://www.hcl-software.com/commerce",
     "OS license": "",
     "Project Hosting": "Managed Hosting,On-Premise",
     "Code-access": "Full Access",
-    "Gartner Magic Q 23": "Challenger",
+    "Gartner": "Challenger",
     "Repository": "",
     "Stars": "",
-    "Code": "",
-    "Default B2C Features": {
-      "Status": null,
-      "Source": ""
-    },
-    "B2C Storefront": {
-      "Status": null,
-      "Source": ""
-    },
-    "B2B Storefront": {
-      "Status": null,
-      "Source": ""
-    },
-    "CMS": {
-      "Status": null,
-      "Source": ""
-    },
-    "Multi-Store": {
-      "Status": null,
-      "Source": ""
-    },
-    "Multi-Locale": {
-      "Status": null,
-      "Source": ""
-    },
-    "Multi-Currency": {
-      "Status": null,
-      "Source": ""
-    },
-    "Quotation & Offer Management": {
-      "Status": null,
-      "Source": ""
-    },
-    "Approval Workflows": {
-      "Status": null,
-      "Source": ""
-    },
-    "Business Units & Organizations": {
-      "Status": null,
-      "Source": ""
-    },
-    "Roles & Permissions": {
-      "Status": null,
-      "Source": ""
-    },
-    "Price-per-Customer": {
-      "Status": null,
-      "Source": ""
-    },
-    "Multi-Merchant": {
-      "Status": null,
-      "Source": ""
-    },
-    "Merchant Portal": {
-      "Status": null,
-      "Source": ""
-    }
+    "Code": ""
   },
   {
     "Name": "Kibo Commerce",
     "License": "Commercial",
+    "Deepdive": "",
     "URL": "https://kibocommerce.com/",
     "OS license": "",
-    "Project Hosting": "",
-    "Code-access": "",
-    "Gartner Magic Q 23": "Challenger",
+    "Project Hosting": "SaaS",
+    "Code-access": "No Access",
+    "Gartner": "Challenger",
     "Repository": "",
     "Stars": "",
-    "Code": "",
-    "Default B2C Features": {
-      "Status": null,
-      "Source": ""
-    },
-    "B2C Storefront": {
-      "Status": null,
-      "Source": ""
-    },
-    "B2B Storefront": {
-      "Status": null,
-      "Source": ""
-    },
-    "CMS": {
-      "Status": null,
-      "Source": ""
-    },
-    "Multi-Store": {
-      "Status": null,
-      "Source": ""
-    },
-    "Multi-Locale": {
-      "Status": null,
-      "Source": ""
-    },
-    "Multi-Currency": {
-      "Status": null,
-      "Source": ""
-    },
-    "Quotation & Offer Management": {
-      "Status": null,
-      "Source": ""
-    },
-    "Approval Workflows": {
-      "Status": null,
-      "Source": ""
-    },
-    "Business Units & Organizations": {
-      "Status": null,
-      "Source": ""
-    },
-    "Roles & Permissions": {
-      "Status": null,
-      "Source": ""
-    },
-    "Price-per-Customer": {
-      "Status": null,
-      "Source": ""
-    },
-    "Multi-Merchant": {
-      "Status": null,
-      "Source": ""
-    },
-    "Merchant Portal": {
-      "Status": null,
-      "Source": ""
-    }
+    "Code": ""
   },
   {
     "Name": "Lunar",
     "License": "Open Source",
+    "Deepdive": "",
     "URL": "https://lunarphp.io/",
     "OS license": "MIT",
     "Project Hosting": "On-Premise",
     "Code-access": "Full Access",
-    "Gartner Magic Q 23": "",
+    "Gartner": "",
     "Repository": "lunarphp/lunar",
     "Stars": "2,618",
-    "Code": "PHP",
-    "Default B2C Features": {
-      "Status": null,
-      "Source": ""
-    },
-    "B2C Storefront": {
-      "Status": null,
-      "Source": ""
-    },
-    "B2B Storefront": {
-      "Status": null,
-      "Source": ""
-    },
-    "CMS": {
-      "Status": null,
-      "Source": ""
-    },
-    "Multi-Store": {
-      "Status": null,
-      "Source": ""
-    },
-    "Multi-Locale": {
-      "Status": null,
-      "Source": ""
-    },
-    "Multi-Currency": {
-      "Status": null,
-      "Source": ""
-    },
-    "Quotation & Offer Management": {
-      "Status": null,
-      "Source": ""
-    },
-    "Approval Workflows": {
-      "Status": null,
-      "Source": ""
-    },
-    "Business Units & Organizations": {
-      "Status": null,
-      "Source": ""
-    },
-    "Roles & Permissions": {
-      "Status": null,
-      "Source": ""
-    },
-    "Price-per-Customer": {
-      "Status": null,
-      "Source": ""
-    },
-    "Multi-Merchant": {
-      "Status": null,
-      "Source": ""
-    },
-    "Merchant Portal": {
-      "Status": null,
-      "Source": ""
-    }
+    "Code": "PHP"
   },
   {
     "Name": "Magento 2",
     "License": "Open Source",
+    "Deepdive": "",
     "URL": "https://business.adobe.com/products/magento/magento-commerce.html",
     "OS license": "OSL-3.0",
     "Project Hosting": "",
     "Code-access": "",
-    "Gartner Magic Q 23": "",
+    "Gartner": "",
     "Repository": "magento/magento2",
     "Stars": "11,498",
-    "Code": "PHP",
-    "Default B2C Features": {
-      "Status": null,
-      "Source": ""
-    },
-    "B2C Storefront": {
-      "Status": null,
-      "Source": ""
-    },
-    "B2B Storefront": {
-      "Status": null,
-      "Source": ""
-    },
-    "CMS": {
-      "Status": null,
-      "Source": ""
-    },
-    "Multi-Store": {
-      "Status": null,
-      "Source": ""
-    },
-    "Multi-Locale": {
-      "Status": null,
-      "Source": ""
-    },
-    "Multi-Currency": {
-      "Status": null,
-      "Source": ""
-    },
-    "Quotation & Offer Management": {
-      "Status": null,
-      "Source": ""
-    },
-    "Approval Workflows": {
-      "Status": null,
-      "Source": ""
-    },
-    "Business Units & Organizations": {
-      "Status": null,
-      "Source": ""
-    },
-    "Roles & Permissions": {
-      "Status": null,
-      "Source": ""
-    },
-    "Price-per-Customer": {
-      "Status": null,
-      "Source": ""
-    },
-    "Multi-Merchant": {
-      "Status": null,
-      "Source": ""
-    },
-    "Merchant Portal": {
-      "Status": null,
-      "Source": ""
-    }
+    "Code": "PHP"
   },
-
   {
     "Name": "Medusa",
     "License": "Open Source",
+    "Deepdive": "medusa",
     "URL": "https://medusajs.com/",
     "OS license": "MIT",
     "Project Hosting": "On-Premise",
     "Code-access": "Full Access",
-    "Gartner Magic Q 23": "",
+    "Gartner": "",
     "Repository": "medusajs/medusa",
     "Stars": "~25k",
-    "Code": "Node.js",
-    "Default B2C Features": {
-      "Status": 2,
-      "Source": ""
-    },
-    "B2C Storefront": {
-      "Status": 1,
-      "Source": ""
-    },
-    "B2B Storefront": {
-      "Status": 0,
-      "Source": ""
-    },
-    "CMS": {
-      "Status": 0,
-      "Source": ""
-    },
-    "Multi-Store": false,
-    "Multi-Locale": false,
-    "Multi-Currency": {
-      "Status": 2,
-      "Source": ""
-    },
-    "Quotation & Offer Management": {
-      "Status": 1,
-      "Source": "https://docs.medusajs.com/modules/orders/draft-orders"
-    },
-    "Approval Workflows": {
-      "Status": null,
-      "Source": ""
-    },
-    "Business Units & Organizations": {
-      "Status": null,
-      "Source": ""
-    },
-    "Roles & Permissions": {
-      "Status": null,
-      "Source": ""
-    },
-    "Price-per-Customer": {
-      "Status": null,
-      "Source": ""
-    },
-    "Multi-Merchant": {
-      "Status": null,
-      "Source": ""
-    },
-    "Merchant Portal": {
-      "Status": null,
-      "Source": ""
-    }
+    "Code": "Node.js"
   },
-
   {
     "Name": "Oracle Commerce",
     "License": "Commercial",
+    "Deepdive": "",
     "URL": "https://www.oracle.com/cx/ecommerce/",
     "OS license": "",
-    "Project Hosting": "",
-    "Code-access": "",
-    "Gartner Magic Q 23": "",
+    "Project Hosting": "SaaS, Managed Hosting, On-Promise",
+    "Code-access": "No Access",
+    "Gartner": "Leader",
     "Repository": "",
     "Stars": "",
-    "Code": "",
-    "Default B2C Features": {
-      "Status": null,
-      "Source": ""
-    },
-    "B2C Storefront": {
-      "Status": null,
-      "Source": ""
-    },
-    "B2B Storefront": {
-      "Status": null,
-      "Source": ""
-    },
-    "CMS": {
-      "Status": null,
-      "Source": ""
-    },
-    "Multi-Store": {
-      "Status": null,
-      "Source": ""
-    },
-    "Multi-Locale": {
-      "Status": null,
-      "Source": ""
-    },
-    "Multi-Currency": {
-      "Status": null,
-      "Source": ""
-    },
-    "Quotation & Offer Management": {
-      "Status": null,
-      "Source": ""
-    },
-    "Approval Workflows": {
-      "Status": null,
-      "Source": ""
-    },
-    "Business Units & Organizations": {
-      "Status": null,
-      "Source": ""
-    },
-    "Roles & Permissions": {
-      "Status": null,
-      "Source": ""
-    },
-    "Price-per-Customer": {
-      "Status": null,
-      "Source": ""
-    },
-    "Multi-Merchant": {
-      "Status": null,
-      "Source": ""
-    },
-    "Merchant Portal": {
-      "Status": null,
-      "Source": ""
-    }
+    "Code": ""
   },
-
   {
     "Name": "OroCommerce",
     "License": "Commercial",
     "URL": "https://oroinc.com/b2b-ecommerce/",
     "OS license": "",
-    "Project Hosting": "",
-    "Code-access": "",
-    "Gartner Magic Q 23": "Visionary",
+    "Project Hosting": "On-Premise, Cloud",
+    "Code-access": "Full Access",
+    "Gartner": "Visionary",
     "Repository": "",
     "Stars": "",
-    "Code": "",
-    "Default B2C Features": {
-      "Status": null,
-      "Source": ""
-    },
-    "B2C Storefront": {
-      "Status": null,
-      "Source": ""
-    },
-    "B2B Storefront": {
-      "Status": null,
-      "Source": ""
-    },
-    "CMS": {
-      "Status": null,
-      "Source": ""
-    },
-    "Multi-Store": {
-      "Status": null,
-      "Source": ""
-    },
-    "Multi-Locale": {
-      "Status": null,
-      "Source": ""
-    },
-    "Multi-Currency": {
-      "Status": null,
-      "Source": ""
-    },
-    "Quotation & Offer Management": {
-      "Status": null,
-      "Source": ""
-    },
-    "Approval Workflows": {
-      "Status": null,
-      "Source": ""
-    },
-    "Business Units & Organizations": {
-      "Status": null,
-      "Source": ""
-    },
-    "Roles & Permissions": {
-      "Status": null,
-      "Source": ""
-    },
-    "Price-per-Customer": {
-      "Status": null,
-      "Source": ""
-    },
-    "Multi-Merchant": {
-      "Status": null,
-      "Source": ""
-    },
-    "Merchant Portal": {
-      "Status": null,
-      "Source": ""
-    }
+    "Code": ""
   },
   {
     "Name": "Saleor",
@@ -820,678 +161,139 @@
     "OS license": "BSD-3",
     "Project Hosting": "On-Premise,Managed Hosting",
     "Code-access": "Full Access",
-    "Gartner Magic Q 23": "",
+    "Gartner": "",
     "Repository": "saleor/saleor",
     "Stars": "20,643",
-    "Code": "Python",
-    "Default B2C Features": {
-      "Status": null,
-      "Source": ""
-    },
-    "B2C Storefront": {
-      "Status": null,
-      "Source": ""
-    },
-    "B2B Storefront": {
-      "Status": null,
-      "Source": ""
-    },
-    "CMS": {
-      "Status": null,
-      "Source": ""
-    },
-    "Multi-Store": {
-      "Status": null,
-      "Source": ""
-    },
-    "Multi-Locale": {
-      "Status": null,
-      "Source": ""
-    },
-    "Multi-Currency": {
-      "Status": null,
-      "Source": ""
-    },
-    "Quotation & Offer Management": {
-      "Status": null,
-      "Source": ""
-    },
-    "Approval Workflows": {
-      "Status": null,
-      "Source": ""
-    },
-    "Business Units & Organizations": {
-      "Status": null,
-      "Source": ""
-    },
-    "Roles & Permissions": {
-      "Status": null,
-      "Source": ""
-    },
-    "Price-per-Customer": {
-      "Status": null,
-      "Source": ""
-    },
-    "Multi-Merchant": {
-      "Status": null,
-      "Source": ""
-    },
-    "Merchant Portal": {
-      "Status": null,
-      "Source": ""
-    }
+    "Code": "Python"
   },
   {
     "Name": "Salesforce B2C Commerce",
     "License": "Commercial",
+    "Deepdive": "salesforce-b2c-commerce",
     "URL": "https://www.salesforce.com/commerce/",
     "OS license": "",
     "Project Hosting": "SaaS",
     "Code-access": "No Access",
-    "Gartner Magic Q 23": "Leader",
+    "Gartner": "Leader",
     "Repository": "",
     "Stars": "",
-    "Code": "",
-    "Default B2C Features": {
-      "Status": 2,
-      "Source": ""
-    },
-    "B2C Storefront": {
-      "Status": 2,
-      "Source": ""
-    },
-    "B2B Storefront": {
-      "Status": 0,
-      "Source": ""
-    },
-    "CMS": {
-      "Status": 2,
-      "Source": ""
-    },
-    "Multi-Store": {
-      "Status": 2,
-      "Source": ""
-    },
-    "Multi-Locale": {
-      "Status": 2,
-      "Source": ""
-    },
-    "Multi-Currency": {
-      "Status": 2,
-      "Source": ""
-    },
-    "Quotation & Offer Management": {
-      "Status": 0,
-      "Source": ""
-    },
-    "Approval Workflows": {
-      "Status": 0,
-      "Source": ""
-    },
-    "Business Units & Organizations": {
-      "Status": 0,
-      "Source": ""
-    },
-    "Roles & Permissions": {
-      "Status": 0,
-      "Source": ""
-    },
-    "Price-per-Customer": {
-      "Status": 0,
-      "Source": ""
-    },
-    "Multi-Merchant": {
-      "Status": 0,
-      "Source": ""
-    },
-    "Merchant Portal": {
-      "Status": 0,
-      "Source": ""
-    }
+    "Code": ""
   },
   {
     "Name": "SAP Commerce",
     "License": "Commercial",
+    "Deepdive": "sap-commerce",
     "URL": "https://www.sap.com/products/crm/commerce-cloud.html",
     "OS license": "",
     "Project Hosting": "SaaS",
     "Code-access": "Full Access",
-    "Gartner Magic Q 23": "Leader",
+    "Gartner": "Leader",
     "Repository": "",
     "Stars": "",
-    "Code": "",
-    "Default B2C Features": {
-      "Status": 2,
-      "Source": ""
-    },
-    "B2C Storefront": {
-      "Status": 2,
-      "Source": ""
-    },
-    "B2B Storefront": {
-      "Status": 2,
-      "Source": "https://help.sap.com/docs/SAP_COMMERCE_COMPOSABLE_STOREFRONT/eaef8c61b6d9477daf75bff9ac1b7eb4/7baec2c402ab439ebd36cf215b72bf3f.html"
-    },
-    "CMS": {
-      "Status": 2,
-      "Source": ""
-    },
-    "Multi-Store": {
-      "Status": 2,
-      "Source": ""
-    },
-    "Multi-Locale": {
-      "Status": 2,
-      "Source": ""
-    },
-    "Multi-Currency": {
-      "Status": 2,
-      "Source": ""
-    },
-    "Quotation & Offer Management": {
-      "Status": 2,
-      "Source": ""
-    },
-    "Approval Workflows": {
-      "Status": 2,
-      "Source": ""
-    },
-    "Business Units & Organizations": {
-      "Status": 2,
-      "Source": ""
-    },
-    "Roles & Permissions": {
-      "Status": 2,
-      "Source": ""
-    },
-    "Price-per-Customer": {
-      "Status": 2,
-      "Source": ""
-    },
-    "Multi-Merchant": {
-      "Status": 2,
-      "Source": ""
-    },
-    "Merchant Portal": {
-      "Status": 0,
-      "Source": ""
-    }
+    "Code": ""
   },
   {
     "Name": "Scayle",
     "License": "Commercial",
+    "Deepdive": "scayle",
     "URL": "https://www.scayle.com/",
     "OS license": "",
     "Project Hosting": "Mixed",
     "Code-access": "No Access",
-    "Gartner Magic Q 23": "Niche Player",
+    "Gartner": "Niche Player",
     "Repository": "",
     "Stars": "",
-    "Code": "",
-    "Default B2C Features": {
-      "Status": 2,
-      "Source": ""
-    },
-    "B2C Storefront": {
-      "Status": 2,
-      "Source": ""
-    },
-    "B2B Storefront": {
-      "Status": 0,
-      "Source": ""
-    },
-    "CMS": {
-      "Status": 0,
-      "Source": ""
-    },
-    "Multi-Store": {
-      "Status": 2,
-      "Source": ""
-    },
-    "Multi-Locale": {
-      "Status": 2,
-      "Source": ""
-    },
-    "Multi-Currency": {
-      "Status": 2,
-      "Source": ""
-    },
-    "Quotation & Offer Management": {
-      "Status": 0,
-      "Source": ""
-    },
-    "Approval Workflows": {
-      "Status": 0,
-      "Source": ""
-    },
-    "Business Units & Organizations": {
-      "Status": 0,
-      "Source": ""
-    },
-    "Roles & Permissions": {
-      "Status": 0,
-      "Source": ""
-    },
-    "Price-per-Customer": {
-      "Status": 0,
-      "Source": ""
-    },
-    "Multi-Merchant": {
-      "Status": 0,
-      "Source": ""
-    },
-    "Merchant Portal": {
-      "Status": 0,
-      "Source": ""
-    }
+    "Code": ""
+  },
+  {
+    "Name": "Shopify",
+    "License": "Commercial",
+    "Deepdive": "shopify",
+    "URL": "https://www.shopify.com/",
+    "OS license": "",
+    "Project Hosting": "SaaS",
+    "Code-access": "No Access",
+    "Gartner": "Leader",
+    "Repository": "",
+    "Stars": "",
+    "Code": ""
   },
   {
     "Name": "Shopware",
     "License": "Commercial",
+    "Deepdive": "",
     "URL": "https://www.shopware.com/",
-    "OS license": "MIT",
-    "Project Hosting": "",
+    "OS license": "",
+    "Project Hosting": "On-Premise",
     "Code-access": "Full Access",
-    "Gartner Magic Q 23": "Visionary",
-    "Repository": "shopware/shopware",
-    "Stars": "2,780",
-    "Code": "",
-    "Default B2C Features": {
-      "Status": null,
-      "Source": ""
-    },
-    "B2C Storefront": {
-      "Status": null,
-      "Source": ""
-    },
-    "B2B Storefront": {
-      "Status": null,
-      "Source": ""
-    },
-    "CMS": {
-      "Status": null,
-      "Source": ""
-    },
-    "Multi-Store": {
-      "Status": null,
-      "Source": ""
-    },
-    "Multi-Locale": {
-      "Status": null,
-      "Source": ""
-    },
-    "Multi-Currency": {
-      "Status": null,
-      "Source": ""
-    },
-    "Quotation & Offer Management": {
-      "Status": null,
-      "Source": ""
-    },
-    "Approval Workflows": {
-      "Status": null,
-      "Source": ""
-    },
-    "Business Units & Organizations": {
-      "Status": null,
-      "Source": ""
-    },
-    "Roles & Permissions": {
-      "Status": null,
-      "Source": ""
-    },
-    "Price-per-Customer": {
-      "Status": null,
-      "Source": ""
-    },
-    "Multi-Merchant": {
-      "Status": null,
-      "Source": ""
-    },
-    "Merchant Portal": {
-      "Status": null,
-      "Source": ""
-    }
+    "Gartner": "Visionary",
+    "Repository": "",
+    "Stars": "",
+    "Code": ""
   },
   {
     "Name": "Shopware CE",
     "License": "Open Source",
+    "Deepdive": "",
     "URL": "https://www.shopware.com/en/community/community-edition/",
     "OS license": "MIT",
     "Project Hosting": "",
     "Code-access": "",
-    "Gartner Magic Q 23": "",
+    "Gartner": "",
     "Repository": "shopware/shopware",
     "Stars": "2,780",
-    "Code": "PHP",
-    "Default B2C Features": {
-      "Status": null,
-      "Source": ""
-    },
-    "B2C Storefront": {
-      "Status": null,
-      "Source": ""
-    },
-    "B2B Storefront": {
-      "Status": null,
-      "Source": ""
-    },
-    "CMS": {
-      "Status": null,
-      "Source": ""
-    },
-    "Multi-Store": {
-      "Status": null,
-      "Source": ""
-    },
-    "Multi-Locale": {
-      "Status": null,
-      "Source": ""
-    },
-    "Multi-Currency": {
-      "Status": null,
-      "Source": ""
-    },
-    "Quotation & Offer Management": {
-      "Status": null,
-      "Source": ""
-    },
-    "Approval Workflows": {
-      "Status": null,
-      "Source": ""
-    },
-    "Business Units & Organizations": {
-      "Status": null,
-      "Source": ""
-    },
-    "Roles & Permissions": {
-      "Status": null,
-      "Source": ""
-    },
-    "Price-per-Customer": {
-      "Status": null,
-      "Source": ""
-    },
-    "Multi-Merchant": {
-      "Status": null,
-      "Source": ""
-    },
-    "Merchant Portal": {
-      "Status": null,
-      "Source": ""
-    }
+    "Code": "PHP"
   },
   {
     "Name": "Spree Commerce",
     "License": "Open Source",
+    "Deepdive": "",
     "URL": "https://spreecommerce.org/",
     "OS license": "AGPL-3.0",
     "Project Hosting": "",
     "Code-access": "",
-    "Gartner Magic Q 23": "",
+    "Gartner": "",
     "Repository": "spree/spree",
     "Stars": "12,892",
-    "Code": "Ruby",
-    "Default B2C Features": {
-      "Status": null,
-      "Source": ""
-    },
-    "B2C Storefront": {
-      "Status": null,
-      "Source": ""
-    },
-    "B2B Storefront": {
-      "Status": null,
-      "Source": ""
-    },
-    "CMS": {
-      "Status": null,
-      "Source": ""
-    },
-    "Multi-Store": {
-      "Status": null,
-      "Source": ""
-    },
-    "Multi-Locale": {
-      "Status": null,
-      "Source": ""
-    },
-    "Multi-Currency": {
-      "Status": null,
-      "Source": ""
-    },
-    "Quotation & Offer Management": {
-      "Status": null,
-      "Source": ""
-    },
-    "Approval Workflows": {
-      "Status": null,
-      "Source": ""
-    },
-    "Business Units & Organizations": {
-      "Status": null,
-      "Source": ""
-    },
-    "Roles & Permissions": {
-      "Status": null,
-      "Source": ""
-    },
-    "Price-per-Customer": {
-      "Status": null,
-      "Source": ""
-    },
-    "Multi-Merchant": {
-      "Status": null,
-      "Source": ""
-    },
-    "Merchant Portal": {
-      "Status": null,
-      "Source": ""
-    }
+    "Code": "Ruby"
   },
   {
     "Name": "Spryker",
     "License": "Commercial",
+    "Deepdive": "spryker",
     "URL": "https://www.spryker.com/",
     "OS license": "",
     "Project Hosting": "Managed Hosting",
     "Code-access": "Full Access",
-    "Gartner Magic Q 23": "Visionary",
+    "Gartner": "Visionary",
     "Repository": "",
     "Stars": "",
-    "Code": "",
-    "Default B2C Features": {
-      "Status": 2,
-      "Source": ""
-    },
-    "B2C Storefront": {
-      "Status": 2,
-      "Source": ""
-    },
-    "B2B Storefront": {
-      "Status": 2,
-      "Source": ""
-    },
-    "CMS": {
-      "Status": 2,
-      "Source": ""
-    },
-    "Multi-Store": {
-      "Status": 2,
-      "Source": ""
-    },
-    "Multi-Locale": {
-      "Status": 2,
-      "Source": ""
-    },
-    "Multi-Currency": {
-      "Status": 2,
-      "Source": ""
-    },
-    "Quotation & Offer Management": {
-      "Status": 2,
-      "Source": ""
-    },
-    "Approval Workflows": {
-      "Status": 2,
-      "Source": ""
-    },
-    "Business Units & Organizations": {
-      "Status": 2,
-      "Source": ""
-    },
-    "Roles & Permissions": {
-      "Status": 2,
-      "Source": ""
-    },
-    "Price-per-Customer": {
-      "Status": 2,
-      "Source": ""
-    },
-    "Multi-Merchant": {
-      "Status": 2,
-      "Source": ""
-    },
-    "Merchant Portal": {
-      "Status": 2,
-      "Source": ""
-    }
+    "Code": ""
   },
   {
     "Name": "Sylius",
     "License": "Open Source",
+    "Deepdive": "",
     "URL": "https://sylius.com/",
     "OS license": "MIT",
     "Project Hosting": "",
     "Code-access": "Full Access",
-    "Gartner Magic Q 23": "",
+    "Gartner": "",
     "Repository": "Sylius/Sylius",
     "Stars": "7,878",
-    "Code": "PHP",
-    "Default B2C Features": {
-      "Status": null,
-      "Source": ""
-    },
-    "B2C Storefront": {
-      "Status": null,
-      "Source": ""
-    },
-    "B2B Storefront": {
-      "Status": null,
-      "Source": ""
-    },
-    "CMS": {
-      "Status": null,
-      "Source": ""
-    },
-    "Multi-Store": {
-      "Status": null,
-      "Source": ""
-    },
-    "Multi-Locale": {
-      "Status": null,
-      "Source": ""
-    },
-    "Multi-Currency": {
-      "Status": null,
-      "Source": ""
-    },
-    "Quotation & Offer Management": {
-      "Status": null,
-      "Source": ""
-    },
-    "Approval Workflows": {
-      "Status": null,
-      "Source": ""
-    },
-    "Business Units & Organizations": {
-      "Status": null,
-      "Source": ""
-    },
-    "Roles & Permissions": {
-      "Status": null,
-      "Source": ""
-    },
-    "Price-per-Customer": {
-      "Status": null,
-      "Source": ""
-    },
-    "Multi-Merchant": {
-      "Status": null,
-      "Source": ""
-    },
-    "Merchant Portal": {
-      "Status": null,
-      "Source": ""
-    }
+    "Code": "PHP"
   },
-
   {
     "Name": "Vendure",
     "License": "Open Source",
+    "Deepdive": "vendure",
     "URL": "https://vendure.io/",
     "OS license": "GPL-3.0",
     "Project Hosting": "On-Premise",
     "Code-access": "Full Access",
-    "Gartner Magic Q 23": "",
+    "Gartner": "",
     "Repository": "vendure-ecommerce/vendure",
     "Stars": "~5,7k",
-    "Code": "Node.js",
-    "Default B2C Features": {
-      "Status": 2,
-      "Source": ""
-    },
-    "B2C Storefront": {
-      "Status": 1,
-      "Source": ""
-    },
-    "B2B Storefront": {
-      "Status": 0,
-      "Source": ""
-    },
-    "CMS": {
-      "Status": 0,
-      "Source": ""
-    },
-    "Multi-Store": {
-      "Status": 2,
-      "Source": ""
-    },
-    "Multi-Locale": {
-      "Status": 2,
-      "Source": ""
-    },
-    "Multi-Currency": {
-      "Status": 2,
-      "Source": "https://docs.vendure.io/guides/core-concepts/money/"
-    },
-    "Quotation & Offer Management": {
-      "Status": 0,
-      "Source": ""
-    },
-    "Approval Workflows": {
-      "Status": 0,
-      "Source": ""
-    },
-    "Business Units & Organizations": {
-      "Status": 0,
-      "Source": ""
-    },
-    "Roles & Permissions": {
-      "Status": 1,
-      "Source": "https://docs.vendure.io/guides/core-concepts/auth/#roles--permissions"
-    },
-    "Price-per-Customer": {
-      "Status": 0,
-      "Source": ""
-    },
-    "Multi-Merchant": {
-      "Status": 2,
-      "Source": "https://docs.vendure.io/guides/how-to/multi-vendor-marketplaces/"
-    },
-    "Merchant Portal": {
-      "Status": 0,
-      "Source": ""
-    }
+    "Code": "Node.js"
   }
 ]

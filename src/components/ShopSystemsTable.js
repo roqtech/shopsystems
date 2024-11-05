@@ -27,8 +27,15 @@ export default function ShopSystemTable({ name, license, cols }) {
         const allColumns = {
             'Name': {
                 Header: 'Name',
-                accessor: 'Name',
-                Filter: DefaultColumnFilter,
+                accessor: row => ({ name: row.Name, deepdive: row.Deepdive }),
+                id: 'name',
+                Cell: ({ value }) => (
+                    value.deepdive ? 
+                        <a href={value.deepdive}>
+                           <b>{value.name}</b>
+                        </a>
+                        : <span>{value.name}</span>
+                ),
             },
             'License': {
                 Header: 'License',
@@ -41,16 +48,6 @@ export default function ShopSystemTable({ name, license, cols }) {
                 Cell: ({ value }) => (
                     <a href={value} target="_blank" rel="noopener noreferrer">
                         {value}
-                    </a>
-                ),
-            },
-            'NameUrl': {
-                Header: 'Vendor',
-                accessor: row => ({ name: row.Name, url: row.URL }),
-                id: 'nameUrl',
-                Cell: ({ value }) => (
-                    <a href={value.url} target="_blank" rel="noopener noreferrer">
-                        🌐
                     </a>
                 ),
             },
@@ -76,6 +73,11 @@ export default function ShopSystemTable({ name, license, cols }) {
             'Architecture': {
                 Header: 'Architecture',
                 accessor: 'Architecture',
+            },
+
+            'Gartner': {
+                Header: 'Gartner Magic Quadrant',
+                accessor: 'Gartner',
             },
             'Code': {
                 Header: 'Code',

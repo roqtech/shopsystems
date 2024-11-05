@@ -47,6 +47,10 @@ const config = {
           editUrl:
             'https://github.com/roqtech/shopsystems/blob/main/',
         },
+        gtag: {
+          trackingID: 'G-CS1JFSZ5FW',
+          anonymizeIP: true,
+        },
         blog: {
           showReadingTime: true,
           feedOptions: {
