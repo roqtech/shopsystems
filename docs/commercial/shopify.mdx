@@ -138,14 +138,19 @@ Developers can build their own storefront using [Hydrogen](https://hydrogen.shop
      
 Shopify offers multiple approaches to extend its functionality:
                   
-* By installing and extending apps from the Shopify App Store.
-* By building custom applications that are integrated via Shopify's Admin API or Webhooks.
-* By changing its internal data structures or business logic:
+1. By installing and extending apps from the Shopify App Store
+2. By building custom applications that are integrated via Shopify's Admin API or Webhooks (see example below)
+    <details>
+    <summary>Example</summary>
+
+    In a previous project, we built a quick commerce application. A customer can order local products and get it shipped from a local warehouse. As such, a customer is assigned to one warehouse and can only purchase the stock that is available in that particular warehouse. At the time of builing the app, Shopify lacked the capability of taking the stock location into account when searching the store. Hence, we built a BFF (["backend for frontend" pattern](https://samnewman.io/patterns/architectural/bff/)), which consumed Shopify’s Admin API and thereby extended the available business logic and added the location dimension to most store operations.
+
+    There are obvious limitations to this approach, when the logic collides with the data model. For example, customer specific prices as in B2B will be impossible to implement.
+    </details>
+3. By changing its internal data structures or business logic:
   * **Metafields** - Custom fields created via Admin or APIs that attach to existing data objects (e.g., products, customers), support multiple data types, and include validation rules to ensure data integrity.
   * **Metaobjects** - Custom objects (e.g. store locations) retrieved and edited via Admin, through Liquid or APIs.
   * **Functions** - Shopify Functions allow developers to customize backend logic (like cart validations, bundles, discounts, delivery, order routing, and payments) while running entirely on Shopify's infrastructure.
-
-
 
 
 ---
@@ -180,7 +185,9 @@ Custom storefronts based on Hydrogen can be hosted on Shopify's Oxygen cloud inf
 
 ### App Ecosystem
 
-Shopify's app ecosystem is one of the largest in the e-commerce space. It includes apps for marketing, sales, shipping, payments, and more. The app ecosystem is managed via the Shopify App Store and currently hosts over 13,000 public, plus numerous private apps. All apps are reviewed by Shopify.
+Shopify's app ecosystem is one of the largest in the e-commerce space with currently more than 13,000 publicly available apps.
+Apps are being built by external developers, which also operate these; hence, these are also externally hosted. All apps are reviewed by Shopify and made available throught their App Store.
+The scope of apps broad, as these deliver additional customer-facing functionality (e.g. back-instock-notifications) or administrative/backoffice features (e.g. shipment lableing, analytics
 
 → [Shopify App Store](https://apps.shopify.com/)
 
