@@ -1,0 +1,173 @@
+import React from 'react';
+import CaseStudyTable from '/src/components/CaseStudyTable';
+import FeatureTable from '/src/components/FeatureTable';
+import ShopSystemsTable from '/src/components/ShopSystemsTable';
+import FullFeatureIcon from '/src/components/svg/FullFeatureIcon';
+import PartialFeatureIcon from '/src/components/svg/PartialFeatureIcon';
+import NoFeatureIcon from '/src/components/svg/NoFeatureIcon';
+
+# OroCommerce
+
+:::info
+This page reflects our views and assessments. All information is sourced from publicly available information and does not represent the vendor’s official position.
+:::
+
+## Evaluation
+<div className="container">
+    <div className="row">
+        <div className="col col--4">
+            <div className="col-demo">
+                #### ⭐ Highlights
+                * OroCommerce is an open-source platform, target at complex B2B and Marketplace scenarios.
+                * OroCommerce contains a CRM and a complete merchant center for Marketplaces.
+            </div>
+        </div>
+        <div className="col col--4">
+            <div className="col-demo">
+                #### 👍 When to use
+                * Manufacturers, distributors and wholesalers with complex B2B or marketplace requirements.
+                * IT teams with experience in PHP and Symfony.
+            </div>
+        </div>
+        <div className="col col--4">
+            <div className="col-demo">
+                #### 👎 When to avoid
+                * Projects with common B2C or lightweight B2B requirements.
+                * For companies lacking or not planning to have a senior-level IT team.
+            </div>
+        </div>
+    </div>
+</div>
+
+---
+
+## Functionality
+
+
+<div className="container">
+    <div className="row">
+        <div className="col col--4">
+            <div className="col-demo">
+                ### <PartialFeatureIcon /> B2C
+                Although OroCommerce has a B2C module, the system's overall complexity is not suitable for common B2C scenarios.
+            </div>
+        </div>
+        <div className="col col--4">
+            <div className="col-demo">
+                ### <FullFeatureIcon /> B2B
+
+                OroCommerce offers a comprehensive set of B2B features.
+            </div>
+        </div>
+        <div className="col col--4">
+            <div className="col-demo">
+                ### <FullFeatureIcon /> Marketplace
+
+                OroCommerce contains a complete merchant center for Marketplaces.
+            </div>
+        </div>
+    </div>
+
+</div>
+
+---
+
+## Development approach
+
+<div className="container">
+    <div className="row">
+        <div className="col col--6">
+
+            <div className="col-demo">
+                <img src="/img/scayle-architecture.png" alt="Scayle architecture overview" style={{width: '100%'}}/>
+            </div>
+        </div>
+        <div className="col col--6">
+
+            <div className="col-demo">
+                ### Bird’s eye view
+
+                When building a project with Scayle, the typical steps may include:
+
+                * Manual configuration of your shop in the Panel
+                * Development of your Custom Storefront based either on their templates or from-scratch (see below). The checkout is provided as a SaaS application, which is embedded into the custom storefront.
+                * Integration with other systems via self-developed Custom Middleware
+                * Projects typically operate their custom storefront and middleware by themselves.
+            </div>
+        </div>
+
+    </div>
+</div>
+
+---
+
+<div className="container">
+    <div className="row">
+        <div className="col col--6">
+
+            <div className="col-demo">
+                ### Storefront approach
+
+                Scayle is a headless SaaS platform, requiring you to build and operate your own storefront.
+
+                They provide a Nuxt.js-based template ([Storefront Boilerplate](https://scayle.dev/en/storefront-guide/developer-guide/getting-started/about-storefront)), but the checkout is rendered by Scayle and can only be configured.
+            </div>
+        </div>
+        <div className="col col--6">
+            <div className="col-demo">
+                <img src="/img/scayle-demo.png" alt="Scayle demo storefront interface" style={{width: '100%'}}/>
+            </div>
+        </div>
+    </div>
+</div>
+
+---
+
+<div className="container">
+    <div className="row">
+        <div className="col col--6">
+
+            <div className="col-demo">
+                ### Panel (Admin UI)
+
+                Scayle is managed via its admin UI called Panel. All of its functionality is also accessible through the Admin API.
+
+                The panel can be extended by implementing add-ons [🌐](https://scayle.dev/en/add-on-guide/getting-started/reference-architecture#scayle-panel-configuration) and using the micro-architecture approach.
+            </div>
+        </div>
+        <div className="col col--6">
+            <div className="col-demo">
+                <img src="/img/scayle-panel.png" alt="Scayle Panel administration interface" style={{width: '100%'}}/>
+            </div>
+        </div>
+    </div>
+</div>
+
+---
+
+<div className="container">
+    <div className="row">
+        <div className="col col--6">
+
+            <div className="col-demo">
+                ### Licence costs
+
+                Licence costs are always negotiated individually with each customer. For a general idea, you can refer to About You's earnings call presentation [🌐](https://ir.aboutyou.de/download/companies/58027/Presentations/24-5-7_ABOUT_YOU_FY_23_24_Earnings_Call_Presentation.pdf), which indicates an average recurring revenue (ARR) of €1.8M per customer.
+            </div>
+        </div>
+        <div className="col col--6">
+            <div className="col-demo">
+                <img src="/img/scayle-price.png" alt="Scayle pricing overview" style={{width: '100%'}}/>
+            </div>
+        </div>
+    </div>
+</div>
+
+---
+
+### Case Studies
+
+All information is based on public sources and manually curated. Projects that are completely hidden from
+the public are excluded. Contact us to contribute [contact@roq.tech](mailto:contact@roq.tech)
+
+<CaseStudyTable system="Scayle" cols="Company,Shop URL,Industry,Type"/>
