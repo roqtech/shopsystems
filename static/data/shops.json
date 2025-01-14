@@ -1053,19 +1053,6 @@
     "Additional information": ""
   },
   {
-    "Company": "Manchester United",
-    "Shop System": "Scayle",
-    "Shop URL": "store.manutd.com",
-    "Type": "B2C",
-    "Industry": "Sports & Lifestyle",
-    "Company Size": "Enterprise",
-    "Company Briefing": "Manchester United is a globally recognized sports team and brand.",
-    "Shop Description": "Offers official club merchandise and products with advanced features like shirt customization and “shop by player”.",
-    "Source 1": "https://www.scayle.com/company/newsroom/manchester-united-go-live-press-release",
-    "Source 2": "",
-    "Additional information": ""
-  },
-  {
     "Company": "Paket Market",
     "Shop System": "Vendure",
     "Shop URL": "https://paket.mk/",
@@ -1181,8 +1168,8 @@
     "Source 1": "https://www.allbirds.com/",
     "Source 2": "",
     "Additional information": "Allbirds' Shopify store showcases eco-conscious products with details on materials and environmental impact. It also supports global shopping with localized site versions."
-},
-{
+  },
+  {
     "Company": "Sephora",
     "Shop System": "Shopify",
     "Shop URL": "https://www.sephora.de/",
@@ -1194,8 +1181,8 @@
     "Source 1": "https://www.sephora.de/",
     "Source 2": "",
     "Additional information": "Sephora’s Shopify setup leverages AI tools to offer virtual consultations, helping customers find the right products for their needs."
-},
-{
+  },
+  {
     "Company": "Rebecca Minkoff",
     "Shop System": "Shopify Plus",
     "Shop URL": "https://www.rebeccaminkoff.com/en-de",
@@ -1207,8 +1194,8 @@
     "Source 1": "https://www.rebeccaminkoff.com/en-de",
     "Source 2": "",
     "Additional information": "Rebecca Minkoff’s Shopify Plus store is optimized for digital engagement, allowing customers to view products in 3D and experiment with virtual try-ons."
-},
-{
+  },
+  {
     "Company": "Chubbies",
     "Shop System": "Shopify",
     "Shop URL": "https://www.chubbiesshorts.com/",
@@ -1220,8 +1207,8 @@
     "Source 1": "https://www.chubbiesshorts.com/",
     "Source 2": "",
     "Additional information": "Chubbies' community-oriented approach has supported its rapid growth on Shopify, with a focus on vibrant, casual styles."
-},
-{
+  },
+  {
     "Company": "PantryShop by PepsiCo",
     "Shop System": "Shopify",
     "Shop URL": "https://www.pantryshop.com/",
@@ -1233,8 +1220,8 @@
     "Source 1": "https://www.pantryshop.com/",
     "Source 2": "",
     "Additional information": "Developed during the pandemic, PantryShop’s Shopify site supports high-demand e-commerce for PepsiCo, featuring bundled offerings to maximize convenience."
-},
-{
+  },
+  {
     "Company": "Maine Lobster Now",
     "Shop System": "Shopify",
     "Shop URL": "https://www.mainelobsternow.com/",
@@ -1246,8 +1233,8 @@
     "Source 1": "https://www.mainelobsternow.com/",
     "Source 2": "",
     "Additional information": "The Shopify platform has enabled Maine Lobster Now to optimize its niche market offerings and grow online sales."
-},
-{
+  },
+  {
     "Company": "Jenni Kayne",
     "Shop System": "Shopify",
     "Shop URL": "https://www.jennikayne.com/",
@@ -1259,8 +1246,8 @@
     "Source 1": "https://www.jennikayne.com/",
     "Source 2": "",
     "Additional information": "Jenni Kayne’s Shopify integration enhances customer experiences across both online and physical stores, supporting brand consistency and personalization."
-},
-{
+  },
+  {
     "Company": "Snowe",
     "Shop System": "Shopify",
     "Shop URL": "https://snowehome.com/",
@@ -1272,8 +1259,8 @@
     "Source 1": "https://snowehome.com/",
     "Source 2": "",
     "Additional information": "Snowe’s Shopify site emphasizes product quality and simplicity, appealing to a broad customer base looking for elegant yet affordable home essentials."
-},
-{
+  },
+  {
     "Company": "Glossier",
     "Shop System": "Shopify",
     "Shop URL": "https://www.glossier.com/en-de",
@@ -1285,8 +1272,8 @@
     "Source 1": "https://www.glossier.com/en-de",
     "Source 2": "",
     "Additional information": "Glossier’s Shopify integration supports high-profile product launches, driving customer engagement and strong brand loyalty through its user-friendly site."
-},
-{
+  },
+  {
     "Company": "Kith",
     "Shop System": "Shopify",
     "Shop URL": "https://kith.com/",
@@ -1298,205 +1285,221 @@
     "Source 1": "https://kith.com/",
     "Source 2": "",
     "Additional information": "The Kith Shopify store supports a global customer base with a sleek design that enhances brand appeal, especially for limited releases."
-},
-{
-  "Company": "Picky Bars",
-  "Shop System": "Shopify",
-  "Shop URL": "https://pickybarsb2b.com/",
-  "Type": "B2B",
-  "Industry": "Food and Beverage",
-  "Company Size": "Small",
-  "Company Briefing": "Picky Bars offers energy bars, oatmeal, and granola, selling directly to consumers and to retailers worldwide.",
-  "Shop Description": "The B2B storefront has a B2C-like feel, providing bulk orders, brand assets for resellers, and a seamless Quick Order system for repeat purchases.",
-  "Source 1": "https://www.shopify.com/enterprise/blog/b2b-ecommerce-website-examples",
-  "Source 2": ""
-},
-{
-  "Company": "SwagUp",
-  "Shop System": "Shopify",
-  "Shop URL": "https://www.swagup.com/",
-  "Type": "B2B",
-  "Industry": "Promotional Products",
-  "Company Size": "Medium",
-  "Company Briefing": "SwagUp supplies branded products for companies, offering customizable packs and individual items in bulk.",
-  "Shop Description": "The site offers clean, easy navigation for bulk buying with options for custom packs, preset packs, and individual items, all with minimum quantities.",
-  "Source 1": "https://www.shopify.com/enterprise/blog/b2b-ecommerce-website-examples",
-  "Source 2": ""
-},
-{
-  "Company": "Syra Coffee",
-  "Shop System": "Shopify",
-  "Shop URL": "https://syra.coffee/",
-  "Type": "B2B",
-  "Industry": "Coffee and Beverage",
-  "Company Size": "Small",
-  "Company Briefing": "A Spanish coffee chain offering a B2B coffee subscription service to offices and workplaces.",
-  "Shop Description": "Syra Coffee provides subscription plans based on office size, with details on coffee origin and preparation style for B2B customers.",
-  "Source 1": "https://www.shopify.com/enterprise/blog/b2b-ecommerce-website-examples",
-  "Source 2": ""
-},
-{
-  "Company": "Microfiber Wholesale",
-  "Shop System": "Shopify",
-  "Shop URL": "https://www.microfiberwholesale.com/",
-  "Type": "B2B",
-  "Industry": "Cleaning Supplies",
-  "Company Size": "Small",
-  "Company Briefing": "Microfiber Wholesale offers microfiber products for cleaning professionals, including towels and mops.",
-  "Shop Description": "The site enables self-service purchasing with extensive product details, specs, and educational resources directly on product pages.",
-  "Source 1": "https://www.shopify.com/enterprise/blog/b2b-ecommerce-website-examples",
-  "Source 2": ""
-},
-{
-  "Company": "eFashion Paris",
-  "Shop System": "Shopify",
-  "Shop URL": "https://www.efashion-paris.com/en/",
-  "Type": "B2B",
-  "Industry": "Fashion",
-  "Company Size": "Medium",
-  "Company Briefing": "eFashion Paris is a B2B marketplace for fashion retailers with a large selection of styles and brands.",
-  "Shop Description": "The store features login-gated pricing and detailed product filters, allowing customers to easily navigate and discover new products.",
-  "Source 1": "https://www.shopify.com/enterprise/blog/b2b-ecommerce-website-examples",
-  "Source 2": ""
-},
-{
-  "Company": "Branch",
-  "Shop System": "Shopify",
-  "Shop URL": "https://www.branchfurniture.com/pages/for-teams",
-  "Type": "B2B",
-  "Industry": "Furniture",
-  "Company Size": "Medium",
-  "Company Briefing": "Branch sells office furniture with additional services like space planning, delivery, and installation.",
-  "Shop Description": "Branch provides customizable office furniture options with rich product pages and space planning support for business customers.",
-  "Source 1": "https://www.shopify.com/enterprise/blog/b2b-ecommerce-website-examples",
-  "Source 2": ""
-},
-{
-  "Company": "Mac Tools",
-  "Shop System": "Shopify",
-  "Shop URL": "https://www.mactools.com/",
-  "Type": "B2B",
-  "Industry": "Automotive Tools",
-  "Company Size": "Large",
-  "Company Briefing": "Mac Tools supplies automotive tools and equipment to technicians, dealerships, and garages.",
-  "Shop Description": "The site offers easy filtering and product selection, along with a franchisee portal for potential business partners.",
-  "Source 1": "https://www.shopify.com/enterprise/blog/b2b-ecommerce-website-examples",
-  "Source 2": ""
-},
-{
-  "Company": "Amy Myers MD",
-  "Shop System": "Shopify",
-  "Shop URL": "https://store.amymyersmd.com/",
-  "Type": "B2B",
-  "Industry": "Health and Wellness",
-  "Company Size": "Small",
-  "Company Briefing": "Amy Myers MD is a wellness brand selling supplements and skincare products, run by physician Dr. Amy Myers.",
-  "Shop Description": "The store serves B2B and B2C customers with detailed product information and a wholesale program for health professionals.",
-  "Source 1": "https://www.shopify.com/enterprise/blog/b2b-ecommerce-website-examples",
-  "Source 2": ""
-},
-{
-  "Company": "Tiger Products",
-  "Shop System": "Shopify",
-  "Shop URL": "https://tigerproducts.com/",
-  "Type": "B2B",
-  "Industry": "Sports Equipment",
-  "Company Size": "Small",
-  "Company Briefing": "Tiger Products offers billiard supplies and accessories, with specialized items for professional use.",
-  "Shop Description": "The website provides detailed product variations and specs, with a login-gated dealer portal for easy purchasing.",
-  "Source 1": "https://www.shopify.com/enterprise/blog/b2b-ecommerce-website-examples",
-  "Source 2": ""
-},
-{
-  "Company": "Primera",
-  "Shop System": "Shopify",
-  "Shop URL": "https://www.primera.com/",
-  "Type": "B2B",
-  "Industry": "Printing Equipment",
-  "Company Size": "Medium",
-  "Company Briefing": "Primera manufactures specialty printers for industries like education, healthcare, and manufacturing.",
-  "Shop Description": "The store offers in-depth product details, comparison options, and payment plans to support business purchasing decisions.",
-  "Source 1": "https://www.shopify.com/enterprise/blog/b2b-ecommerce-website-examples",
-  "Source 2": ""
-},
-{
-  "Company": "Beauty Solutions",
-  "Shop System": "Shopify",
-  "Shop URL": "https://beautysolutions.com/",
-  "Type": "B2B",
-  "Industry": "Beauty",
-  "Company Size": "Medium",
-  "Company Briefing": "Beauty Solutions supplies beauty products and educational resources for beauty professionals across the US.",
-  "Shop Description": "The site provides filtered product browsing, a wholesale portal, and a resource center for beauty professionals.",
-  "Source 1": "https://www.shopify.com/enterprise/blog/b2b-ecommerce-website-examples",
-  "Source 2": ""
-},
-{
-  "Company": "PATCHBOX",
-  "Shop System": "Shopify",
-  "Shop URL": "https://shop.patchbox.com/",
-  "Type": "B2B",
-  "Industry": "IT Infrastructure",
-  "Company Size": "Small",
-  "Company Briefing": "PATCHBOX creates innovative cable management solutions for IT managers and infrastructure specialists.",
-  "Shop Description": "Product pages include technical details, videos, and a quote request option for customized solutions and bulk orders.",
-  "Source 1": "https://www.shopify.com/enterprise/blog/b2b-ecommerce-website-examples",
-  "Source 2": ""
-},
-{
-  "Company": "Morgan Sports",
-  "Shop System": "Shopify",
-  "Shop URL": "https://www.morgansports.com.au/",
-  "Type": "B2B",
-  "Industry": "Sports Equipment",
-  "Company Size": "Medium",
-  "Company Briefing": "Morgan Sports supplies boxing and fitness equipment to a large customer base across Australia.",
-  "Shop Description": "The site provides easy category navigation, wholesale pricing, and buy now, pay later options for registered customers.",
-  "Source 1": "https://www.shopify.com/enterprise/blog/b2b-ecommerce-website-examples",
-  "Source 2": ""
-},
-{
-  "Company": "Dermalogica Pro",
-  "Shop System": "Shopify",
-  "Shop URL": "https://pro.dermalogica.com/",
-  "Type": "B2B",
-  "Industry": "Beauty",
-  "Company Size": "Large",
-  "Company Briefing": "Dermalogica Pro provides professional-grade skincare products and educational resources for licensed skin therapists.",
-  "Shop Description": "The site includes educational resources, workshops, and detailed product fact sheets tailored to skincare professionals.",
-  "Source 1": "https://www.shopify.com/enterprise/blog/b2b-ecommerce-website-examples",
-  "Source 2": ""
-},
-{
-  "Company": "High Home",
-  "Shop System": "Shopify",
-  "Shop URL": "https://high-home.com/",
-  "Type": "B2B",
-  "Industry": "Furniture",
-  "Company Size": "Medium",
-  "Company Briefing": "High Home is a luxury furniture brand catering to interior designers, architects, and showrooms.",
-  "Shop Description": "Product pages feature detailed specs, stock levels, and delivery timelines. High Home offers a trade program with exclusive benefits.",
-  "Source 1": "https://www.shopify.com/enterprise/blog/b2b-ecommerce-website-examples",
-  "Source 2": ""
-},
-{
-  "Company": "Kiara Sky",
-  "Shop System": "Shopify",
-  "Shop URL": "https://www.kiarasky.co.uk/",
-  "Type": "B2B",
-  "Industry": "Beauty",
-  "Company Size": "Small",
-  "Company Briefing": "Kiara Sky provides nail supplies for beauty professionals and wholesalers, including acrylic nails and dip powders.",
-  "Shop Description": "The site offers product wishlists, a learning hub, and a wholesale order form for fast purchasing by SKU or product name.",
-  "Source 1": "https://www.shopify.com/enterprise/blog/b2b-ecommerce-website-examples",
-  "Source 2": ""
-}
-
-
-
-
-
-
-
-
+  },
+  {
+    "Company": "Picky Bars",
+    "Shop System": "Shopify",
+    "Shop URL": "https://pickybarsb2b.com/",
+    "Type": "B2B",
+    "Industry": "Food and Beverage",
+    "Company Size": "Small",
+    "Company Briefing": "Picky Bars offers energy bars, oatmeal, and granola, selling directly to consumers and to retailers worldwide.",
+    "Shop Description": "The B2B storefront has a B2C-like feel, providing bulk orders, brand assets for resellers, and a seamless Quick Order system for repeat purchases.",
+    "Source 1": "https://www.shopify.com/enterprise/blog/b2b-ecommerce-website-examples",
+    "Source 2": ""
+  },
+  {
+    "Company": "SwagUp",
+    "Shop System": "Shopify",
+    "Shop URL": "https://www.swagup.com/",
+    "Type": "B2B",
+    "Industry": "Promotional Products",
+    "Company Size": "Medium",
+    "Company Briefing": "SwagUp supplies branded products for companies, offering customizable packs and individual items in bulk.",
+    "Shop Description": "The site offers clean, easy navigation for bulk buying with options for custom packs, preset packs, and individual items, all with minimum quantities.",
+    "Source 1": "https://www.shopify.com/enterprise/blog/b2b-ecommerce-website-examples",
+    "Source 2": ""
+  },
+  {
+    "Company": "Syra Coffee",
+    "Shop System": "Shopify",
+    "Shop URL": "https://syra.coffee/",
+    "Type": "B2B",
+    "Industry": "Coffee and Beverage",
+    "Company Size": "Small",
+    "Company Briefing": "A Spanish coffee chain offering a B2B coffee subscription service to offices and workplaces.",
+    "Shop Description": "Syra Coffee provides subscription plans based on office size, with details on coffee origin and preparation style for B2B customers.",
+    "Source 1": "https://www.shopify.com/enterprise/blog/b2b-ecommerce-website-examples",
+    "Source 2": ""
+  },
+  {
+    "Company": "Microfiber Wholesale",
+    "Shop System": "Shopify",
+    "Shop URL": "https://www.microfiberwholesale.com/",
+    "Type": "B2B",
+    "Industry": "Cleaning Supplies",
+    "Company Size": "Small",
+    "Company Briefing": "Microfiber Wholesale offers microfiber products for cleaning professionals, including towels and mops.",
+    "Shop Description": "The site enables self-service purchasing with extensive product details, specs, and educational resources directly on product pages.",
+    "Source 1": "https://www.shopify.com/enterprise/blog/b2b-ecommerce-website-examples",
+    "Source 2": ""
+  },
+  {
+    "Company": "eFashion Paris",
+    "Shop System": "Shopify",
+    "Shop URL": "https://www.efashion-paris.com/en/",
+    "Type": "B2B",
+    "Industry": "Fashion",
+    "Company Size": "Medium",
+    "Company Briefing": "eFashion Paris is a B2B marketplace for fashion retailers with a large selection of styles and brands.",
+    "Shop Description": "The store features login-gated pricing and detailed product filters, allowing customers to easily navigate and discover new products.",
+    "Source 1": "https://www.shopify.com/enterprise/blog/b2b-ecommerce-website-examples",
+    "Source 2": ""
+  },
+  {
+    "Company": "Branch",
+    "Shop System": "Shopify",
+    "Shop URL": "https://www.branchfurniture.com/pages/for-teams",
+    "Type": "B2B",
+    "Industry": "Furniture",
+    "Company Size": "Medium",
+    "Company Briefing": "Branch sells office furniture with additional services like space planning, delivery, and installation.",
+    "Shop Description": "Branch provides customizable office furniture options with rich product pages and space planning support for business customers.",
+    "Source 1": "https://www.shopify.com/enterprise/blog/b2b-ecommerce-website-examples",
+    "Source 2": ""
+  },
+  {
+    "Company": "Mac Tools",
+    "Shop System": "Shopify",
+    "Shop URL": "https://www.mactools.com/",
+    "Type": "B2B",
+    "Industry": "Automotive Tools",
+    "Company Size": "Large",
+    "Company Briefing": "Mac Tools supplies automotive tools and equipment to technicians, dealerships, and garages.",
+    "Shop Description": "The site offers easy filtering and product selection, along with a franchisee portal for potential business partners.",
+    "Source 1": "https://www.shopify.com/enterprise/blog/b2b-ecommerce-website-examples",
+    "Source 2": ""
+  },
+  {
+    "Company": "Amy Myers MD",
+    "Shop System": "Shopify",
+    "Shop URL": "https://store.amymyersmd.com/",
+    "Type": "B2B",
+    "Industry": "Health and Wellness",
+    "Company Size": "Small",
+    "Company Briefing": "Amy Myers MD is a wellness brand selling supplements and skincare products, run by physician Dr. Amy Myers.",
+    "Shop Description": "The store serves B2B and B2C customers with detailed product information and a wholesale program for health professionals.",
+    "Source 1": "https://www.shopify.com/enterprise/blog/b2b-ecommerce-website-examples",
+    "Source 2": ""
+  },
+  {
+    "Company": "Tiger Products",
+    "Shop System": "Shopify",
+    "Shop URL": "https://tigerproducts.com/",
+    "Type": "B2B",
+    "Industry": "Sports Equipment",
+    "Company Size": "Small",
+    "Company Briefing": "Tiger Products offers billiard supplies and accessories, with specialized items for professional use.",
+    "Shop Description": "The website provides detailed product variations and specs, with a login-gated dealer portal for easy purchasing.",
+    "Source 1": "https://www.shopify.com/enterprise/blog/b2b-ecommerce-website-examples",
+    "Source 2": ""
+  },
+  {
+    "Company": "Primera",
+    "Shop System": "Shopify",
+    "Shop URL": "https://www.primera.com/",
+    "Type": "B2B",
+    "Industry": "Printing Equipment",
+    "Company Size": "Medium",
+    "Company Briefing": "Primera manufactures specialty printers for industries like education, healthcare, and manufacturing.",
+    "Shop Description": "The store offers in-depth product details, comparison options, and payment plans to support business purchasing decisions.",
+    "Source 1": "https://www.shopify.com/enterprise/blog/b2b-ecommerce-website-examples",
+    "Source 2": ""
+  },
+  {
+    "Company": "Beauty Solutions",
+    "Shop System": "Shopify",
+    "Shop URL": "https://beautysolutions.com/",
+    "Type": "B2B",
+    "Industry": "Beauty",
+    "Company Size": "Medium",
+    "Company Briefing": "Beauty Solutions supplies beauty products and educational resources for beauty professionals across the US.",
+    "Shop Description": "The site provides filtered product browsing, a wholesale portal, and a resource center for beauty professionals.",
+    "Source 1": "https://www.shopify.com/enterprise/blog/b2b-ecommerce-website-examples",
+    "Source 2": ""
+  },
+  {
+    "Company": "PATCHBOX",
+    "Shop System": "Shopify",
+    "Shop URL": "https://shop.patchbox.com/",
+    "Type": "B2B",
+    "Industry": "IT Infrastructure",
+    "Company Size": "Small",
+    "Company Briefing": "PATCHBOX creates innovative cable management solutions for IT managers and infrastructure specialists.",
+    "Shop Description": "Product pages include technical details, videos, and a quote request option for customized solutions and bulk orders.",
+    "Source 1": "https://www.shopify.com/enterprise/blog/b2b-ecommerce-website-examples",
+    "Source 2": ""
+  },
+  {
+    "Company": "Morgan Sports",
+    "Shop System": "Shopify",
+    "Shop URL": "https://www.morgansports.com.au/",
+    "Type": "B2B",
+    "Industry": "Sports Equipment",
+    "Company Size": "Medium",
+    "Company Briefing": "Morgan Sports supplies boxing and fitness equipment to a large customer base across Australia.",
+    "Shop Description": "The site provides easy category navigation, wholesale pricing, and buy now, pay later options for registered customers.",
+    "Source 1": "https://www.shopify.com/enterprise/blog/b2b-ecommerce-website-examples",
+    "Source 2": ""
+  },
+  {
+    "Company": "Dermalogica Pro",
+    "Shop System": "Shopify",
+    "Shop URL": "https://pro.dermalogica.com/",
+    "Type": "B2B",
+    "Industry": "Beauty",
+    "Company Size": "Large",
+    "Company Briefing": "Dermalogica Pro provides professional-grade skincare products and educational resources for licensed skin therapists.",
+    "Shop Description": "The site includes educational resources, workshops, and detailed product fact sheets tailored to skincare professionals.",
+    "Source 1": "https://www.shopify.com/enterprise/blog/b2b-ecommerce-website-examples",
+    "Source 2": ""
+  },
+  {
+    "Company": "High Home",
+    "Shop System": "Shopify",
+    "Shop URL": "https://high-home.com/",
+    "Type": "B2B",
+    "Industry": "Furniture",
+    "Company Size": "Medium",
+    "Company Briefing": "High Home is a luxury furniture brand catering to interior designers, architects, and showrooms.",
+    "Shop Description": "Product pages feature detailed specs, stock levels, and delivery timelines. High Home offers a trade program with exclusive benefits.",
+    "Source 1": "https://www.shopify.com/enterprise/blog/b2b-ecommerce-website-examples",
+    "Source 2": ""
+  },
+  {
+    "Company": "Kiara Sky",
+    "Shop System": "Shopify",
+    "Shop URL": "https://www.kiarasky.co.uk/",
+    "Type": "B2B",
+    "Industry": "Beauty",
+    "Company Size": "Small",
+    "Company Briefing": "Kiara Sky provides nail supplies for beauty professionals and wholesalers, including acrylic nails and dip powders.",
+    "Shop Description": "The site offers product wishlists, a learning hub, and a wholesale order form for fast purchasing by SKU or product name.",
+    "Source 1": "https://www.shopify.com/enterprise/blog/b2b-ecommerce-website-examples",
+    "Source 2": ""
+  },
+  {
+    "Company": "Manchester United",
+    "Shop System": "Scayle",
+    "Shop URL": "https://store.manutd.com/",
+    "Type": "B2C",
+    "Industry": "Sports Retail",
+    "Company Size": "Large",
+    "Company Briefing": "Manchester United's official online store offering club merchandise, kits, and accessories.",
+    "Shop Description": "The store provides a seamless shopping experience for fans worldwide, featuring the latest club merchandise and personalization options.",
+    "Source 1": "https://www.scayle.com/customers/manchester-united/",
+    "Source 2": ""
+  },
+  {
+    "Company": "Harrods",
+    "Shop System": "Scayle",
+    "Shop URL": "https://www.harrods.com/en-gb",
+    "Type": "B2C",
+    "Industry": "Luxury Retail",
+    "Company Size": "Large",
+    "Company Briefing": "Harrods is a luxury department store offering high-end fashion, accessories, and lifestyle products.",
+    "Shop Description": "The online store provides a premium shopping experience with curated luxury products and personalized service.",
+    "Source 1": "https://www.scayle.com/customers/harrods/",
+    "Source 2": ""
+  }
 ]

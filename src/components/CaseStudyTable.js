@@ -133,7 +133,19 @@ export default function CaseStudyTable({ system, cols }) {
     }, [system]);
 
     const tableInstance = useTable(
-        { columns, data: filteredData, defaultColumn },
+        {
+            columns,
+            data: filteredData,
+            defaultColumn,
+            initialState: {
+                sortBy: [
+                    {
+                        id: 'Company',
+                        desc: false
+                    }
+                ]
+            }
+        },
         useFilters,
         useSortBy
     );
